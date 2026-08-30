@@ -1,0 +1,813 @@
+mixed-port: 7890
+allow-lan: false
+mode: rule
+log-level: silent
+ipv6: true
+unified-delay: true
+tcp-concurrent: true
+proxies:
+- name: '0515 | 🇷🇺 Russia | 🏳️ CIDR-Selectel | VLESS | TG: @YoutubeUnBlockRu'
+  type: vless
+  server: 46.182.24.134
+  port: 443
+  uuid: b63d7afd-56e9-4ed4-ae7d-776a3bbe7995
+  udp: true
+  tls: true
+  network: grpc
+  reality-opts:
+    public-key: U_RH8LY7kXgcjvMCpH3Q0tebDcFZA7Xm7fh7-xOeUkM
+    short-id: 932a2276
+    support-x25519mlkem768: true
+  client-fingerprint: firefox
+  servername: ffastt.stackline.online
+- name: '0818 | 🇷🇺 Russia | 🏳️ CIDR-OLD | 🏳️ SNI-Yandex | VLESS | TG: @YoutubeUnBlockRu'
+  type: vless
+  server: 51.250.41.143
+  port: 443
+  uuid: 4ca27679-dbac-4bfa-bada-508888189e8d
+  udp: true
+  tls: true
+  reality-opts:
+    public-key: xwusQ4IEWdYyuPLCc4LOA89P6HyQDNT7xo_75v2YW2I
+    short-id: 27e53bbcab7593d7
+    support-x25519mlkem768: true
+  client-fingerprint: firefox
+  servername: api-maps.yandex.ru
+  flow: xtls-rprx-vision
+- name: '0866 | 🇷🇺 Russia | 🏳️ CIDR-Selectel | VLESS | TG: @YoutubeUnBlockRu'
+  type: vless
+  server: 46.182.24.228
+  port: 22443
+  uuid: d40ba0d8-4523-4200-bd36-f78386b025de
+  udp: true
+  tls: true
+  network: grpc
+  reality-opts:
+    public-key: q4sFqpERFMVwyofUzconfHbfcLapsGAGxKvDdC3mX3s
+    short-id: 284100f3c235e13d
+    support-x25519mlkem768: true
+  client-fingerprint: firefox
+  servername: smartcaptcha.yandexcloud.net
+  grpc-opts:
+    grpc-service-name: grpc
+- name: '0984 | 🇨🇿 Czechia | 🏳️ CIDR-OLD | 🏳️ SNI-Yandex | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  type: vless
+  server: 78.159.247.229
+  port: 443
+  uuid: b91bcbe1-6982-4709-80cd-42a63b93e966
+  udp: true
+  tls: true
+  reality-opts:
+    public-key: zaXPmtzoPurwERLf5M2RiCGidnIXzdHycBCkB4AZlRE
+    short-id: a46a71daa12a5c9b
+    support-x25519mlkem768: true
+  client-fingerprint: chrome
+  servername: sso.passport.yandex.ru
+  flow: xtls-rprx-vision
+- name: '1049 | 🇷🇺 Russia | 🏳️ CIDR-OLD | 🏳️ SNI-Yandex | VLESS | TG: @YoutubeUnBlockRu'
+  type: vless
+  server: 51.250.41.143
+  port: 443
+  uuid: 4ca27679-dbac-4bfa-bada-508888189e8d
+  udp: true
+  tls: true
+  reality-opts:
+    public-key: xwusQ4IEWdYyuPLCc4LOA89P6HyQDNT7xo_75v2YW2I
+    short-id: 27e53bbcab7593d7
+    support-x25519mlkem768: true
+  client-fingerprint: random
+  servername: api-maps.yandex.ru
+  flow: xtls-rprx-vision
+- name: '1241 | 🇷🇺 Russia | 🏳️ CIDR-Selectel | VLESS | TG: @YoutubeUnBlockRu'
+  type: vless
+  server: 37.9.4.38
+  port: 8450
+  uuid: 67df9673-31d2-4afe-afef-4382ce83f75c
+  udp: true
+  tls: true
+  network: grpc
+  reality-opts:
+    public-key: 7V0vADPc7LkbXMs2rPyw-Pp6CBazw3Tt6N_WbkwdvCI
+    short-id: 7ccbcb93b59845de
+    support-x25519mlkem768: true
+  client-fingerprint: firefox
+  servername: api.vk.ru
+  grpc-opts:
+    grpc-service-name: /api/v2/events/collect
+- name: '1417 | 🇷🇺 Russia | 🏳️ CIDR-Selectel | HYSTERIA2 | TG: @YoutubeUnBlockRu'
+  type: hysteria2
+  server: 37.9.4.38
+  port: 8458
+  password: 67df9673-31d2-4afe-afef-4382ce83f75c
+  udp: true
+  sni: hy2.frdmhere.com
+- name: '1459 | 🇨🇿 Czechia | 🏳️ CIDR-OLD | 🏳️ SNI-Yandex | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  type: vless
+  server: 78.159.247.57
+  port: 443
+  uuid: b91bcbe1-6982-4709-80cd-42a63b93e966
+  udp: true
+  tls: true
+  reality-opts:
+    public-key: Prfl-PXpN4K6CFX89YxYji_HSOtVQmIQgXCnKTED2wc
+    short-id: b7c1d2e3f4a50619
+    support-x25519mlkem768: true
+  client-fingerprint: chrome
+  servername: sso.passport.yandex.ru
+  flow: xtls-rprx-vision
+- name: '1489 | 🇷🇺 Russia | 🏳️ CIDR-Regru | 🏳️ SNI-MAX | VLESS | TG: @YoutubeUnBlockRu'
+  type: vless
+  server: 95.163.232.49
+  port: 443
+  uuid: 301d201a-cea0-4626-b593-c75d0699e89c
+  udp: true
+  tls: true
+  network: raw
+  reality-opts:
+    public-key: oqRus6Z_Q1jqJaTEPu7ENbRL0-XKOw54K0jwCCGLtEk
+    short-id: a9c4f17e3b62d8
+    support-x25519mlkem768: true
+  client-fingerprint: chrome
+  servername: max.ru
+  flow: xtls-rprx-vision
+- name: '1675 | 🇷🇺 Russia | 🏳️ CIDR-Regru | 🏳️ SNI-MAX | VLESS | TG: @YoutubeUnBlockRu'
+  type: vless
+  server: 95.163.232.98
+  port: 443
+  uuid: 2256212c-88f8-4d74-ac61-4cc0aef25032
+  udp: true
+  tls: true
+  network: grpc
+  reality-opts:
+    public-key: ZgSVwP_wlM4-oG8E03W3cMqK_VrS8oHXF4wzyBkISWo
+    short-id: a1b2c3d4
+    support-x25519mlkem768: true
+  client-fingerprint: firefox
+  servername: max.ru
+- name: '1742 | 🇷🇺 Russia | 🏳️ CIDR-Selectel | VLESS | TG: @YoutubeUnBlockRu'
+  type: vless
+  server: 185.91.53.156
+  port: 22443
+  uuid: d40ba0d8-4523-4200-bd36-f78386b025de
+  udp: true
+  tls: true
+  network: grpc
+  reality-opts:
+    public-key: 4vzN46wFU_aeRsLcWyvQixCB1kYFCQ1nrDWZzfr46Sk
+    short-id: e84ed7ef5d6fb94a
+    support-x25519mlkem768: true
+  client-fingerprint: firefox
+  servername: zoo.vprok.ru
+  grpc-opts:
+    grpc-service-name: grpc
+- name: '1879 | 🇷🇺 Russia | 🏳️ CIDR-Regru | VLESS | TG: @YoutubeUnBlockRu'
+  type: vless
+  server: 95.163.232.98
+  port: 443
+  uuid: 8aa160b7-0879-4961-85bb-0206938cd7bd
+  udp: true
+  tls: true
+  network: grpc
+  reality-opts:
+    public-key: ZgSVwP_wlM4-oG8E03W3cMqK_VrS8oHXF4wzyBkISWo
+    short-id: a1b2c3d4
+    support-x25519mlkem768: true
+  client-fingerprint: firefox
+  servername: max.ru
+- name: '2223 | 🇷🇺 Russia | 🏳️ CIDR-Selectel | VLESS | TG: @YoutubeUnBlockRu'
+  type: vless
+  server: 5.188.114.149
+  port: 7443
+  uuid: d40ba0d8-4523-4200-bd36-f78386b025de
+  udp: true
+  tls: true
+  network: grpc
+  client-fingerprint: firefox
+  servername: ads.x5.ru
+  grpc-opts:
+    grpc-service-name: ebl
+- name: '2753 | 🇷🇺 Russia | 🏳️ CIDR-Regru | 🏳️ SNI-MAX | VLESS | TG: @YoutubeUnBlockRu'
+  type: vless
+  server: 95.163.232.49
+  port: 443
+  uuid: 301d201a-cea0-4626-b593-c75d0699e89c
+  udp: true
+  tls: true
+  reality-opts:
+    public-key: oqRus6Z_Q1jqJaTEPu7ENbRL0-XKOw54K0jwCCGLtEk
+    short-id: a9c4f17e3b62d8
+    support-x25519mlkem768: true
+  client-fingerprint: firefox
+  servername: max.ru
+  flow: xtls-rprx-vision
+- name: '2768 | 🇷🇺 Russia | 🏳️ CIDR-Selectel | VLESS | TG: @YoutubeUnBlockRu'
+  type: vless
+  server: 46.182.24.134
+  port: 443
+  uuid: b63d7afd-56e9-4ed4-ae7d-776a3bbe7995
+  udp: true
+  tls: true
+  network: grpc
+  reality-opts:
+    public-key: U_RH8LY7kXgcjvMCpH3Q0tebDcFZA7Xm7fh7-xOeUkM
+    short-id: d732bf7851e1
+    support-x25519mlkem768: true
+  client-fingerprint: firefox
+  servername: ffastt.stackline.online
+- name: '3666 | 🇷🇺 Russia | 🏳️ CIDR-Selectel | VLESS | TG: @YoutubeUnBlockRu'
+  type: vless
+  server: 185.91.53.180
+  port: 22443
+  uuid: d40ba0d8-4523-4200-bd36-f78386b025de
+  udp: true
+  tls: true
+  network: grpc
+  reality-opts:
+    public-key: 4vzN46wFU_aeRsLcWyvQixCB1kYFCQ1nrDWZzfr46Sk
+    short-id: 9e55651f1b3900d2
+    support-x25519mlkem768: true
+  client-fingerprint: firefox
+  servername: zoo.vprok.ru
+  grpc-opts:
+    grpc-service-name: grpc
+- name: '4272 | 🇨🇿 Czechia | 🏳️ CIDR-OLD | 🏳️ SNI-Yandex | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  type: vless
+  server: 78.159.247.89
+  port: 443
+  uuid: b91bcbe1-6982-4709-80cd-42a63b93e966
+  udp: true
+  tls: true
+  reality-opts:
+    public-key: f6aiEkCa2WOzwaKQjpbrDAZlqVpT1lNcP5hAlKV9PG0
+    short-id: 7a1373222576ba4d
+    support-x25519mlkem768: true
+  client-fingerprint: chrome
+  servername: sso.passport.yandex.ru
+  flow: xtls-rprx-vision
+- name: '4355 | 🇨🇿 Czechia | 🏳️ CIDR-OLD | 🏳️ SNI-Yandex | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  type: vless
+  server: 78.159.247.232
+  port: 443
+  uuid: b91bcbe1-6982-4709-80cd-42a63b93e966
+  udp: true
+  tls: true
+  reality-opts:
+    public-key: wa9Uphq5iZL7IAYh13BHOvd-qs0oDe_qJKNjEJpVBVw
+    short-id: 01b0a66d0267b0d8
+    support-x25519mlkem768: true
+  client-fingerprint: chrome
+  servername: sso.passport.yandex.ru
+  flow: xtls-rprx-vision
+- name: '4404 | 🇷🇺 Russia | 🏳️ CIDR-Selectel | 🏳️ SNI-OK | VLESS | TG: @YoutubeUnBlockRu'
+  type: vless
+  server: 87.228.101.65
+  port: 5001
+  uuid: 29ced3a2-1f1e-4d8f-b240-2e2b570e0e59
+  udp: true
+  tls: true
+  network: grpc
+  reality-opts:
+    public-key: tU3X98qd93T0sARHHQ0jkxUsBeBF73vJXy5M5moY5WY
+    short-id: 877f80d096
+    support-x25519mlkem768: true
+  client-fingerprint: firefox
+  servername: cdnv-img.perekrestok.ru
+- name: '4451 | 🇷🇺 Russia | 🏳️ CIDR-Selectel | VLESS | TG: @YoutubeUnBlockRu'
+  type: vless
+  server: 46.182.24.134
+  port: 443
+  uuid: b63d7afd-56e9-4ed4-ae7d-776a3bbe7995
+  udp: true
+  tls: true
+  network: grpc
+  reality-opts:
+    public-key: U_RH8LY7kXgcjvMCpH3Q0tebDcFZA7Xm7fh7-xOeUkM
+    short-id: fda8ad97a2ce
+    support-x25519mlkem768: true
+  client-fingerprint: firefox
+  servername: ffastt.stackline.online
+- name: '4584 | 🇨🇿 Czechia | 🏳️ CIDR-OLD | 🏳️ SNI-Yandex | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  type: vless
+  server: 78.159.247.61
+  port: 443
+  uuid: b91bcbe1-6982-4709-80cd-42a63b93e966
+  udp: true
+  tls: true
+  reality-opts:
+    public-key: Prfl-PXpN4K6CFX89YxYji_HSOtVQmIQgXCnKTED2wc
+    short-id: d9e3f4a5b6c72831
+    support-x25519mlkem768: true
+  client-fingerprint: chrome
+  servername: sso.passport.yandex.ru
+  flow: xtls-rprx-vision
+- name: '4872 | 🌐 Unknown | 🏳️ CIDR-OLD | VLESS | TG: @YoutubeUnBlockRu'
+  type: vless
+  server: s299.kukuss.top
+  port: 18153
+  uuid: 41f4cb15-5a3f-3934-89fe-b4177146adf4
+  udp: true
+  tls: true
+  servername: u643766u3f35bd4ds298.wagahaha.xyz
+  flow: xtls-rprx-vision
+- name: '5171 | 🇷🇺 Russia | 🏳️ CIDR-Regru | 🏳️ SNI-MAX | VLESS | TG: @YoutubeUnBlockRu'
+  type: vless
+  server: 79.174.92.185
+  port: 443
+  uuid: 2256212c-88f8-4d74-ac61-4cc0aef25032
+  udp: true
+  tls: true
+  network: grpc
+  reality-opts:
+    public-key: PAP10NLpy_4J_vf1CEtDuLJtce3pLSNhHLbuuAUXqBU
+    short-id: a1b2c3d4
+    support-x25519mlkem768: true
+  client-fingerprint: firefox
+  servername: max.ru
+- name: '5224 | 🇷🇺 Russia | 🏳️ CIDR-Selectel | VLESS | TG: @YoutubeUnBlockRu'
+  type: vless
+  server: 31.129.42.5
+  port: 22443
+  uuid: d40ba0d8-4523-4200-bd36-f78386b025de
+  udp: true
+  tls: true
+  network: grpc
+  reality-opts:
+    public-key: oNMueX_5CksaDVYMs9XLQNqWDie1AbsSC5_FnHo8Ehg
+    short-id: '0942468069645234'
+    support-x25519mlkem768: true
+  client-fingerprint: firefox
+  servername: ads.x5.ru
+  grpc-opts:
+    grpc-service-name: grpc
+- name: '5321 | 🇨🇿 Czechia | 🏳️ CIDR-OLD | 🏳️ SNI-Yandex | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  type: vless
+  server: 78.159.247.105
+  port: 443
+  uuid: b91bcbe1-6982-4709-80cd-42a63b93e966
+  udp: true
+  tls: true
+  reality-opts:
+    public-key: hsG0ZLuwue0EiW-uArtKzqOY2Z2OSe_ufDMBAq2Xv0w
+    short-id: a63b7e76539c7221
+    support-x25519mlkem768: true
+  client-fingerprint: chrome
+  servername: sso.passport.yandex.ru
+  flow: xtls-rprx-vision
+- name: '5891 | 🇷🇺 Russia | 🏳️ CIDR-Yandex | VLESS | TG: @YoutubeUnBlockRu'
+  type: vless
+  server: 158.160.249.252
+  port: 443
+  uuid: 4ca27679-dbac-4bfa-bada-508888189e8d
+  udp: true
+  tls: true
+  reality-opts:
+    public-key: iRbc5G3wZbluYutzDvrJlc356yJsEnhV1T4tvE-tCnM
+    short-id: 27e53bbcab7593d7
+    support-x25519mlkem768: true
+  client-fingerprint: firefox
+  servername: smartcaptcha.yandexcloud.net
+  flow: xtls-rprx-vision
+- name: '6116 | 🇨🇳 HongKong | 🏳️ CIDR-OLD | VLESS | TG: @YoutubeUnBlockRu'
+  type: vless
+  server: 212.192.15.191
+  port: 18153
+  uuid: 41f4cb15-5a3f-3934-89fe-b4177146adf4
+  udp: true
+  tls: true
+  servername: u643766u3f35bd4ds298.wagahaha.xyz
+  flow: xtls-rprx-vision
+- name: '6200 | 🇷🇺 Russia | 🏳️ CIDR-Regru | 🏳️ SNI-MAX | VLESS | 🔐 Stable | TG: @YoutubeUnBlockRu'
+  type: vless
+  server: 95.163.232.49
+  port: 443
+  uuid: 301d201a-cea0-4626-b593-c75d0699e89c
+  udp: true
+  tls: true
+  network: raw
+  reality-opts:
+    public-key: oqRus6Z_Q1jqJaTEPu7ENbRL0-XKOw54K0jwCCGLtEk
+    short-id: a9c4f17e3b62d8
+    support-x25519mlkem768: true
+  client-fingerprint: firefox
+  servername: max.ru
+  flow: xtls-rprx-vision
+- name: '6258 | 🇨🇿 Czechia | 🏳️ CIDR-OLD | 🏳️ SNI-Yandex | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  type: vless
+  server: 78.159.247.206
+  port: 443
+  uuid: b91bcbe1-6982-4709-80cd-42a63b93e966
+  udp: true
+  tls: true
+  reality-opts:
+    public-key: smzqWgG-wLasYWMveMswB9S5XU9ftuMfQZhmW18nsHc
+    short-id: 965cab7032ceb344
+    support-x25519mlkem768: true
+  client-fingerprint: chrome
+  servername: sso.passport.yandex.ru
+  flow: xtls-rprx-vision
+- name: '6358 | 🇷🇺 Russia | 🏳️ CIDR-Regru | VLESS | TG: @YoutubeUnBlockRu'
+  type: vless
+  server: 79.174.92.185
+  port: 443
+  uuid: 8aa160b7-0879-4961-85bb-0206938cd7bd
+  udp: true
+  tls: true
+  network: grpc
+  reality-opts:
+    public-key: PAP10NLpy_4J_vf1CEtDuLJtce3pLSNhHLbuuAUXqBU
+    short-id: a1b2c3d4
+    support-x25519mlkem768: true
+  client-fingerprint: firefox
+  servername: max.ru
+- name: '7436 | 🇨🇿 Czechia | 🏳️ CIDR-OLD | 🏳️ SNI-Yandex | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  type: vless
+  server: 78.159.247.196
+  port: 443
+  uuid: b91bcbe1-6982-4709-80cd-42a63b93e966
+  udp: true
+  tls: true
+  reality-opts:
+    public-key: Prfl-PXpN4K6CFX89YxYji_HSOtVQmIQgXCnKTED2wc
+    short-id: c8d2e3f4a5b61720
+    support-x25519mlkem768: true
+  client-fingerprint: chrome
+  servername: sso.passport.yandex.ru
+  flow: xtls-rprx-vision
+tun:
+  enable: true
+  stack: system
+  auto-route: true
+  auto-detect-interface: true
+  dns-hijack:
+  - any:53
+  strict-route: true
+  route-exclude-address:
+  - 224.0.0.0/3
+  - 10.0.0.0/8
+  - 127.0.0.0/8
+  - 100.64.0.0/10
+  - 172.16.0.0/12
+  - 169.254.0.0/16
+  - 192.168.0.0/16
+  - 192.0.0.0/24
+  - 192.0.2.0/24
+  - 192.88.99.0/24
+  - 198.51.100.0/24
+  - 203.0.113.0/24
+  - fc00::/7
+  - ff00::/8
+  - fe80::/10
+  - ::/127
+dns:
+  enable: true
+  ipv6: false
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter:
+  - rule-set:private-domains
+  default-nameserver:
+  - https://77.88.8.8/dns-query
+  - https://8.8.8.8/dns-query
+  proxy-server-nameserver:
+  - https://77.88.8.8/dns-query
+  - https://8.8.8.8/dns-query
+  direct-nameserver:
+  - https://77.88.8.8/dns-query
+  - https://8.8.8.8/dns-query
+  nameserver:
+  - https://8.8.8.8/dns-query#PROXY
+sniffer:
+  enable: true
+  override-destination: false
+  parse-pure-ip: true
+  sniff:
+    HTTP:
+      ports:
+      - '80'
+      - 8080-8880
+    TLS:
+      ports:
+      - '443'
+      - '8443'
+  skip-dst-address:
+  - 224.0.0.0/3
+  - 10.0.0.0/8
+  - 127.0.0.0/8
+  - 100.64.0.0/10
+  - 172.16.0.0/12
+  - 198.18.0.0/15
+  - 169.254.0.0/16
+  - 192.168.0.0/16
+  - 192.0.0.0/24
+  - 192.0.2.0/24
+  - 192.88.99.0/24
+  - 198.51.100.0/24
+  - 203.0.113.0/24
+  - fc00::/7
+  - ff00::/8
+  - fe80::/10
+  - ::/127
+  find-process-mode: strict
+profile:
+  store-selected: true
+  store-fake-ip: true
+proxy-groups:
+- name: 🛡️ VPN
+  type: select
+  hidden: true
+  proxies:
+  - ⚡️ Авто
+  - '0515 | 🇷🇺 Russia | 🏳️ CIDR-Selectel | VLESS | TG: @YoutubeUnBlockRu'
+  - '0818 | 🇷🇺 Russia | 🏳️ CIDR-OLD | 🏳️ SNI-Yandex | VLESS | TG: @YoutubeUnBlockRu'
+  - '0866 | 🇷🇺 Russia | 🏳️ CIDR-Selectel | VLESS | TG: @YoutubeUnBlockRu'
+  - '0984 | 🇨🇿 Czechia | 🏳️ CIDR-OLD | 🏳️ SNI-Yandex | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  - '1049 | 🇷🇺 Russia | 🏳️ CIDR-OLD | 🏳️ SNI-Yandex | VLESS | TG: @YoutubeUnBlockRu'
+  - '1241 | 🇷🇺 Russia | 🏳️ CIDR-Selectel | VLESS | TG: @YoutubeUnBlockRu'
+  - '1417 | 🇷🇺 Russia | 🏳️ CIDR-Selectel | HYSTERIA2 | TG: @YoutubeUnBlockRu'
+  - '1459 | 🇨🇿 Czechia | 🏳️ CIDR-OLD | 🏳️ SNI-Yandex | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  - '1489 | 🇷🇺 Russia | 🏳️ CIDR-Regru | 🏳️ SNI-MAX | VLESS | TG: @YoutubeUnBlockRu'
+  - '1675 | 🇷🇺 Russia | 🏳️ CIDR-Regru | 🏳️ SNI-MAX | VLESS | TG: @YoutubeUnBlockRu'
+  - '1742 | 🇷🇺 Russia | 🏳️ CIDR-Selectel | VLESS | TG: @YoutubeUnBlockRu'
+  - '1879 | 🇷🇺 Russia | 🏳️ CIDR-Regru | VLESS | TG: @YoutubeUnBlockRu'
+  - '2223 | 🇷🇺 Russia | 🏳️ CIDR-Selectel | VLESS | TG: @YoutubeUnBlockRu'
+  - '2753 | 🇷🇺 Russia | 🏳️ CIDR-Regru | 🏳️ SNI-MAX | VLESS | TG: @YoutubeUnBlockRu'
+  - '2768 | 🇷🇺 Russia | 🏳️ CIDR-Selectel | VLESS | TG: @YoutubeUnBlockRu'
+  - '3666 | 🇷🇺 Russia | 🏳️ CIDR-Selectel | VLESS | TG: @YoutubeUnBlockRu'
+  - '4272 | 🇨🇿 Czechia | 🏳️ CIDR-OLD | 🏳️ SNI-Yandex | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  - '4355 | 🇨🇿 Czechia | 🏳️ CIDR-OLD | 🏳️ SNI-Yandex | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  - '4404 | 🇷🇺 Russia | 🏳️ CIDR-Selectel | 🏳️ SNI-OK | VLESS | TG: @YoutubeUnBlockRu'
+  - '4451 | 🇷🇺 Russia | 🏳️ CIDR-Selectel | VLESS | TG: @YoutubeUnBlockRu'
+  - '4584 | 🇨🇿 Czechia | 🏳️ CIDR-OLD | 🏳️ SNI-Yandex | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  - '4872 | 🌐 Unknown | 🏳️ CIDR-OLD | VLESS | TG: @YoutubeUnBlockRu'
+  - '5171 | 🇷🇺 Russia | 🏳️ CIDR-Regru | 🏳️ SNI-MAX | VLESS | TG: @YoutubeUnBlockRu'
+  - '5224 | 🇷🇺 Russia | 🏳️ CIDR-Selectel | VLESS | TG: @YoutubeUnBlockRu'
+  - '5321 | 🇨🇿 Czechia | 🏳️ CIDR-OLD | 🏳️ SNI-Yandex | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  - '5891 | 🇷🇺 Russia | 🏳️ CIDR-Yandex | VLESS | TG: @YoutubeUnBlockRu'
+  - '6116 | 🇨🇳 HongKong | 🏳️ CIDR-OLD | VLESS | TG: @YoutubeUnBlockRu'
+  - '6200 | 🇷🇺 Russia | 🏳️ CIDR-Regru | 🏳️ SNI-MAX | VLESS | 🔐 Stable | TG: @YoutubeUnBlockRu'
+  - '6258 | 🇨🇿 Czechia | 🏳️ CIDR-OLD | 🏳️ SNI-Yandex | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  - '6358 | 🇷🇺 Russia | 🏳️ CIDR-Regru | VLESS | TG: @YoutubeUnBlockRu'
+  - '7436 | 🇨🇿 Czechia | 🏳️ CIDR-OLD | 🏳️ SNI-Yandex | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+- name: 📺 Youtube
+  type: select
+  hidden: true
+  include-all: true
+  proxies:
+  - 🛡️ VPN
+- name: 💬 Discord.exe
+  type: select
+  hidden: true
+  include-all: true
+  proxies:
+  - 🛡️ VPN
+- name: 🎮 Игры
+  type: select
+  hidden: true
+  include-all: true
+  proxies:
+  - DIRECT
+  - 🛡️ VPN
+- name: 🚫 Заблокированные сайты
+  type: select
+  icon: https://raw.githubusercontent.com/ArThirtyFour/NeedyWebUI/refs/heads/main/icons/ui_emotes/internet.png
+  include-all: true
+  proxies:
+  - 🛡️ VPN
+- name: 🇷🇺 RU сайты
+  type: select
+  icon: https://raw.githubusercontent.com/ArThirtyFour/NeedyWebUI/refs/heads/main/icons/achivement/comment-te-dire-adieu.png
+  proxies:
+  - DIRECT
+- name: 🎲 Торренты
+  type: select
+  icon: https://raw.githubusercontent.com/ArThirtyFour/NeedyWebUI/refs/heads/main/icons/achivement/comment-te-dire-adieu.png
+  proxies:
+  - DIRECT
+- name: 🌍 Остальное
+  type: select
+  icon: https://raw.githubusercontent.com/ArThirtyFour/NeedyWebUI/refs/heads/main/icons/achivement/unhappy-end-world.png
+  include-all: true
+  proxies:
+  - 🛡️ VPN
+- name: ⚡️ Авто
+  type: url-test
+  tolerance: 150
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  include-all: true
+  hidden: true
+rule-providers:
+  private-domains:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://cdn.jsdelivr.net/gh/hydraponique/roscomvpn-geosite/release/mihomo/private.mrs
+    path: ./ruleset/geosite-private.mrs
+    interval: 2592000
+  category-ru:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://cdn.jsdelivr.net/gh/hydraponique/roscomvpn-geosite/release/mihomo/category-ru.mrs
+    path: ./ruleset/category-ru.mrs
+    interval: 86400
+  whitelist:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://cdn.jsdelivr.net/gh/hydraponique/roscomvpn-geosite/release/mihomo/whitelist.mrs
+    path: ./ruleset/whitelist.mrs
+    interval: 86400
+  microsoft:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://cdn.jsdelivr.net/gh/hydraponique/roscomvpn-geosite/release/mihomo/microsoft.mrs
+    path: ./ruleset/microsoft.mrs
+    interval: 86400
+  apple:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://cdn.jsdelivr.net/gh/hydraponique/roscomvpn-geosite/release/mihomo/apple.mrs
+    path: ./ruleset/apple.mrs
+    interval: 86400
+  google-play:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://cdn.jsdelivr.net/gh/hydraponique/roscomvpn-geosite/release/mihomo/google-play.mrs
+    path: ./ruleset/google-play.mrs
+    interval: 86400
+  epicgames:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://cdn.jsdelivr.net/gh/hydraponique/roscomvpn-geosite/release/mihomo/epicgames.mrs
+    path: ./ruleset/epicgames.mrs
+    interval: 86400
+  origin:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://cdn.jsdelivr.net/gh/hydraponique/roscomvpn-geosite/release/mihomo/origin.mrs
+    path: ./ruleset/origin.mrs
+    interval: 86400
+  riot:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://cdn.jsdelivr.net/gh/hydraponique/roscomvpn-geosite/release/mihomo/riot.mrs
+    path: ./ruleset/riot.mrs
+    interval: 86400
+  escapefromtarkov:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://cdn.jsdelivr.net/gh/hydraponique/roscomvpn-geosite/release/mihomo/escapefromtarkov.mrs
+    path: ./ruleset/escapefromtarkov.mrs
+    interval: 86400
+  steam:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://cdn.jsdelivr.net/gh/hydraponique/roscomvpn-geosite/release/mihomo/steam.mrs
+    path: ./ruleset/steam.mrs
+    interval: 86400
+  twitch:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://cdn.jsdelivr.net/gh/hydraponique/roscomvpn-geosite/release/mihomo/twitch.mrs
+    path: ./ruleset/twitch.mrs
+    interval: 86400
+  pinterest:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://cdn.jsdelivr.net/gh/hydraponique/roscomvpn-geosite/release/mihomo/pinterest.mrs
+    path: ./ruleset/pinterest.mrs
+    interval: 86400
+  faceit:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://cdn.jsdelivr.net/gh/hydraponique/roscomvpn-geosite/release/mihomo/faceit.mrs
+    path: ./ruleset/faceit.mrs
+    interval: 86400
+  private-ips:
+    type: http
+    behavior: ipcidr
+    format: mrs
+    url: https://cdn.jsdelivr.net/gh/hydraponique/roscomvpn-geoip/release/mihomo/private.mrs
+    path: ./ruleset/geoip-private.mrs
+    interval: 2592000
+  direct-ips:
+    type: http
+    behavior: ipcidr
+    format: mrs
+    url: https://cdn.jsdelivr.net/gh/hydraponique/roscomvpn-geoip/release/mihomo/direct.mrs
+    path: ./ruleset/direct-ips.mrs
+    interval: 86400
+  github:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://cdn.jsdelivr.net/gh/hydraponique/roscomvpn-geosite/release/mihomo/github.mrs
+    path: ./ruleset/github.mrs
+    interval: 86400
+  twitch-ads:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://cdn.jsdelivr.net/gh/hydraponique/roscomvpn-geosite/release/mihomo/twitch-ads.mrs
+    path: ./ruleset/twitch-ads.mrs
+    interval: 86400
+  youtube:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://cdn.jsdelivr.net/gh/hydraponique/roscomvpn-geosite/release/mihomo/youtube.mrs
+    path: ./ruleset/youtube.mrs
+    interval: 86400
+  telegram:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://cdn.jsdelivr.net/gh/hydraponique/roscomvpn-geosite/release/mihomo/telegram.mrs
+    path: ./ruleset/telegram.mrs
+    interval: 86400
+  win-spy:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://cdn.jsdelivr.net/gh/hydraponique/roscomvpn-geosite/release/mihomo/win-spy.mrs
+    path: ./ruleset/win-spy.mrs
+    interval: 86400
+  torrent-domains:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://cdn.jsdelivr.net/gh/hydraponique/roscomvpn-geosite/release/mihomo/torrent.mrs
+    path: ./ruleset/torrent-domains.mrs
+    interval: 86400
+  category-ads:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://cdn.jsdelivr.net/gh/hydraponique/roscomvpn-geosite/release/mihomo/category-ads.mrs
+    path: ./ruleset/category-ads.mrs
+    interval: 86400
+  torrent-clients:
+    type: http
+    behavior: classical
+    format: yaml
+    url: https://raw.githubusercontent.com/legiz-ru/mihomo-rule-sets/main/other/torrent-clients.yaml
+    path: ./ruleset/torrent-clients.yaml
+    interval: 86400
+  games:
+    type: http
+    behavior: classical
+    format: yaml
+    url: https://raw.githubusercontent.com/roscomvpn/custom-category/release/mihomo/games.yaml
+    path: ./ruleset/games.yaml
+    interval: 86400
+  ru-apps:
+    type: http
+    behavior: classical
+    format: yaml
+    url: https://raw.githubusercontent.com/roscomvpn/custom-category/release/mihomo/ru-apps.yaml
+    path: ./ruleset/ru-apps.yaml
+    interval: 86400
+rules:
+- RULE-SET,private-ips,DIRECT,no-resolve
+- IP-CIDR,::/0,REJECT-DROP,no-resolve
+- AND,((NETWORK,UDP),(DST-PORT,443)),REJECT-DROP
+- RULE-SET,private-domains,DIRECT
+- RULE-SET,category-ads,REJECT-DROP
+- RULE-SET,win-spy,REJECT-DROP
+- RULE-SET,torrent-domains,🎲 Торренты
+- RULE-SET,torrent-clients,🎲 Торренты
+- RULE-SET,google-play,🛡️ VPN
+- RULE-SET,twitch-ads,🛡️ VPN
+- RULE-SET,youtube,📺 Youtube
+- RULE-SET,telegram,🛡️ VPN
+- RULE-SET,github,🚫 Заблокированные сайты
+- RULE-SET,epicgames,🎮 Игры
+- RULE-SET,origin,🎮 Игры
+- RULE-SET,riot,🎮 Игры
+- RULE-SET,escapefromtarkov,🎮 Игры
+- RULE-SET,steam,🎮 Игры
+- RULE-SET,faceit,🎮 Игры
+- RULE-SET,twitch,DIRECT
+- RULE-SET,microsoft,DIRECT
+- RULE-SET,apple,DIRECT
+- RULE-SET,pinterest,DIRECT
+- RULE-SET,category-ru,🇷🇺 RU сайты
+- RULE-SET,whitelist,🇷🇺 RU сайты
+- RULE-SET,ru-apps,🇷🇺 RU сайты
+- PROCESS-NAME-REGEX,discord,💬 Discord.exe
+- PROCESS-NAME-REGEX,vesktop,💬 Discord.exe
+- RULE-SET,games,🎮 Игры
+- RULE-SET,direct-ips,DIRECT
+- MATCH,🌍 Остальное
