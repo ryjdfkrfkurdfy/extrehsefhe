@@ -6,7 +6,7 @@ ipv6: true
 unified-delay: true
 tcp-concurrent: true
 proxies:
-- name: '2085 | 🌐 Unknown | 🏳️ CIDR-OLD | VLESS | 🔐 Stable | TG: @YoutubeUnBlockRu'
+- name: '0652 | 🌐 Unknown | 🏳️ CIDR-OLD | VLESS | 🔐 Stable | TG: @YoutubeUnBlockRu'
   type: vless
   server: s299.kukuss.top
   port: 18153
@@ -15,7 +15,21 @@ proxies:
   tls: true
   servername: u643766u3f35bd4ds298.wagahaha.xyz
   flow: xtls-rprx-vision
-- name: '2247 | 🇨🇳 HongKong | 🏳️ CIDR-OLD | VLESS | TG: @YoutubeUnBlockRu'
+- name: '0836 | 🇷🇺 Russia | 🏳️ CIDR-Yandex | 🏳️ SNI-Yandex | VLESS | TG: @YoutubeUnBlockRu'
+  type: vless
+  server: 84.201.130.165
+  port: 443
+  uuid: 0dea82cd-a030-4c11-bccd-f3c0be845297
+  udp: true
+  tls: true
+  reality-opts:
+    public-key: 4_JdCXW-gE-NFYhMJq71nqmzzo29lJHuwA-9298xERg
+    short-id: c8331e510ed78f5e
+    support-x25519mlkem768: true
+  client-fingerprint: firefox
+  servername: api-maps.yandex.ru
+  flow: xtls-rprx-vision
+- name: '3443 | 🇨🇳 HongKong | 🏳️ CIDR-OLD | VLESS | TG: @YoutubeUnBlockRu'
   type: vless
   server: 212.192.13.233
   port: 443
@@ -29,7 +43,7 @@ proxies:
   client-fingerprint: firefox
   servername: www.cathaypacific.com
   flow: xtls-rprx-vision
-- name: '2409 | 🌐 Unknown | 🏳️ CIDR-OLD | VLESS | 🔐 Stable | TG: @YoutubeUnBlockRu'
+- name: '3498 | 🌐 Unknown | 🏳️ CIDR-OLD | VLESS | 🔐 Stable | TG: @YoutubeUnBlockRu'
   type: vless
   server: s299.kukuss.top
   port: 18153
@@ -37,6 +51,16 @@ proxies:
   udp: true
   tls: true
   servername: u643766u3f35bd4ds298.wagahaha.xyz
+  flow: xtls-rprx-vision
+- name: '4489 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
+  type: vless
+  server: 5.188.141.67
+  port: 8449
+  uuid: 2dfd0db2-cd4e-4c09-97fc-67c3d8ee9409
+  udp: true
+  tls: true
+  network: raw
+  servername: edge-vk.vpn.partners
   flow: xtls-rprx-vision
 tun:
   enable: true
@@ -122,9 +146,11 @@ proxy-groups:
   hidden: true
   proxies:
   - ⚡️ Авто
-  - '2085 | 🌐 Unknown | 🏳️ CIDR-OLD | VLESS | 🔐 Stable | TG: @YoutubeUnBlockRu'
-  - '2247 | 🇨🇳 HongKong | 🏳️ CIDR-OLD | VLESS | TG: @YoutubeUnBlockRu'
-  - '2409 | 🌐 Unknown | 🏳️ CIDR-OLD | VLESS | 🔐 Stable | TG: @YoutubeUnBlockRu'
+  - '0652 | 🌐 Unknown | 🏳️ CIDR-OLD | VLESS | 🔐 Stable | TG: @YoutubeUnBlockRu'
+  - '0836 | 🇷🇺 Russia | 🏳️ CIDR-Yandex | 🏳️ SNI-Yandex | VLESS | TG: @YoutubeUnBlockRu'
+  - '3443 | 🇨🇳 HongKong | 🏳️ CIDR-OLD | VLESS | TG: @YoutubeUnBlockRu'
+  - '3498 | 🌐 Unknown | 🏳️ CIDR-OLD | VLESS | 🔐 Stable | TG: @YoutubeUnBlockRu'
+  - '4489 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
 - name: 📺 Youtube
   type: select
   hidden: true
