@@ -8,13 +8,18 @@ tcp-concurrent: true
 proxies:
 - name: https://t.me/YoutubeUnBlockRu
   type: vless
-  server: log.bpminecraft.com
-  port: 8880
-  uuid: 4212034d-c18b-4060-b218-4f8372e5473a
+  server: 45.82.67.183
+  port: 443
+  uuid: 9d7db727-6eb2-46be-911a-bb16186a64a6
   udp: true
-  tls: false
-  network: ws
-  servername: log.bpminecraft.com
+  tls: true
+  reality-opts:
+    public-key: daiJkQwpAcBk7oH1iZzRthMj-jAlqovX7vAiwVqfjTU
+    short-id: 8880a9f75eb46d91
+    support-x25519mlkem768: true
+  client-fingerprint: firefox
+  servername: northwaleswildlifetrust.org.uk
+  flow: xtls-rprx-vision
 tun:
   enable: true
   stack: system
