@@ -8,13 +8,19 @@ tcp-concurrent: true
 proxies:
 - name: https://t.me/YoutubeUnBlockRu
   type: vless
-  server: 188.114.97.6
-  port: 8080
-  uuid: 16586b3b-9e26-4fe9-b137-389ea48f088c
+  server: 78.129.184.117
+  port: 443
+  uuid: 7452dc6b-5bf4-4b46-b574-c2f2c5d73862
   udp: true
-  tls: false
-  network: ws
-  servername: 188.114.97.6
+  tls: true
+  network: raw
+  reality-opts:
+    public-key: _8LiLlqEXJGXbg_G8KI1fXBlPnRoM3no-0oxxRRMcSw
+    short-id: efcfd3c41c1762b0
+    support-x25519mlkem768: true
+  client-fingerprint: chrome
+  servername: strapi.io
+  flow: xtls-rprx-vision
 tun:
   enable: true
   stack: system
