@@ -6,15 +6,20 @@ ipv6: true
 unified-delay: true
 tcp-concurrent: true
 proxies:
-- name: '1358 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
+- name: '1491 | 🇷🇺 Russia | 🏳️ CIDR-VK | 🏳️ SNI-X5 | VLESS | TG: @YoutubeUnBlockRu'
   type: vless
-  server: 37.139.42.138
+  server: 217.16.31.193
   port: 443
-  uuid: d8d36507-9b6c-48cb-9e8b-116311cf7a41
+  uuid: f79fe29a-39c9-445d-a6e9-85bfa76d5f02
   udp: true
   tls: true
-  network: ws
-  servername: dostavitos.stroymatdv.cc
+  reality-opts:
+    public-key: nvPp2FY7spulp6eCgHmPFJeRke_NVO9m2SReXgkCdX4
+    short-id: e4063089
+    support-x25519mlkem768: true
+  client-fingerprint: firefox
+  servername: ads.x5.ru
+  flow: xtls-rprx-vision
 tun:
   enable: true
   stack: system
@@ -99,7 +104,7 @@ proxy-groups:
   hidden: true
   proxies:
   - ⚡️ Авто
-  - '1358 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
+  - '1491 | 🇷🇺 Russia | 🏳️ CIDR-VK | 🏳️ SNI-X5 | VLESS | TG: @YoutubeUnBlockRu'
 - name: 📺 Youtube
   type: select
   hidden: true
