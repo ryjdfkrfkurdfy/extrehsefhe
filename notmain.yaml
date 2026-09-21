@@ -8,15 +8,12 @@ tcp-concurrent: true
 proxies:
 - name: https://t.me/YoutubeUnBlockRu
   type: vless
-  server: 185.255.179.11
-  port: 9443
-  uuid: d9d0f208-d582-41d5-bb7b-742671402810
+  server: 104.26.13.40
+  port: 8880
+  uuid: 7db9bcc1-78f1-455d-944b-3363b867e670
   udp: true
-  tls: true
-  network: grpc
-  servername: hub-de-04.hanvpn.cc
-  grpc-opts:
-    grpc-service-name: de04-grpc-8e47a
+  tls: false
+  network: ws
 tun:
   enable: true
   stack: system
