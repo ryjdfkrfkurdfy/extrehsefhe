@@ -6,7 +6,25 @@ ipv6: true
 unified-delay: true
 tcp-concurrent: true
 proxies:
-- name: '2747 | 🌐 Unknown | 🏳️ CIDR-VK | 🏳️ SNI-MAX | VLESS | TG: @YoutubeUnBlockRu'
+- name: '1767 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
+  type: vless
+  server: 37.139.42.138
+  port: 443
+  uuid: d82e3813-9c83-43a5-bd30-385ed7c20a94
+  udp: true
+  tls: true
+  network: ws
+  servername: dostavitos.stroymatdv.cc
+- name: '2078 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
+  type: vless
+  server: 37.139.42.138
+  port: 443
+  uuid: e0503859-9d03-4835-a1fd-a82757b27c69
+  udp: true
+  tls: true
+  network: ws
+  servername: dostavitos.stroymatdv.cc
+- name: '4506 | 🌐 Unknown | 🏳️ CIDR-VK | 🏳️ SNI-MAX | VLESS | TG: @YoutubeUnBlockRu'
   type: vless
   server: node3.frost-api.com
   port: 443
@@ -20,15 +38,6 @@ proxies:
   client-fingerprint: chrome
   servername: max.ru
   flow: xtls-rprx-vision
-- name: '2939 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
-  type: vless
-  server: 37.139.42.138
-  port: 443
-  uuid: e0503859-9d03-4835-a1fd-a82757b27c69
-  udp: true
-  tls: true
-  network: ws
-  servername: dostavitos.stroymatdv.cc
 tun:
   enable: true
   stack: system
@@ -113,8 +122,9 @@ proxy-groups:
   hidden: true
   proxies:
   - ⚡️ Авто
-  - '2747 | 🌐 Unknown | 🏳️ CIDR-VK | 🏳️ SNI-MAX | VLESS | TG: @YoutubeUnBlockRu'
-  - '2939 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
+  - '1767 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
+  - '2078 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
+  - '4506 | 🌐 Unknown | 🏳️ CIDR-VK | 🏳️ SNI-MAX | VLESS | TG: @YoutubeUnBlockRu'
 - name: 📺 Youtube
   type: select
   hidden: true
