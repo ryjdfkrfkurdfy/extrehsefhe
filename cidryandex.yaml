@@ -6,7 +6,21 @@ ipv6: true
 unified-delay: true
 tcp-concurrent: true
 proxies:
-- name: '2292 | 🇷🇺 Russia | 🏳️ CIDR-Yandex | VLESS | TG: @YoutubeUnBlockRu'
+- name: '0448 | 🇷🇺 Russia | 🏳️ CIDR-Yandex | VLESS | TG: @YoutubeUnBlockRu'
+  type: vless
+  server: 158.160.160.21
+  port: 443
+  uuid: 06d05a0a-f298-0001-8fab-3de32e3fb770
+  udp: true
+  tls: true
+  reality-opts:
+    public-key: RMjWKm3Jj09ytfHD-90J0c3qdpQtjqJ4muUSAuF2eXQ
+    short-id: 0e9e64843ec8
+    support-x25519mlkem768: true
+  client-fingerprint: random
+  servername: matrix.stargazed.space
+  flow: xtls-rprx-vision
+- name: '1547 | 🇷🇺 Russia | 🏳️ CIDR-Yandex | VLESS | TG: @YoutubeUnBlockRu'
   type: vless
   server: 158.160.160.21
   port: 443
@@ -21,49 +35,15 @@ proxies:
   client-fingerprint: firefox
   servername: matrix.stargazed.space
   flow: xtls-rprx-vision
-- name: '2401 | 🇷🇺 Russia | 🏳️ CIDR-Yandex | VLESS | TG: @YoutubeUnBlockRu'
-  type: vless
-  server: 158.160.160.21
-  port: 443
-  uuid: 06d05a0a-f298-0001-8fab-3de32e3fb770
+- name: '1676 | 🇷🇺 Russia | 🏳️ CIDR-Yandex | VMESS | TG: @YoutubeUnBlockRu'
+  type: vmess
+  server: 158.160.211.200
+  port: 11556
+  uuid: e2733dbc-1bc6-4835-b90a-447806f9efcd
+  alterId: 0
+  cipher: auto
   udp: true
   tls: true
-  reality-opts:
-    public-key: RMjWKm3Jj09ytfHD-90J0c3qdpQtjqJ4muUSAuF2eXQ
-    short-id: 0e9e64843ec8
-    support-x25519mlkem768: true
-  client-fingerprint: firefox
-  servername: matrix.stargazed.space
-  flow: xtls-rprx-vision
-- name: '4301 | 🇷🇺 Russia | 🏳️ CIDR-Yandex | VLESS | TG: @YoutubeUnBlockRu'
-  type: vless
-  server: 158.160.160.21
-  port: 443
-  uuid: 06d05a0a-f298-0001-8fab-3de32e3fb770
-  udp: true
-  tls: true
-  reality-opts:
-    public-key: RMjWKm3Jj09ytfHD-90J0c3qdpQtjqJ4muUSAuF2eXQ
-    short-id: 0e9e64843ec8
-    support-x25519mlkem768: true
-  client-fingerprint: firefox
-  servername: matrix.stargazed.space
-  flow: xtls-rprx-vision
-- name: '5378 | 🇷🇺 Russia | 🏳️ CIDR-Yandex | VLESS | TG: @YoutubeUnBlockRu'
-  type: vless
-  server: 158.160.160.21
-  port: 443
-  uuid: 06d05a0a-f298-0001-8fab-3de32e3fb770
-  udp: true
-  tls: true
-  network: raw
-  reality-opts:
-    public-key: RMjWKm3Jj09ytfHD-90J0c3qdpQtjqJ4muUSAuF2eXQ
-    short-id: 0e9e64843ec8
-    support-x25519mlkem768: true
-  client-fingerprint: firefox
-  servername: matrix.stargazed.space
-  flow: xtls-rprx-vision
 tun:
   enable: true
   stack: system
@@ -148,10 +128,9 @@ proxy-groups:
   hidden: true
   proxies:
   - ⚡️ Авто
-  - '2292 | 🇷🇺 Russia | 🏳️ CIDR-Yandex | VLESS | TG: @YoutubeUnBlockRu'
-  - '2401 | 🇷🇺 Russia | 🏳️ CIDR-Yandex | VLESS | TG: @YoutubeUnBlockRu'
-  - '4301 | 🇷🇺 Russia | 🏳️ CIDR-Yandex | VLESS | TG: @YoutubeUnBlockRu'
-  - '5378 | 🇷🇺 Russia | 🏳️ CIDR-Yandex | VLESS | TG: @YoutubeUnBlockRu'
+  - '0448 | 🇷🇺 Russia | 🏳️ CIDR-Yandex | VLESS | TG: @YoutubeUnBlockRu'
+  - '1547 | 🇷🇺 Russia | 🏳️ CIDR-Yandex | VLESS | TG: @YoutubeUnBlockRu'
+  - '1676 | 🇷🇺 Russia | 🏳️ CIDR-Yandex | VMESS | TG: @YoutubeUnBlockRu'
 - name: 📺 Youtube
   type: select
   hidden: true
