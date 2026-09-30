@@ -6,20 +6,39 @@ ipv6: true
 unified-delay: true
 tcp-concurrent: true
 proxies:
-- name: '0311 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
+- name: '0923 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
   type: vless
-  server: 37.139.42.235
+  server: 185.241.195.189
   port: 443
-  uuid: c55f1e00-1b6c-45b3-82bc-3ffc2d4bb8b3
+  uuid: ff3e812e-be77-4138-a657-dd9c0690ffde
   udp: true
   tls: true
-  network: ws
-  servername: katering.coteite.pro
-- name: '2153 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
+  reality-opts:
+    public-key: kFTOE5YLP_2_6XYXCf4GpezBa3oMQI5QuLdcVsc8Q00
+    short-id: ac14fc8efd29af1e
+    support-x25519mlkem768: true
+  client-fingerprint: firefox
+  servername: www.intel.com
+  flow: xtls-rprx-vision
+- name: '1031 | 🇷🇺 Russia | 🏳️ CIDR-VK | 🏳️ SNI-Yandex | VLESS | TG: @YoutubeUnBlockRu'
+  type: vless
+  server: 185.241.195.189
+  port: 23443
+  uuid: ff3e812e-be77-4138-a657-dd9c0690ffde
+  udp: true
+  tls: true
+  reality-opts:
+    public-key: faWyYwDgEK-D5aGPzUmwRUZnkMHeEU5EJh-MD3YiohE
+    short-id: 1f59aa483317da77
+    support-x25519mlkem768: true
+  client-fingerprint: firefox
+  servername: api-maps.yandex.ru
+  flow: xtls-rprx-vision
+- name: '1045 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
   type: vless
   server: 37.139.42.187
-  port: 8095
-  uuid: 751b53b4-837d-4d27-abe4-03698394a040
+  port: 8088
+  uuid: 64017d58-1297-4cd0-9a9b-4ec325f411f8
   udp: true
   tls: true
   network: grpc
@@ -27,56 +46,11 @@ proxies:
     public-key: PAP10NLpy_4J_vf1CEtDuLJtce3pLSNhHLbuuAUXqBU
     short-id: a1b2c3d4
     support-x25519mlkem768: true
-  client-fingerprint: firefox
+  client-fingerprint: chrome
   servername: pic.rutubelist.ru
   grpc-opts:
     grpc-service-name: media.ingest.v2.ChunkUploadService
-- name: '2263 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
-  type: vless
-  server: 37.139.42.235
-  port: 443
-  uuid: 17852203-eddd-4a8f-baf0-c0cd7706c06c
-  udp: true
-  tls: true
-  network: ws
-  servername: katering.coteite.pro
-- name: '2427 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
-  type: vless
-  server: 37.139.42.179
-  port: 443
-  uuid: 365de9e9-ba29-4819-af2d-766f9638e3be
-  udp: true
-  tls: true
-  network: ws
-  servername: vyvoz-musora.cc
-- name: '2610 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
-  type: vless
-  server: 37.139.42.179
-  port: 443
-  uuid: 365de9e9-ba29-4819-af2d-766f9638e3be
-  udp: true
-  tls: true
-  network: ws
-  servername: vyvoz-musora.cc
-- name: '2925 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
-  type: vless
-  server: 37.139.42.235
-  port: 443
-  uuid: a916fe42-3063-467c-8f55-f0952e946fa3
-  udp: true
-  tls: true
-  network: ws
-  servername: katering.coteite.pro
-- name: '3581 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
-  type: vless
-  server: 37.139.42.235
-  port: 443
-  uuid: 3ee1b4bb-cd58-486d-b60f-44373e73318e
-  udp: true
-  tls: true
-  network: ws
-  servername: katering.coteite.pro
-- name: '3595 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
+- name: '1152 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
   type: vless
   server: 37.139.42.187
   port: 8088
@@ -92,60 +66,52 @@ proxies:
   servername: pic.rutubelist.ru
   grpc-opts:
     grpc-service-name: media.ingest.v2.ChunkUploadService
-- name: '3632 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
+- name: '1664 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
   type: vless
-  server: 185.241.195.151
-  port: 9444
-  uuid: b2cf21f2-ded1-40b3-a0a2-0978d152d4df
+  server: 37.139.42.187
+  port: 8088
+  uuid: 64017d58-1297-4cd0-9a9b-4ec325f411f8
   udp: true
   tls: true
-  network: raw
+  network: grpc
   reality-opts:
-    public-key: zoQ5Lz62_sEMvHJywCYjYpunMOlGG1rf_jL81iCbwQk
-    short-id: 413da1312ccce8fb
+    public-key: PAP10NLpy_4J_vf1CEtDuLJtce3pLSNhHLbuuAUXqBU
+    short-id: a1b2c3d4
+    support-x25519mlkem768: true
+  client-fingerprint: random
+  servername: pic.rutubelist.ru
+  grpc-opts:
+    grpc-service-name: media.ingest.v2.ChunkUploadService
+- name: '1695 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
+  type: vless
+  server: 37.139.42.187
+  port: 8088
+  uuid: 64017d58-1297-4cd0-9a9b-4ec325f411f8
+  udp: true
+  tls: true
+  network: grpc
+  reality-opts:
+    public-key: PAP10NLpy_4J_vf1CEtDuLJtce3pLSNhHLbuuAUXqBU
+    short-id: a1b2c3d4
+    support-x25519mlkem768: true
+  client-fingerprint: random
+  servername: pic.rutubelist.ru
+  grpc-opts:
+    grpc-service-name: media.ingest.v2.ChunkUploadService
+- name: '1771 | 🌐 Unknown | 🏳️ CIDR-VK | 🏳️ SNI-Yandex | VLESS | TG: @YoutubeUnBlockRu'
+  type: vless
+  server: zuko.kosmolet.me
+  port: 23443
+  uuid: ff3e812e-be77-4138-a657-dd9c0690ffde
+  udp: true
+  tls: true
+  reality-opts:
+    public-key: faWyYwDgEK-D5aGPzUmwRUZnkMHeEU5EJh-MD3YiohE
+    short-id: 1f59aa483317da77
     support-x25519mlkem768: true
   client-fingerprint: firefox
-  servername: res.cdnguard.org
+  servername: api-maps.yandex.ru
   flow: xtls-rprx-vision
-- name: '3764 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
-  type: vless
-  server: 185.241.195.151
-  port: 9444
-  uuid: 137e2bb5-19a4-4081-b56c-f482a4cedcaa
-  udp: true
-  tls: true
-  network: raw
-  reality-opts:
-    public-key: zoQ5Lz62_sEMvHJywCYjYpunMOlGG1rf_jL81iCbwQk
-    short-id: 413da1312ccce8fb
-    support-x25519mlkem768: true
-  client-fingerprint: firefox
-  servername: res.cdnguard.org
-  flow: xtls-rprx-vision
-- name: '4096 | 🇷🇺 Russia | 🏳️ CIDR-VK | 🏳️ SNI-Yandex | VLESS | TG: @YoutubeUnBlockRu'
-  type: vless
-  server: 37.139.42.193
-  port: 9445
-  uuid: bf7fcd95-dd66-4c36-92b7-e10d5d78ecab
-  udp: true
-  tls: true
-  network: raw
-  reality-opts:
-    public-key: 0w339GBhpDiYwa9Wgqu3z3epu8dHAzeYUFXPtvzK8To
-    short-id: 190c27ae5f2e4d2c
-    support-x25519mlkem768: true
-  client-fingerprint: firefox
-  servername: passport.yandex.ru
-  flow: xtls-rprx-vision
-- name: '5278 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
-  type: vless
-  server: 37.139.42.235
-  port: 443
-  uuid: 600c1964-f199-45bf-8895-1872fa7fdb1e
-  udp: true
-  tls: true
-  network: ws
-  servername: katering.coteite.pro
 tun:
   enable: true
   stack: system
@@ -230,18 +196,13 @@ proxy-groups:
   hidden: true
   proxies:
   - ⚡️ Авто
-  - '0311 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
-  - '2153 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
-  - '2263 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
-  - '2427 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
-  - '2610 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
-  - '2925 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
-  - '3581 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
-  - '3595 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
-  - '3632 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
-  - '3764 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
-  - '4096 | 🇷🇺 Russia | 🏳️ CIDR-VK | 🏳️ SNI-Yandex | VLESS | TG: @YoutubeUnBlockRu'
-  - '5278 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
+  - '0923 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
+  - '1031 | 🇷🇺 Russia | 🏳️ CIDR-VK | 🏳️ SNI-Yandex | VLESS | TG: @YoutubeUnBlockRu'
+  - '1045 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
+  - '1152 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
+  - '1664 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
+  - '1695 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
+  - '1771 | 🌐 Unknown | 🏳️ CIDR-VK | 🏳️ SNI-Yandex | VLESS | TG: @YoutubeUnBlockRu'
 - name: 📺 Youtube
   type: select
   hidden: true
