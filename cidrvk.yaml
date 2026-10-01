@@ -6,7 +6,51 @@ ipv6: true
 unified-delay: true
 tcp-concurrent: true
 proxies:
-- name: '2719 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
+- name: '0290 | 🇷🇺 Russia | 🏳️ CIDR-VK | 🏳️ SNI-Yandex | VLESS | TG: @YoutubeUnBlockRu'
+  type: vless
+  server: 212.233.121.186
+  port: 443
+  uuid: 66bb404f-b01c-4f97-9f1b-3d546eebf289
+  udp: true
+  tls: true
+  network: raw
+  client-fingerprint: firefox
+  servername: yandex.ru
+  flow: xtls-rprx-vision
+- name: '0352 | 🇷🇺 Russia | 🏳️ CIDR-VK | 🏳️ SNI-Yandex | VLESS | TG: @YoutubeUnBlockRu'
+  type: vless
+  server: 212.233.121.186
+  port: 443
+  uuid: d91a3d53-e825-4288-8f98-5b22f1d6fe9a
+  udp: true
+  tls: true
+  network: raw
+  client-fingerprint: firefox
+  servername: yandex.ru
+  flow: xtls-rprx-vision
+- name: '1223 | 🇷🇺 Russia | 🏳️ CIDR-VK | 🏳️ SNI-Yandex | VLESS | TG: @YoutubeUnBlockRu'
+  type: vless
+  server: 212.233.121.186
+  port: 443
+  uuid: c3da8f31-8732-4d37-a2e4-dddcdfe9ed39
+  udp: true
+  tls: true
+  network: raw
+  client-fingerprint: firefox
+  servername: yandex.ru
+  flow: xtls-rprx-vision
+- name: '2087 | 🇷🇺 Russia | 🏳️ CIDR-VK | 🏳️ SNI-Yandex | VLESS | TG: @YoutubeUnBlockRu'
+  type: vless
+  server: 212.233.121.186
+  port: 443
+  uuid: 7e8f285f-0fc8-4eda-9764-6b017ecadcf7
+  udp: true
+  tls: true
+  network: raw
+  client-fingerprint: firefox
+  servername: yandex.ru
+  flow: xtls-rprx-vision
+- name: '2848 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
   type: vless
   server: 37.139.42.208
   port: 9444
@@ -20,6 +64,17 @@ proxies:
     support-x25519mlkem768: true
   client-fingerprint: firefox
   servername: res.cdnguard.org
+  flow: xtls-rprx-vision
+- name: '3025 | 🇷🇺 Russia | 🏳️ CIDR-VK | 🏳️ SNI-Yandex | VLESS | TG: @YoutubeUnBlockRu'
+  type: vless
+  server: 212.233.121.186
+  port: 443
+  uuid: 96bbedbb-0c78-4da3-a4a3-5bec968fec12
+  udp: true
+  tls: true
+  network: raw
+  client-fingerprint: firefox
+  servername: yandex.ru
   flow: xtls-rprx-vision
 tun:
   enable: true
@@ -105,7 +160,12 @@ proxy-groups:
   hidden: true
   proxies:
   - ⚡️ Авто
-  - '2719 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
+  - '0290 | 🇷🇺 Russia | 🏳️ CIDR-VK | 🏳️ SNI-Yandex | VLESS | TG: @YoutubeUnBlockRu'
+  - '0352 | 🇷🇺 Russia | 🏳️ CIDR-VK | 🏳️ SNI-Yandex | VLESS | TG: @YoutubeUnBlockRu'
+  - '1223 | 🇷🇺 Russia | 🏳️ CIDR-VK | 🏳️ SNI-Yandex | VLESS | TG: @YoutubeUnBlockRu'
+  - '2087 | 🇷🇺 Russia | 🏳️ CIDR-VK | 🏳️ SNI-Yandex | VLESS | TG: @YoutubeUnBlockRu'
+  - '2848 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
+  - '3025 | 🇷🇺 Russia | 🏳️ CIDR-VK | 🏳️ SNI-Yandex | VLESS | TG: @YoutubeUnBlockRu'
 - name: 📺 Youtube
   type: select
   hidden: true
