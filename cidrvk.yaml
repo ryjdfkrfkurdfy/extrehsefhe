@@ -6,65 +6,15 @@ ipv6: true
 unified-delay: true
 tcp-concurrent: true
 proxies:
-- name: '0527 | 🌐 Unknown | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
+- name: '4107 | 🌐 Unknown | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
   type: vless
-  server: voks.serveroff.net
-  port: 12443
-  uuid: 6d257a71-6d98-42d2-983a-34363b6dedcd
+  server: begemotov.cc
+  port: 443
+  uuid: e85d674a-0ef2-4e7b-943c-6f5eb54af52a
   udp: true
   tls: true
-  reality-opts:
-    public-key: SpsEXoUbH7ZKSnNYR--7IKTG-rsmBayk3F-_GxCwFUw
-    short-id: 8c42ac6d1473fc34
-    support-x25519mlkem768: true
-  client-fingerprint: random
-  servername: voks.serveroff.net
-  flow: xtls-rprx-vision
-- name: '3116 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
-  type: vless
-  server: 37.139.42.208
-  port: 9444
-  uuid: 57593cf2-b1e9-4ad7-946a-0a12619be496
-  udp: true
-  tls: true
-  network: raw
-  reality-opts:
-    public-key: zoQ5Lz62_sEMvHJywCYjYpunMOlGG1rf_jL81iCbwQk
-    short-id: 413da1312ccce8fb
-    support-x25519mlkem768: true
-  client-fingerprint: firefox
-  servername: res.cdnguard.org
-  flow: xtls-rprx-vision
-- name: '4597 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
-  type: vless
-  server: 37.139.42.208
-  port: 9444
-  uuid: 95d0f8f0-96b0-45cd-ba7c-22f7b86e525b
-  udp: true
-  tls: true
-  network: raw
-  reality-opts:
-    public-key: zoQ5Lz62_sEMvHJywCYjYpunMOlGG1rf_jL81iCbwQk
-    short-id: 413da1312ccce8fb
-    support-x25519mlkem768: true
-  client-fingerprint: firefox
-  servername: res.cdnguard.org
-  flow: xtls-rprx-vision
-- name: '4894 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
-  type: vless
-  server: 37.139.42.208
-  port: 9444
-  uuid: d71cf3db-77bd-4e44-8c4b-b804bdc42adc
-  udp: true
-  tls: true
-  network: raw
-  reality-opts:
-    public-key: zoQ5Lz62_sEMvHJywCYjYpunMOlGG1rf_jL81iCbwQk
-    short-id: 413da1312ccce8fb
-    support-x25519mlkem768: true
-  client-fingerprint: firefox
-  servername: res.cdnguard.org
-  flow: xtls-rprx-vision
+  network: ws
+  servername: begemotov.cc
 tun:
   enable: true
   stack: system
@@ -149,10 +99,7 @@ proxy-groups:
   hidden: true
   proxies:
   - ⚡️ Авто
-  - '0527 | 🌐 Unknown | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
-  - '3116 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
-  - '4597 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
-  - '4894 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
+  - '4107 | 🌐 Unknown | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
 - name: 📺 Youtube
   type: select
   hidden: true
