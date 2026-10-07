@@ -6,62 +6,14 @@ ipv6: true
 unified-delay: true
 tcp-concurrent: true
 proxies:
-- name: '0199 | 🇷🇺 Russia | 🏳️ CIDR-Yandex | VLESS | TG: @YoutubeUnBlockRu'
-  type: vless
-  server: 84.201.162.100
-  port: 2443
-  uuid: 9244fd5b-f910-4d0d-90fc-2d851a6de203
+- name: '2208 | 🇷🇺 Russia | 🏳️ CIDR-Yandex | TROJAN | TG: @YoutubeUnBlockRu'
+  type: trojan
+  server: 158.160.143.21
+  port: 8443
+  password: 80L0GT8FBWLLP39qdXJCtYRRqD1yG_ut
   udp: true
-  tls: true
-  reality-opts:
-    public-key: ze_EKahTFe122-Zlpblluh8446eHPYthyVjObTrRugk
-    short-id: 6ba85179e30d4fc2
-    support-x25519mlkem768: true
-  client-fingerprint: firefox
-  servername: quitty-convertflow.ru
-  flow: xtls-rprx-vision
-- name: '0336 | 🇷🇺 Russia | 🏳️ CIDR-Yandex | VLESS | TG: @YoutubeUnBlockRu'
-  type: vless
-  server: 84.201.162.100
-  port: 443
-  uuid: 9244fd5b-f910-4d0d-90fc-2d851a6de203
-  udp: true
-  tls: true
-  reality-opts:
-    public-key: eAvHnHZTpRsl3F_8vFuCzLBwTKHcqfL9yxmw5P3RUiM
-    short-id: 6ba85179e30d4fc2
-    support-x25519mlkem768: true
-  client-fingerprint: edge
-  servername: quitty-convertflow.ru
-  flow: xtls-rprx-vision
-- name: '1613 | 🇷🇺 Russia | 🏳️ CIDR-Yandex | VLESS | TG: @YoutubeUnBlockRu'
-  type: vless
-  server: 84.201.162.100
-  port: 7443
-  uuid: 9244fd5b-f910-4d0d-90fc-2d851a6de203
-  udp: true
-  tls: true
-  reality-opts:
-    public-key: ML7-3HxeK1QqOlMXd4UEAAtIgFgjD_B54VDRcSmVSTg
-    short-id: 6ba85179e30d4fc2
-    support-x25519mlkem768: true
-  client-fingerprint: edge
-  servername: quitty-convertflow.ru
-  flow: xtls-rprx-vision
-- name: '5059 | 🇷🇺 Russia | 🏳️ CIDR-Yandex | VLESS | TG: @YoutubeUnBlockRu'
-  type: vless
-  server: 84.201.162.100
-  port: 3443
-  uuid: 9244fd5b-f910-4d0d-90fc-2d851a6de203
-  udp: true
-  tls: true
-  reality-opts:
-    public-key: TaDAdEego6gHzh8lyjA6YLbAL_UTfGymEJ9QzsbVsF4
-    short-id: 6ba85179e30d4fc2
-    support-x25519mlkem768: true
-  client-fingerprint: edge
-  servername: quitty-convertflow.ru
-  flow: xtls-rprx-vision
+  sni: manage.rushtaxi.ru
+  skip-cert-verify: false
 tun:
   enable: true
   stack: system
@@ -146,10 +98,7 @@ proxy-groups:
   hidden: true
   proxies:
   - ⚡️ Авто
-  - '0199 | 🇷🇺 Russia | 🏳️ CIDR-Yandex | VLESS | TG: @YoutubeUnBlockRu'
-  - '0336 | 🇷🇺 Russia | 🏳️ CIDR-Yandex | VLESS | TG: @YoutubeUnBlockRu'
-  - '1613 | 🇷🇺 Russia | 🏳️ CIDR-Yandex | VLESS | TG: @YoutubeUnBlockRu'
-  - '5059 | 🇷🇺 Russia | 🏳️ CIDR-Yandex | VLESS | TG: @YoutubeUnBlockRu'
+  - '2208 | 🇷🇺 Russia | 🏳️ CIDR-Yandex | TROJAN | TG: @YoutubeUnBlockRu'
 - name: 📺 Youtube
   type: select
   hidden: true
