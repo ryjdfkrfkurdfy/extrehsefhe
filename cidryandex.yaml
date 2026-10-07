@@ -6,7 +6,21 @@ ipv6: true
 unified-delay: true
 tcp-concurrent: true
 proxies:
-- name: '2279 | 🇷🇺 Russia | 🏳️ CIDR-Yandex | TROJAN | TG: @YoutubeUnBlockRu'
+- name: '1309 | 🇷🇺 Russia | 🏳️ CIDR-Yandex | VLESS | TG: @YoutubeUnBlockRu'
+  type: vless
+  server: 84.252.132.76
+  port: 443
+  uuid: 961a77fd-fe35-4037-b541-e5dd056702bd
+  udp: true
+  tls: true
+  reality-opts:
+    public-key: ioNALPZqERtuEf-HOZHM_N58HT-fjufOAdavUyPwiXA
+    short-id: 499660fadb16a200
+    support-x25519mlkem768: true
+  client-fingerprint: random
+  servername: www.cloudflare.com
+  flow: xtls-rprx-vision
+- name: '2309 | 🇷🇺 Russia | 🏳️ CIDR-Yandex | TROJAN | TG: @YoutubeUnBlockRu'
   type: trojan
   server: 158.160.143.21
   port: 8443
@@ -98,7 +112,8 @@ proxy-groups:
   hidden: true
   proxies:
   - ⚡️ Авто
-  - '2279 | 🇷🇺 Russia | 🏳️ CIDR-Yandex | TROJAN | TG: @YoutubeUnBlockRu'
+  - '1309 | 🇷🇺 Russia | 🏳️ CIDR-Yandex | VLESS | TG: @YoutubeUnBlockRu'
+  - '2309 | 🇷🇺 Russia | 🏳️ CIDR-Yandex | TROJAN | TG: @YoutubeUnBlockRu'
 - name: 📺 Youtube
   type: select
   hidden: true
