@@ -6,7 +6,15 @@ ipv6: true
 unified-delay: true
 tcp-concurrent: true
 proxies:
-- name: '1347 | 🇷🇺 Russia | 🏳️ CIDR-Yandex | VLESS | TG: @YoutubeUnBlockRu'
+- name: '0607 | 🇷🇺 Russia | 🏳️ CIDR-Yandex | TROJAN | TG: @YoutubeUnBlockRu'
+  type: trojan
+  server: 158.160.143.21
+  port: 8443
+  password: 80L0GT8FBWLLP39qdXJCtYRRqD1yG_ut
+  udp: true
+  sni: manage.rushtaxi.ru
+  skip-cert-verify: false
+- name: '2832 | 🇷🇺 Russia | 🏳️ CIDR-Yandex | VLESS | TG: @YoutubeUnBlockRu'
   type: vless
   server: 84.252.132.76
   port: 443
@@ -20,14 +28,6 @@ proxies:
   client-fingerprint: random
   servername: www.cloudflare.com
   flow: xtls-rprx-vision
-- name: '2375 | 🇷🇺 Russia | 🏳️ CIDR-Yandex | TROJAN | TG: @YoutubeUnBlockRu'
-  type: trojan
-  server: 158.160.143.21
-  port: 8443
-  password: 80L0GT8FBWLLP39qdXJCtYRRqD1yG_ut
-  udp: true
-  sni: manage.rushtaxi.ru
-  skip-cert-verify: false
 tun:
   enable: true
   stack: system
@@ -112,8 +112,8 @@ proxy-groups:
   hidden: true
   proxies:
   - ⚡️ Авто
-  - '1347 | 🇷🇺 Russia | 🏳️ CIDR-Yandex | VLESS | TG: @YoutubeUnBlockRu'
-  - '2375 | 🇷🇺 Russia | 🏳️ CIDR-Yandex | TROJAN | TG: @YoutubeUnBlockRu'
+  - '0607 | 🇷🇺 Russia | 🏳️ CIDR-Yandex | TROJAN | TG: @YoutubeUnBlockRu'
+  - '2832 | 🇷🇺 Russia | 🏳️ CIDR-Yandex | VLESS | TG: @YoutubeUnBlockRu'
 - name: 📺 Youtube
   type: select
   hidden: true
