@@ -6,42 +6,29 @@ ipv6: true
 unified-delay: true
 tcp-concurrent: true
 proxies:
-- name: '2545 | 🌐 Unknown | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
-  type: vless
-  server: cosmo-pulse.ru
-  port: 443
-  uuid: 7ec9f26a-edec-4bf1-addd-700626df27c1
-  udp: true
-  tls: true
-  network: ws
-  servername: cosmo-pulse.ru
-- name: '3141 | 🌐 Unknown | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
-  type: vless
-  server: cosmo-pulse.ru
-  port: 443
-  uuid: 7ec9f26a-edec-4bf1-addd-700626df27c1
-  udp: true
-  tls: true
-  network: ws
-  servername: cosmo-pulse.ru
-- name: '3394 | 🌐 Unknown | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
+- name: '0535 | 🌐 Unknown | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
   type: vless
   server: tehnomarket-ekb.cc
   port: 443
-  uuid: 5355e7c8-3d44-4da2-a856-a851d6d6ee6b
+  uuid: 46bc4f2e-60e2-4ee3-9112-b3d4b442016c
   udp: true
   tls: true
   network: ws
   servername: tehnomarket-ekb.cc
-- name: '4736 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
+- name: '1729 | 🇷🇺 Russia | 🏳️ CIDR-VK | 🏳️ SNI-Yandex | VLESS | TG: @YoutubeUnBlockRu'
   type: vless
-  server: 185.86.145.142
-  port: 443
-  uuid: 2ed8e35d-04e5-4d9c-b2a8-57887e938982
+  server: 37.139.42.0
+  port: 8444
+  uuid: 5f31357c-0a65-4317-b1e9-3eed4c6f1e65
   udp: true
   tls: true
-  network: ws
-  servername: n2.185-86-145-142.sslip.io
+  reality-opts:
+    public-key: RV-Xl40o_1iJuvjUbCJTb1zDum56CP-2FMVBcPYfSAs
+    short-id: b81467a39cf025de
+    support-x25519mlkem768: true
+  client-fingerprint: random
+  servername: passport.yandex.ru
+  flow: xtls-rprx-vision
 tun:
   enable: true
   stack: system
@@ -126,10 +113,8 @@ proxy-groups:
   hidden: true
   proxies:
   - ⚡️ Авто
-  - '2545 | 🌐 Unknown | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
-  - '3141 | 🌐 Unknown | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
-  - '3394 | 🌐 Unknown | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
-  - '4736 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
+  - '0535 | 🌐 Unknown | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
+  - '1729 | 🇷🇺 Russia | 🏳️ CIDR-VK | 🏳️ SNI-Yandex | VLESS | TG: @YoutubeUnBlockRu'
 - name: 📺 Youtube
   type: select
   hidden: true
