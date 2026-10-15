@@ -10,10 +10,19 @@ proxies:
   type: vless
   server: 188.114.98.0
   port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
   udp: true
   tls: true
   network: ws
+- name: VLESS-188.114.98.0
+  type: vless
+  server: 188.114.98.0
+  port: 2053
+  uuid: 3ee10440-225e-4cbc-83ed-3c80b90bcb07
+  udp: true
+  tls: true
+  network: ws
+  servername: ovh-gr1.mahkhorshidi.ir
 tun:
   enable: true
   stack: system
@@ -99,6 +108,7 @@ proxy-groups:
   proxies:
   - ⚡️ Авто
   - https://t.me/YoutubeUnBlockRu
+  - VLESS-188.114.98.0
 - name: 📺 Youtube
   type: select
   hidden: true
