@@ -6,7 +6,7 @@ ipv6: true
 unified-delay: true
 tcp-concurrent: true
 proxies:
-- name: '0606 | 🇷🇺 Russia | 🏳️ CIDR-Yandex | VMESS | TG: @YoutubeUnBlockRu'
+- name: '0033 | 🇷🇺 Russia | 🏳️ CIDR-Yandex | VMESS | TG: @YoutubeUnBlockRu'
   type: vmess
   server: 158.160.180.165
   port: 24212
@@ -15,7 +15,17 @@ proxies:
   cipher: auto
   udp: true
   tls: true
-- name: '1408 | 🌐 Unknown | 🏳️ CIDR-Yandex | VLESS | TG: @YoutubeUnBlockRu'
+  servername: 158.160.180.165
+- name: '0620 | 🇷🇺 Russia | 🏳️ CIDR-Yandex | VMESS | TG: @YoutubeUnBlockRu'
+  type: vmess
+  server: 158.160.180.165
+  port: 24212
+  uuid: c58c1205-b308-416f-8503-c04557abf93d
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+- name: '1447 | 🌐 Unknown | 🏳️ CIDR-Yandex | VLESS | TG: @YoutubeUnBlockRu'
   type: vless
   server: amber.lalibobi.online
   port: 443
@@ -108,8 +118,9 @@ proxy-groups:
   hidden: true
   proxies:
   - ⚡️ Авто
-  - '0606 | 🇷🇺 Russia | 🏳️ CIDR-Yandex | VMESS | TG: @YoutubeUnBlockRu'
-  - '1408 | 🌐 Unknown | 🏳️ CIDR-Yandex | VLESS | TG: @YoutubeUnBlockRu'
+  - '0033 | 🇷🇺 Russia | 🏳️ CIDR-Yandex | VMESS | TG: @YoutubeUnBlockRu'
+  - '0620 | 🇷🇺 Russia | 🏳️ CIDR-Yandex | VMESS | TG: @YoutubeUnBlockRu'
+  - '1447 | 🌐 Unknown | 🏳️ CIDR-Yandex | VLESS | TG: @YoutubeUnBlockRu'
 - name: 📺 Youtube
   type: select
   hidden: true
