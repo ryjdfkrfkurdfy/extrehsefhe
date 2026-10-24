@@ -6,25 +6,24 @@ ipv6: true
 unified-delay: true
 tcp-concurrent: true
 proxies:
-- name: '3333 | 🇷🇺 Russia | 🏳️ CIDR-VK | 🏳️ SNI-Yandex | VLESS | TG: @YoutubeUnBlockRu'
+- name: '2391 | 🌐 Unknown | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
   type: vless
-  server: 37.139.42.208
-  port: 8445
-  uuid: b5cbeffe-d7d0-49dd-a279-6b5a6a1aad0d
-  udp: true
-  tls: true
-  client-fingerprint: firefox
-  servername: passport.yandex.ru
-  flow: xtls-rprx-vision
-- name: '3478 | 🌐 Unknown | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
-  type: vless
-  server: heoleti.pro
-  port: 14443
-  uuid: 2d5cc88b-802e-4c01-9acd-4d532040fdcb
+  server: online.wyre-file.ru
+  port: 443
+  uuid: 80f7b6c7-2b3c-4937-af9e-49404d926e7c
   udp: true
   tls: true
   network: ws
-  servername: heoleti.pro
+  servername: online.wyre-file.ru
+- name: '2995 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
+  type: vless
+  server: 185.86.145.183
+  port: 443
+  uuid: 80f7b6c7-2b3c-4937-af9e-49404d926e7c
+  udp: true
+  tls: true
+  network: ws
+  servername: online.wyre-file.ru
 tun:
   enable: true
   stack: system
@@ -109,8 +108,8 @@ proxy-groups:
   hidden: true
   proxies:
   - ⚡️ Авто
-  - '3333 | 🇷🇺 Russia | 🏳️ CIDR-VK | 🏳️ SNI-Yandex | VLESS | TG: @YoutubeUnBlockRu'
-  - '3478 | 🌐 Unknown | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
+  - '2391 | 🌐 Unknown | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
+  - '2995 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
 - name: 📺 Youtube
   type: select
   hidden: true
