@@ -8,18 +8,12 @@ tcp-concurrent: true
 proxies:
 - name: https://t.me/YoutubeUnBlockRu
   type: vless
-  server: 89.127.211.136
-  port: 443
-  uuid: a0d13aaf-d314-4ed4-b254-3941b7fe8399
+  server: 104.18.0.181
+  port: 2052
+  uuid: 5744e593-1cc8-48fa-b8ca-57cd494fe35b
   udp: true
-  tls: true
-  reality-opts:
-    public-key: pX5gBaqZ57BIArPg8zxl4_DWEZoAvegxdxEjHQFHfWM
-    short-id: dbafdfc81bc20552
-    support-x25519mlkem768: true
-  client-fingerprint: firefox
-  servername: www.sony.co.uk
-  flow: xtls-rprx-vision
+  tls: false
+  network: ws
 tun:
   enable: true
   stack: system
