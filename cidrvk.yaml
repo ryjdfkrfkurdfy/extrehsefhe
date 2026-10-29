@@ -6,7 +6,16 @@ ipv6: true
 unified-delay: true
 tcp-concurrent: true
 proxies:
-- name: '0283 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
+- name: '0085 | 🇦🇹 Austria | 🏳️ CIDR-VK | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  type: vless
+  server: ararat.rtkdvbr.cc
+  port: 443
+  uuid: 04b7c62b-762e-4a8c-ba37-8328d25c8d74
+  udp: true
+  tls: true
+  network: ws
+  servername: ararat.rtkdvbr.cc
+- name: '0291 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
   type: vless
   server: 185.86.145.37
   port: 443
@@ -15,7 +24,7 @@ proxies:
   tls: true
   network: ws
   servername: pulse-resume.pro
-- name: '0769 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
+- name: '0789 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
   type: vless
   server: 217.16.31.218
   port: 5003
@@ -26,7 +35,7 @@ proxies:
   servername: de1.frost-api.com
   grpc-opts:
     grpc-service-name: media.playback.v1.SessionGateway
-- name: '1489 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
+- name: '1519 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
   type: vless
   server: 217.16.31.218
   port: 5003
@@ -37,7 +46,7 @@ proxies:
   servername: de1.frost-api.com
   grpc-opts:
     grpc-service-name: media.playback.v1.SessionGateway
-- name: '2448 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
+- name: '2502 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
   type: vless
   server: 185.86.145.142
   port: 2096
@@ -46,7 +55,18 @@ proxies:
   tls: true
   network: xhttp
   servername: apis.heoleti.pro
-- name: '2618 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
+- name: '2658 | 🌐 Unknown | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
+  type: vless
+  server: node6.frost-api.com
+  port: 5003
+  uuid: ddc27ad2-631e-4431-b380-0045547acef4
+  udp: true
+  tls: true
+  network: grpc
+  servername: de1.frost-api.com
+  grpc-opts:
+    grpc-service-name: media.playback.v1.SessionGateway
+- name: '2676 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
   type: vless
   server: 185.86.145.37
   port: 443
@@ -139,11 +159,13 @@ proxy-groups:
   hidden: true
   proxies:
   - ⚡️ Авто
-  - '0283 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
-  - '0769 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
-  - '1489 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
-  - '2448 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
-  - '2618 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
+  - '0085 | 🇦🇹 Austria | 🏳️ CIDR-VK | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  - '0291 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
+  - '0789 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
+  - '1519 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
+  - '2502 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
+  - '2658 | 🌐 Unknown | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
+  - '2676 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
 - name: 📺 Youtube
   type: select
   hidden: true
