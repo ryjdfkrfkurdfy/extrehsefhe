@@ -6,7 +6,7 @@ ipv6: true
 unified-delay: true
 tcp-concurrent: true
 proxies:
-- name: '0512 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
+- name: '0549 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
   type: vless
   server: 217.16.31.218
   port: 5003
@@ -17,7 +17,7 @@ proxies:
   servername: de1.frost-api.com
   grpc-opts:
     grpc-service-name: media.playback.v1.SessionGateway
-- name: '1105 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
+- name: '1171 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
   type: vless
   server: 217.16.31.218
   port: 5003
@@ -28,7 +28,7 @@ proxies:
   servername: de1.frost-api.com
   grpc-opts:
     grpc-service-name: media.playback.v1.SessionGateway
-- name: '2010 | 🌐 Unknown | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
+- name: '2115 | 🌐 Unknown | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
   type: vless
   server: node6.frost-api.com
   port: 5003
@@ -39,6 +39,19 @@ proxies:
   servername: de1.frost-api.com
   grpc-opts:
     grpc-service-name: media.playback.v1.SessionGateway
+- name: '2204 | 🇷🇺 Russia | 🏳️ CIDR-VK | 🏳️ SNI-Yandex | VLESS | TG: @YoutubeUnBlockRu'
+  type: vless
+  server: 185.86.145.174
+  port: 9444
+  uuid: 202ab4e9-d944-49af-8dae-72541f227734
+  udp: true
+  tls: true
+  reality-opts:
+    public-key: kFbLiztysJGEnqzWRH1JLbPzDUZyaI1eglpD4ORSOyA
+    short-id: 309975573a744b32
+    support-x25519mlkem768: true
+  client-fingerprint: firefox
+  servername: passport.yandex.ru
 tun:
   enable: true
   stack: system
@@ -123,9 +136,10 @@ proxy-groups:
   hidden: true
   proxies:
   - ⚡️ Авто
-  - '0512 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
-  - '1105 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
-  - '2010 | 🌐 Unknown | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
+  - '0549 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
+  - '1171 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
+  - '2115 | 🌐 Unknown | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
+  - '2204 | 🇷🇺 Russia | 🏳️ CIDR-VK | 🏳️ SNI-Yandex | VLESS | TG: @YoutubeUnBlockRu'
 - name: 📺 Youtube
   type: select
   hidden: true
