@@ -8,13 +8,15 @@ tcp-concurrent: true
 proxies:
 - name: https://t.me/YoutubeUnBlockRu
   type: vless
-  server: 104.17.154.123
+  server: 147.45.126.220
   port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
+  uuid: 989d4512-b4fa-4f83-aff1-affbb906f4c7
   udp: true
   tls: true
-  network: ws
-  servername: ccc.010304.xyz
+  network: grpc
+  servername: pol.qikbro.com
+  grpc-opts:
+    grpc-service-name: assets
 tun:
   enable: true
   stack: system
