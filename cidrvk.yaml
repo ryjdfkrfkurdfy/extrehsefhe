@@ -6,7 +6,7 @@ ipv6: true
 unified-delay: true
 tcp-concurrent: true
 proxies:
-- name: '2165 | 🌐 Unknown | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
+- name: '2203 | 🌐 Unknown | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
   type: vless
   server: connect.accessgate.link
   port: 2081
@@ -20,9 +20,24 @@ proxies:
   client-fingerprint: edge
   servername: unpkg.com
   flow: xtls-rprx-vision
-- name: '2580 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
+- name: '2626 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
   type: vless
   server: 217.16.26.34
+  port: 2081
+  uuid: 2f6c70f3-206a-4bc1-ac1f-6b70153f9c73
+  udp: true
+  tls: true
+  network: raw
+  reality-opts:
+    public-key: CQBmePak1QN5SsSmK_KTOSLjsCTaiaM4Jtxt7jLheko
+    short-id: b0d8c9a285c70f6f
+    support-x25519mlkem768: true
+  client-fingerprint: edge
+  servername: unpkg.com
+  flow: xtls-rprx-vision
+- name: '2894 | 🌐 Unknown | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
+  type: vless
+  server: connect.accessgate.link
   port: 2081
   uuid: 2f6c70f3-206a-4bc1-ac1f-6b70153f9c73
   udp: true
@@ -119,8 +134,9 @@ proxy-groups:
   hidden: true
   proxies:
   - ⚡️ Авто
-  - '2165 | 🌐 Unknown | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
-  - '2580 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
+  - '2203 | 🌐 Unknown | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
+  - '2626 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
+  - '2894 | 🌐 Unknown | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
 - name: 📺 Youtube
   type: select
   hidden: true
