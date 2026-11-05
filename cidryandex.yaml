@@ -6,7 +6,16 @@ ipv6: true
 unified-delay: true
 tcp-concurrent: true
 proxies:
-- name: '0835 | 🌐 Unknown | 🏳️ CIDR-Yandex | VLESS | TG: @YoutubeUnBlockRu'
+- name: '0071 | 🌐 Unknown | 🏳️ CIDR-Yandex | VLESS | TG: @YoutubeUnBlockRu'
+  type: vless
+  server: cdn.oldertown.ru
+  port: 443
+  uuid: 29777784-b5ad-4e2a-be7b-335f033ab97c
+  udp: true
+  tls: true
+  network: xhttp
+  servername: cdn.oldertown.ru
+- name: '0862 | 🌐 Unknown | 🏳️ CIDR-Yandex | VLESS | TG: @YoutubeUnBlockRu'
   type: vless
   server: cdn5.japancase.site
   port: 443
@@ -99,7 +108,8 @@ proxy-groups:
   hidden: true
   proxies:
   - ⚡️ Авто
-  - '0835 | 🌐 Unknown | 🏳️ CIDR-Yandex | VLESS | TG: @YoutubeUnBlockRu'
+  - '0071 | 🌐 Unknown | 🏳️ CIDR-Yandex | VLESS | TG: @YoutubeUnBlockRu'
+  - '0862 | 🌐 Unknown | 🏳️ CIDR-Yandex | VLESS | TG: @YoutubeUnBlockRu'
 - name: 📺 Youtube
   type: select
   hidden: true
