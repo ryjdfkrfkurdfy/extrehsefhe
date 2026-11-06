@@ -6,7 +6,7 @@ ipv6: true
 unified-delay: true
 tcp-concurrent: true
 proxies:
-- name: '0695 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
+- name: '0696 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
   type: vless
   server: 185.86.145.37
   port: 443
@@ -15,6 +15,20 @@ proxies:
   tls: true
   network: ws
   servername: rar.rtkdvbr.cc
+- name: '1770 | 🌐 Unknown | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
+  type: vless
+  server: sub-edge-05-1g.whitenw.net
+  port: 20001
+  uuid: 67c3f089-46cb-4c09-b207-524aa3fd6625
+  udp: true
+  tls: true
+  network: xhttp
+  reality-opts:
+    public-key: kDEc42JBZxig3BrLD3V1ofs3oJZk15-ANWN-rM0JW10
+    short-id: f28145401b4f633a
+    support-x25519mlkem768: true
+  client-fingerprint: chrome
+  servername: ligastavok.ru
 tun:
   enable: true
   stack: system
@@ -99,7 +113,8 @@ proxy-groups:
   hidden: true
   proxies:
   - ⚡️ Авто
-  - '0695 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
+  - '0696 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
+  - '1770 | 🌐 Unknown | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
 - name: 📺 Youtube
   type: select
   hidden: true
