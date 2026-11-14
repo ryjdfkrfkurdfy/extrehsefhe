@@ -6,7 +6,7 @@ ipv6: true
 unified-delay: true
 tcp-concurrent: true
 proxies:
-- name: '0487 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
+- name: '0498 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
   type: vless
   server: 185.86.145.190
   port: 52831
@@ -15,7 +15,7 @@ proxies:
   tls: true
   network: xhttp
   servername: origin.mtrxnet.click
-- name: '0699 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
+- name: '0721 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
   type: vless
   server: 185.86.145.190
   port: 52831
@@ -24,7 +24,7 @@ proxies:
   tls: true
   network: xhttp
   servername: origin.mtrxnet.click
-- name: '1195 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
+- name: '1229 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
   type: vless
   server: 185.86.145.55
   port: 10470
@@ -35,6 +35,48 @@ proxies:
   servername: wn-pl4.static-s3.org
   grpc-opts:
     grpc-service-name: wn-adaptcloud
+- name: '1569 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
+  type: vless
+  server: 212.233.90.78
+  port: 443
+  uuid: 9548ef84-b54d-41dc-b17c-9da21d52ba82
+  udp: true
+  tls: true
+  reality-opts:
+    public-key: FwPphm8xGAKY6u74WDRVrcVye3A7GdLDfJoNSDWFsFQ
+    short-id: 2c6df23e
+    support-x25519mlkem768: true
+  client-fingerprint: chrome
+  servername: birch-ledger.justext.space
+  flow: xtls-rprx-vision
+- name: '1578 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
+  type: vless
+  server: 212.233.90.78
+  port: 8443
+  uuid: 7f12420d-b0a7-48b6-aec4-4190b8027ec5
+  udp: true
+  tls: true
+  reality-opts:
+    public-key: t8aH4xSec-bs7fAAeDT-zARIJO9XbFfqlUeA65IP-TE
+    short-id: 1b4606dfa74f3ab1
+    support-x25519mlkem768: true
+  client-fingerprint: firefox
+  servername: birch-ledger.justext.space
+  flow: xtls-rprx-vision
+- name: '1654 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
+  type: vless
+  server: 212.233.90.78
+  port: 443
+  uuid: 9548ef84-b54d-41dc-b17c-9da21d52ba82
+  udp: true
+  tls: true
+  reality-opts:
+    public-key: FwPphm8xGAKY6u74WDRVrcVye3A7GdLDfJoNSDWFsFQ
+    short-id: 2c6df23e
+    support-x25519mlkem768: true
+  client-fingerprint: firefox
+  servername: birch-ledger.justext.space
+  flow: xtls-rprx-vision
 tun:
   enable: true
   stack: system
@@ -119,9 +161,12 @@ proxy-groups:
   hidden: true
   proxies:
   - ⚡️ Авто
-  - '0487 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
-  - '0699 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
-  - '1195 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
+  - '0498 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
+  - '0721 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
+  - '1229 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
+  - '1569 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
+  - '1578 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
+  - '1654 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
 - name: 📺 Youtube
   type: select
   hidden: true
