@@ -6,7 +6,7 @@ ipv6: true
 unified-delay: true
 tcp-concurrent: true
 proxies:
-- name: '1036 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
+- name: '1045 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
   type: vless
   server: 185.86.145.183
   port: 443
@@ -15,7 +15,7 @@ proxies:
   tls: true
   network: ws
   servername: cdn.quick-frost.ru
-- name: '2053 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
+- name: '2075 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
   type: vless
   server: 185.86.145.223
   port: 9449
@@ -30,7 +30,7 @@ proxies:
   client-fingerprint: firefox
   servername: tmuk1.trust.rumost.top
   flow: xtls-rprx-vision
-- name: '2127 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
+- name: '2153 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
   type: vless
   server: 185.86.145.223
   port: 9449
@@ -44,7 +44,7 @@ proxies:
   client-fingerprint: firefox
   servername: tmuk1.trust.rumost.top
   flow: xtls-rprx-vision
-- name: '2330 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
+- name: '2358 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
   type: vless
   server: 185.86.145.183
   port: 443
@@ -53,6 +53,21 @@ proxies:
   tls: true
   network: ws
   servername: cdn.quick-frost.ru
+- name: '2746 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
+  type: vless
+  server: 185.86.145.223
+  port: 9449
+  uuid: 96c760c3-6949-4a00-b603-16173b9b1a66
+  udp: true
+  tls: true
+  network: raw
+  reality-opts:
+    public-key: VB9m1gQWzJWBXa49PMVGKkI94KN0XRCpC1BSpQP7yzk
+    short-id: 0cc15b71a8a6a380
+    support-x25519mlkem768: true
+  client-fingerprint: firefox
+  servername: tmuk1.trust.rumost.top
+  flow: xtls-rprx-vision
 tun:
   enable: true
   stack: system
@@ -137,10 +152,11 @@ proxy-groups:
   hidden: true
   proxies:
   - ⚡️ Авто
-  - '1036 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
-  - '2053 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
-  - '2127 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
-  - '2330 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
+  - '1045 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
+  - '2075 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
+  - '2153 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
+  - '2358 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
+  - '2746 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
 - name: 📺 Youtube
   type: select
   hidden: true
