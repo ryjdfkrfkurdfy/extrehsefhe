@@ -6,7 +6,7 @@ ipv6: true
 unified-delay: true
 tcp-concurrent: true
 proxies:
-- name: '1371 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
+- name: '1378 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
   type: vless
   server: 185.86.145.173
   port: 443
@@ -15,6 +15,20 @@ proxies:
   tls: true
   network: xhttp
   servername: wholebeam.com
+- name: '1590 | 🌐 Unknown | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
+  type: vless
+  server: sub-edge-05-1g.whitenw.net
+  port: 20001
+  uuid: 6cc984c7-dead-4c10-a600-6ef2c062b791
+  udp: true
+  tls: true
+  network: xhttp
+  reality-opts:
+    public-key: kDEc42JBZxig3BrLD3V1ofs3oJZk15-ANWN-rM0JW10
+    short-id: f28145401b4f633a
+    support-x25519mlkem768: true
+  client-fingerprint: chrome
+  servername: ligastavok.ru
 tun:
   enable: true
   stack: system
@@ -99,7 +113,8 @@ proxy-groups:
   hidden: true
   proxies:
   - ⚡️ Авто
-  - '1371 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
+  - '1378 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
+  - '1590 | 🌐 Unknown | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
 - name: 📺 Youtube
   type: select
   hidden: true
