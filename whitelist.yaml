@@ -6,16 +6,18 @@ ipv6: true
 unified-delay: true
 tcp-concurrent: true
 proxies:
-- name: '0055 | 🇺🇸 USA | 🏳️ CIDR-MTFinance | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+- name: '0004 | 🇷🇺 Russia | 🏳️ CIDR-TimeWeb | VLESS | TG: @YoutubeUnBlockRu'
   type: vless
-  server: focus.tcpshield.fun
-  port: 8443
-  uuid: 3e1798b2-8b39-49e8-9f5f-f3235a16bd66
+  server: 81.200.158.26
+  port: 443
+  uuid: 0b6a7fe0-206b-4071-9f96-cd397d1ec01a
   udp: true
   tls: true
-  network: ws
-  servername: focus.tcpshield.fun
-- name: '0074 | 🇬🇧 United Kingdom | 🏳️ SNI-X5 | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  network: grpc
+  servername: fernglade.gerqix.online
+  grpc-opts:
+    grpc-service-name: glush.de1.v1
+- name: '0040 | 🇬🇧 United Kingdom | 🏳️ SNI-X5 | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
   type: vless
   server: 138.124.125.193
   port: 10444
@@ -29,7 +31,7 @@ proxies:
   client-fingerprint: random
   servername: ads.x5.ru
   flow: xtls-rprx-vision
-- name: '0093 | 🌐 Unknown | 🏳️ CIDR-DDoSGuard | VLESS | TG: @YoutubeUnBlockRu'
+- name: '0053 | 🌐 Unknown | 🏳️ CIDR-DDoSGuard | VLESS | TG: @YoutubeUnBlockRu'
   type: vless
   server: api.14887277.xyz
   port: 443
@@ -38,7 +40,7 @@ proxies:
   tls: true
   network: ws
   servername: trx.tools
-- name: '0250 | 🇷🇺 Russia | 🏳️ CIDR-TimeWeb | VLESS | TG: @YoutubeUnBlockRu'
+- name: '0147 | 🇷🇺 Russia | 🏳️ CIDR-TimeWeb | VLESS | TG: @YoutubeUnBlockRu'
   type: vless
   server: 188.225.46.6
   port: 443
@@ -47,30 +49,7 @@ proxies:
   tls: true
   servername: spb.b2ai.top
   flow: xtls-rprx-vision
-- name: '0321 | 🇧🇾 Belarus | 🏳️ SNI-X5 | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
-  type: vless
-  server: 178.172.227.124
-  port: 10444
-  uuid: 1af36694-b548-4b18-89a0-bc076eab4ed7
-  udp: true
-  tls: true
-  reality-opts:
-    public-key: 0oTkcqwLTUNLnSOP-VUWErmy6usAIg-biBE6ioZO-Vo
-    short-id: 8debcf36f1cc69ff
-    support-x25519mlkem768: true
-  client-fingerprint: firefox
-  servername: ads.x5.ru
-  flow: xtls-rprx-vision
-- name: '0323 | 🌐 Unknown | 🏳️ CIDR-Yandex | VLESS | TG: @YoutubeUnBlockRu'
-  type: vless
-  server: cdn3.aleqseivpn.site
-  port: 443
-  uuid: e2a1c9f4-3b7d-4e6a-9c2f-8a1d5f6b7c9e
-  udp: true
-  tls: true
-  network: xhttp
-  servername: cdn3.aleqseivpn.site
-- name: '0332 | 🇷🇺 Russia | 🏳️ CIDR-DDoSGuard | VLESS | TG: @YoutubeUnBlockRu'
+- name: '0191 | 🇷🇺 Russia | 🏳️ CIDR-DDoSGuard | VLESS | TG: @YoutubeUnBlockRu'
   type: vless
   server: 185.178.208.167
   port: 443
@@ -79,16 +58,7 @@ proxies:
   tls: true
   network: ws
   servername: trx.tools
-- name: '0367 | 🇷🇺 Russia | 🏳️ CIDR-DDoSGuard | VLESS | TG: @YoutubeUnBlockRu'
-  type: vless
-  server: 185.178.208.167
-  port: 443
-  uuid: 6bd1d88f-0a26-4d21-b325-15d85120b883
-  udp: true
-  tls: true
-  network: ws
-  servername: sw-api.telemetryapi.org
-- name: '0374 | 🇳🇱 Netherlands | 🏳️ SNI-OK | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+- name: '0221 | 🇳🇱 Netherlands | 🏳️ SNI-OK | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
   type: vless
   server: 87.199.205.28
   port: 443
@@ -103,23 +73,14 @@ proxies:
   client-fingerprint: firefox
   servername: vkvd754.okcdn.ru
   flow: xtls-rprx-vision
-- name: '0378 | 🇳🇱 Netherlands | 🏳️ SNI-VK | HYSTERIA2 | 📺 YT | TG: @YoutubeUnBlockRu'
+- name: '0223 | 🇳🇱 Netherlands | 🏳️ SNI-VK | HYSTERIA2 | 📺 YT | TG: @YoutubeUnBlockRu'
   type: hysteria2
   server: 5.129.235.85
   port: 443
   password: gf1:gfhysteria2024
   udp: true
   sni: vk.com
-- name: '0388 | 🇷🇺 Russia | 🏳️ CIDR-DDoSGuard | VLESS | TG: @YoutubeUnBlockRu'
-  type: vless
-  server: 185.178.208.167
-  port: 443
-  uuid: 6bd1d88f-0a26-4d21-b325-15d85120b883
-  udp: true
-  tls: true
-  network: ws
-  servername: sw-api.telemetryapi.org
-- name: '0511 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
+- name: '0295 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
   type: vless
   server: 37.139.42.227
   port: 7443
@@ -130,16 +91,7 @@ proxies:
   client-fingerprint: firefox
   servername: multiqq.mcufa.pro
   flow: xtls-rprx-vision
-- name: '0524 | 🇷🇺 Russia | 🏳️ CIDR-MegaFon | VLESS | TG: @YoutubeUnBlockRu'
-  type: vless
-  server: 178.176.128.203
-  port: 443
-  uuid: 7f4c8a21-f65e-41d7-bac5-4f85065a5e75
-  udp: true
-  tls: true
-  network: xhttp
-  servername: edge-nl.videocreatorisell.online
-- name: '0563 | 🇷🇺 Russia | 🏳️ CIDR-SmartApe | VLESS | TG: @YoutubeUnBlockRu'
+- name: '0318 | 🇷🇺 Russia | 🏳️ CIDR-SmartApe | VLESS | TG: @YoutubeUnBlockRu'
   type: vless
   server: 31.177.111.136
   port: 443
@@ -148,7 +100,7 @@ proxies:
   tls: true
   network: ws
   servername: q075gi2cms.schoolbag.top
-- name: '0564 | 🇺🇸 USA | 🏳️ SNI-X5 | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+- name: '0320 | 🇺🇸 USA | 🏳️ SNI-X5 | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
   type: vless
   server: 45.138.100.248
   port: 10444
@@ -162,7 +114,7 @@ proxies:
   client-fingerprint: firefox
   servername: ads.x5.ru
   flow: xtls-rprx-vision
-- name: '0603 | 🇳🇱 Netherlands | 🏳️ SNI-OK | VLESS | 📺 YT | 🔐 Stable | TG: @YoutubeUnBlockRu'
+- name: '0341 | 🇳🇱 Netherlands | 🏳️ SNI-OK | VLESS | 📺 YT | 🔐 Stable | TG: @YoutubeUnBlockRu'
   type: vless
   server: 87.199.205.28
   port: 443
@@ -176,57 +128,7 @@ proxies:
   client-fingerprint: firefox
   servername: vkvd754.okcdn.ru
   flow: xtls-rprx-vision
-- name: '0634 | 🇷🇺 Russia | 🏳️ CIDR-DDoSGuard | VLESS | TG: @YoutubeUnBlockRu'
-  type: vless
-  server: 95.129.236.239
-  port: 443
-  uuid: a71d6c6d-c95e-4ec1-a892-22e21733bf09
-  udp: true
-  tls: true
-  network: ws
-  servername: files-qzgs.login.opendns.stream
-- name: '0643 | 🇷🇺 Russia | 🏳️ CIDR-Yandex | VLESS | TG: @YoutubeUnBlockRu'
-  type: vless
-  server: 188.72.112.1
-  port: 443
-  uuid: 2ff4dec5-1759-4390-a8f7-6d117da2b21e
-  udp: true
-  tls: true
-  network: xhttp
-  servername: toterdo.rigdol.garden
-- name: '0654 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
-  type: vless
-  server: 185.86.145.190
-  port: 52831
-  uuid: 1faf34e5-b68b-49d0-9f2c-f20301fd28bd
-  udp: true
-  tls: true
-  network: xhttp
-  servername: origin.mtrxnet.click
-- name: '0710 | 🌐 Unknown | 🏳️ CIDR-DDoSGuard | VLESS | TG: @YoutubeUnBlockRu'
-  type: vless
-  server: sw-api.telemetryapi.org
-  port: 443
-  uuid: 6bd1d88f-0a26-4d21-b325-15d85120b883
-  udp: true
-  tls: true
-  network: ws
-  servername: sw-api.telemetryapi.org
-- name: '0720 | 🇺🇸 USA | 🏳️ SNI-X5 | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
-  type: vless
-  server: 45.138.100.248
-  port: 10444
-  uuid: ae908ff5-f749-402c-af25-e6e9aef4d6bb
-  udp: true
-  tls: true
-  reality-opts:
-    public-key: 0oTkcqwLTUNLnSOP-VUWErmy6usAIg-biBE6ioZO-Vo
-    short-id: 8debcf36f1cc69ff
-    support-x25519mlkem768: true
-  client-fingerprint: safari
-  servername: ads.x5.ru
-  flow: xtls-rprx-vision
-- name: '0770 | 🌐 Unknown | 🏳️ CIDR-EuroByte | VLESS | TG: @YoutubeUnBlockRu'
+- name: '0446 | 🌐 Unknown | 🏳️ CIDR-EuroByte | VLESS | TG: @YoutubeUnBlockRu'
   type: vless
   server: ihc212.maxleshax.icu
   port: 443
@@ -236,7 +138,7 @@ proxies:
   client-fingerprint: firefox
   servername: ihc14.maxleshax.icu
   flow: xtls-rprx-vision
-- name: '0809 | 🇷🇺 Russia | 🏳️ CIDR-Yandex | VLESS | TG: @YoutubeUnBlockRu'
+- name: '0474 | 🇷🇺 Russia | 🏳️ CIDR-Yandex | VLESS | TG: @YoutubeUnBlockRu'
   type: vless
   server: 188.72.112.1
   port: 443
@@ -245,30 +147,7 @@ proxies:
   tls: true
   network: xhttp
   servername: cdnpl.worldfly.io
-- name: '0832 | 🇷🇺 Russia | 🏳️ SNI-MAX | VLESS | TG: @YoutubeUnBlockRu'
-  type: vless
-  server: 135.106.208.37
-  port: 443
-  uuid: 7384d777-cd1b-56f3-a31a-d7f69daf45ed
-  udp: true
-  tls: true
-  reality-opts:
-    public-key: VgX9N3I4ELJA5PCSaEXwJMly3GprvfDWhNTAu5yfgm0
-    short-id: c00d8a77
-    support-x25519mlkem768: true
-  client-fingerprint: random
-  servername: max.ru
-  flow: xtls-rprx-vision
-- name: '0862 | 🇳🇱 Netherlands | 🏳️ SNI-VK | HYSTERIA2 | 📺 YT | TG: @YoutubeUnBlockRu'
-  type: hysteria2
-  server: 51.15.19.206
-  port: 8443
-  password: HowdyHysteria2023w0W
-  udp: true
-  sni: vk.com
-  obfs: salamander
-  obfs-password: HysteriaHowdy
-- name: '0866 | 🌐 Unknown | 🏳️ CIDR-DDoSGuard | VLESS | TG: @YoutubeUnBlockRu'
+- name: '0506 | 🌐 Unknown | 🏳️ CIDR-DDoSGuard | VLESS | TG: @YoutubeUnBlockRu'
   type: vless
   server: api.14887277.xyz
   port: 443
@@ -277,7 +156,7 @@ proxies:
   tls: true
   network: ws
   servername: trx.tools
-- name: '0896 | 🇷🇺 Russia | 🏳️ SNI-Gosuslugi | VLESS | TG: @YoutubeUnBlockRu'
+- name: '0522 | 🇷🇺 Russia | 🏳️ SNI-Gosuslugi | VLESS | TG: @YoutubeUnBlockRu'
   type: vless
   server: 147.45.98.78
   port: 443
@@ -291,54 +170,7 @@ proxies:
   client-fingerprint: firefox
   servername: www.gosuslugi.ru
   flow: xtls-rprx-vision
-- name: '0897 | 🇳🇱 Netherlands | 🏳️ SNI-MAX | VLESS | 📺 YT | 🔐 Stable | TG: @YoutubeUnBlockRu'
-  type: vless
-  server: 213.165.39.134
-  port: 443
-  uuid: 6a251a93-8eee-43b5-92ed-ecadedcfd0a8
-  udp: true
-  tls: true
-  reality-opts:
-    public-key: Gtz3xOdQdWSocdx4NNie6s-bsa9VDiG6thqanJ4h31s
-    short-id: 6f3332a09b0ab6d1
-    support-x25519mlkem768: true
-  client-fingerprint: firefox
-  servername: platform-api.max.ru
-  flow: xtls-rprx-vision
-- name: '0907 | 🇩🇪 Germany | 🏳️ CIDR-Hostkey | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
-  type: vless
-  server: vde.b.qaz.it.com
-  port: 9543
-  uuid: 920b3cd9-4f82-4669-bbd2-d4a28b9052c6
-  udp: true
-  tls: true
-  network: raw
-  reality-opts:
-    public-key: M6Ck7wUfOLhQl4582CBnaXwscPEP6SCpdEkUDzoj4Fc
-    short-id: 123abcdf
-    support-x25519mlkem768: true
-  client-fingerprint: firefox
-  servername: storage.yandexcloud.net
-  flow: xtls-rprx-vision
-- name: '0913 | 🌐 Unknown | 🏳️ CIDR-MegaFon | VLESS | TG: @YoutubeUnBlockRu'
-  type: vless
-  server: edge-nl.videocreatorisell.online
-  port: 443
-  uuid: 7f4c8a21-f65e-41d7-bac5-4f85065a5e75
-  udp: true
-  tls: true
-  network: xhttp
-  servername: edge-nl.videocreatorisell.online
-- name: '0933 | 🇷🇺 Russia | 🏳️ CIDR-MTS | VLESS | TG: @YoutubeUnBlockRu'
-  type: vless
-  server: 91.185.83.43
-  port: 443
-  uuid: 7955bf18-35c4-412d-aabd-c0b36c793063
-  udp: true
-  tls: true
-  network: ws
-  servername: pssdwynorv.newwl.pro
-- name: '0941 | 🇷🇺 Russia | 🏳️ CIDR-TimeWeb | VLESS | TG: @YoutubeUnBlockRu'
+- name: '0549 | 🇷🇺 Russia | 🏳️ CIDR-TimeWeb | VLESS | TG: @YoutubeUnBlockRu'
   type: vless
   server: 81.200.158.26
   port: 443
@@ -349,18 +181,7 @@ proxies:
   servername: fernglade.gerqix.online
   grpc-opts:
     grpc-service-name: glush.de1.v1
-- name: '0942 | 🇷🇺 Russia | 🏳️ CIDR-TimeWeb | VLESS | TG: @YoutubeUnBlockRu'
-  type: vless
-  server: 81.200.158.26
-  port: 443
-  uuid: 0b6a7fe0-206b-4071-9f96-cd397d1ec01a
-  udp: true
-  tls: true
-  network: grpc
-  servername: fernglade.gerqix.online
-  grpc-opts:
-    grpc-service-name: glush.de1.v1
-- name: '0953 | 🌐 Unknown | 🏳️ CIDR-Citytelecom | 🏳️ SNI-VK | VLESS | TG: @YoutubeUnBlockRu'
+- name: '0557 | 🌐 Unknown | 🏳️ CIDR-Citytelecom | 🏳️ SNI-VK | VLESS | TG: @YoutubeUnBlockRu'
   type: vless
   server: f828nczurr.newwl.pro
   port: 443
@@ -374,7 +195,7 @@ proxies:
   client-fingerprint: firefox
   servername: push.vk.ru
   flow: xtls-rprx-vision
-- name: '0995 | 🇷🇺 Russia | 🏳️ CIDR-HLL | VLESS | TG: @YoutubeUnBlockRu'
+- name: '0583 | 🇷🇺 Russia | 🏳️ CIDR-HLL | VLESS | TG: @YoutubeUnBlockRu'
   type: vless
   server: 178.248.236.229
   port: 443
@@ -388,7 +209,7 @@ proxies:
   client-fingerprint: firefox
   servername: 144.hexdey.com
   flow: xtls-rprx-vision
-- name: '1000 | 🇱🇹 Lithuania | 🏳️ CIDR-SmartApe | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+- name: '0586 | 🇱🇹 Lithuania | 🏳️ CIDR-SmartApe | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
   type: vless
   server: alt.edge-assets.ru
   port: 443
@@ -397,7 +218,7 @@ proxies:
   tls: true
   network: xhttp
   servername: alt.edge-assets.ru
-- name: '1029 | 🇷🇺 Russia | 🏳️ CIDR-SmartApe | VLESS | TG: @YoutubeUnBlockRu'
+- name: '0601 | 🇷🇺 Russia | 🏳️ CIDR-SmartApe | VLESS | TG: @YoutubeUnBlockRu'
   type: vless
   server: 31.177.111.136
   port: 443
@@ -406,7 +227,7 @@ proxies:
   tls: true
   network: ws
   servername: q075gi2cms.schoolbag.top
-- name: '1069 | 🇷🇺 Russia | 🏳️ CIDR-Yandex | VLESS | TG: @YoutubeUnBlockRu'
+- name: '0626 | 🇷🇺 Russia | 🏳️ CIDR-Yandex | VLESS | TG: @YoutubeUnBlockRu'
   type: vless
   server: 188.72.112.1
   port: 443
@@ -415,7 +236,21 @@ proxies:
   tls: true
   network: xhttp
   servername: cdn.stream-media-cdn.ru
-- name: '1111 | 🌐 Unknown | 🏳️ CIDR-Yandex | VLESS | TG: @YoutubeUnBlockRu'
+- name: '0653 | 🌐 Unknown | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
+  type: vless
+  server: sub-edge-05-1g.whitenw.net
+  port: 20001
+  uuid: 6cc984c7-dead-4c10-a600-6ef2c062b791
+  udp: true
+  tls: true
+  network: xhttp
+  reality-opts:
+    public-key: kDEc42JBZxig3BrLD3V1ofs3oJZk15-ANWN-rM0JW10
+    short-id: f28145401b4f633a
+    support-x25519mlkem768: true
+  client-fingerprint: chrome
+  servername: ligastavok.ru
+- name: '0658 | 🌐 Unknown | 🏳️ CIDR-Yandex | VLESS | TG: @YoutubeUnBlockRu'
   type: vless
   server: cdnpl.worldfly.io
   port: 443
@@ -424,21 +259,7 @@ proxies:
   tls: true
   network: xhttp
   servername: cdnpl.worldfly.io
-- name: '1145 | 🇸🇪 Sweden | 🏳️ SNI-Yandex | VLESS | 📺 YT | 🔐 Stable | TG: @YoutubeUnBlockRu'
-  type: vless
-  server: 193.188.21.253
-  port: 10444
-  uuid: 57f7772d-f5d6-4d8f-992d-5fa5e0d6da55
-  udp: true
-  tls: true
-  reality-opts:
-    public-key: 0oTkcqwLTUNLnSOP-VUWErmy6usAIg-biBE6ioZO-Vo
-    short-id: 8debcf36f1cc69ff
-    support-x25519mlkem768: true
-  client-fingerprint: firefox
-  servername: video.yandex.ru
-  flow: xtls-rprx-vision
-- name: '1147 | 🌐 Unknown | 🏳️ CIDR-CDNetworks | VLESS | TG: @YoutubeUnBlockRu'
+- name: '0680 | 🌐 Unknown | 🏳️ CIDR-CDNetworks | VLESS | TG: @YoutubeUnBlockRu'
   type: vless
   server: plaindune.com
   port: 8443
@@ -447,16 +268,7 @@ proxies:
   tls: true
   network: xhttp
   servername: plaindune.com
-- name: '1173 | 🇷🇺 Russia | 🏳️ CIDR-CDNetworks | VLESS | TG: @YoutubeUnBlockRu'
-  type: vless
-  server: 46.243.233.194
-  port: 443
-  uuid: 7955bf18-35c4-412d-aabd-c0b36c793063
-  udp: true
-  tls: true
-  network: ws
-  servername: pssdwynorv.newwl.pro
-- name: '1175 | 🇷🇺 Russia | 🏳️ CIDR-Yandex | VLESS | TG: @YoutubeUnBlockRu'
+- name: '0699 | 🇷🇺 Russia | 🏳️ CIDR-Yandex | VLESS | TG: @YoutubeUnBlockRu'
   type: vless
   server: 188.72.112.1
   port: 443
@@ -465,21 +277,7 @@ proxies:
   tls: true
   network: xhttp
   servername: audio.pranker.cc
-- name: '1205 | 🇬🇧 United Kingdom | 🏳️ SNI-X5 | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
-  type: vless
-  server: 138.124.125.193
-  port: 10444
-  uuid: e57ce64d-5a1a-4a90-96df-9e1bd3ad26e4
-  udp: true
-  tls: true
-  reality-opts:
-    public-key: 0oTkcqwLTUNLnSOP-VUWErmy6usAIg-biBE6ioZO-Vo
-    short-id: 8debcf36f1cc69ff
-    support-x25519mlkem768: true
-  client-fingerprint: firefox
-  servername: ads.x5.ru
-  flow: xtls-rprx-vision
-- name: '1243 | 🌐 Unknown | 🏳️ CIDR-DDoSGuard | VLESS | TG: @YoutubeUnBlockRu'
+- name: '0734 | 🌐 Unknown | 🏳️ CIDR-DDoSGuard | VLESS | TG: @YoutubeUnBlockRu'
   type: vless
   server: api.14887277.xyz
   port: 443
@@ -488,37 +286,7 @@ proxies:
   tls: true
   network: ws
   servername: trx.tools
-- name: '1270 | 🇷🇺 Russia | 🏳️ CIDR-TimeWeb | VLESS | TG: @YoutubeUnBlockRu'
-  type: vless
-  server: 72.56.38.83
-  port: 443
-  uuid: 1e2b9c0c-4f9b-56f5-a062-1c4f2d2aa200
-  udp: true
-  tls: true
-  client-fingerprint: chrome
-  servername: absolute-disaster.org
-  flow: xtls-rprx-vision
-- name: '1324 | 🇷🇺 Russia | 🏳️ CIDR-CDNetworks | VLESS | TG: @YoutubeUnBlockRu'
-  type: vless
-  server: 46.243.233.194
-  port: 443
-  uuid: 7955bf18-35c4-412d-aabd-c0b36c793063
-  udp: true
-  tls: true
-  network: ws
-  servername: pssdwynorv.newwl.pro
-- name: '1364 | 🌐 Unknown | 🏳️ CIDR-TimeWeb | VLESS | TG: @YoutubeUnBlockRu'
-  type: vless
-  server: cadrin.wtf
-  port: 443
-  uuid: a4740bee-81ad-4a58-99c9-eca576ecb6e6
-  udp: true
-  tls: true
-  network: grpc
-  servername: cadrin.wtf
-  grpc-opts:
-    grpc-service-name: cache.sync.v1
-- name: '1368 | 🇷🇺 Russia | 🏳️ CIDR-DDoSGuard | VLESS | TG: @YoutubeUnBlockRu'
+- name: '0790 | 🇷🇺 Russia | 🏳️ CIDR-DDoSGuard | VLESS | TG: @YoutubeUnBlockRu'
   type: vless
   server: 185.129.100.235
   port: 443
@@ -527,7 +295,7 @@ proxies:
   tls: true
   network: ws
   servername: metrics.pc-club.app
-- name: '1374 | 🇷🇺 Russia | 🏳️ CIDR-TimeWeb | VLESS | TG: @YoutubeUnBlockRu'
+- name: '0791 | 🇷🇺 Russia | 🏳️ CIDR-TimeWeb | VLESS | TG: @YoutubeUnBlockRu'
   type: vless
   server: 81.200.158.26
   port: 443
@@ -538,7 +306,7 @@ proxies:
   servername: fernglade.gerqix.online
   grpc-opts:
     grpc-service-name: glush.de1.v1
-- name: '1394 | 🌐 Unknown | 🏳️ CIDR-DDoSGuard | VLESS | TG: @YoutubeUnBlockRu'
+- name: '0800 | 🌐 Unknown | 🏳️ CIDR-DDoSGuard | VLESS | TG: @YoutubeUnBlockRu'
   type: vless
   server: api.14887277.xyz
   port: 443
@@ -547,24 +315,14 @@ proxies:
   tls: true
   network: ws
   servername: trx.tools
-- name: '1397 | 🇷🇺 Russia | 🏳️ CIDR-TimeWeb | VLESS | TG: @YoutubeUnBlockRu'
-  type: vless
-  server: 72.56.38.83
-  port: 443
-  uuid: 1e2b9c0c-4f9b-56f5-a062-1c4f2d2aa200
-  udp: true
-  tls: true
-  client-fingerprint: firefox
-  servername: absolute-disaster.org
-  flow: xtls-rprx-vision
-- name: '1415 | 🇺🇸 USA | 🏳️ SNI-VK | HYSTERIA2 | 📺 YT | TG: @YoutubeUnBlockRu'
+- name: '0813 | 🇺🇸 USA | 🏳️ SNI-VK | HYSTERIA2 | 📺 YT | TG: @YoutubeUnBlockRu'
   type: hysteria2
   server: 66.94.121.46
   port: 443
   password: gf1:gfhysteria2024
   udp: true
   sni: vk.com
-- name: '1429 | 🇷🇺 Russia | 🏳️ CIDR-HLL | VLESS | TG: @YoutubeUnBlockRu'
+- name: '0816 | 🇷🇺 Russia | 🏳️ CIDR-HLL | VLESS | TG: @YoutubeUnBlockRu'
   type: vless
   server: 178.248.236.229
   port: 443
@@ -579,27 +337,7 @@ proxies:
   client-fingerprint: safari
   servername: 144.hexdey.com
   flow: xtls-rprx-vision
-- name: '1440 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
-  type: vless
-  server: 185.86.145.173
-  port: 443
-  uuid: 37af0181-5598-4aad-a040-d926bcb65757
-  udp: true
-  tls: true
-  network: xhttp
-  servername: wholebeam.com
-- name: '1480 | 🇷🇺 Russia | 🏳️ CIDR-TimeWeb | VLESS | TG: @YoutubeUnBlockRu'
-  type: vless
-  server: 188.225.36.219
-  port: 443
-  uuid: 0b6a7fe0-206b-4071-9f96-cd397d1ec01a
-  udp: true
-  tls: true
-  network: grpc
-  servername: olvento.space
-  grpc-opts:
-    grpc-service-name: olvento.sync.v1
-- name: '1481 | 🇷🇺 Russia | 🏳️ CIDR-TimeWeb | VLESS | TG: @YoutubeUnBlockRu'
+- name: '0846 | 🇷🇺 Russia | 🏳️ CIDR-TimeWeb | VLESS | TG: @YoutubeUnBlockRu'
   type: vless
   server: 188.225.56.157
   port: 443
@@ -608,7 +346,7 @@ proxies:
   tls: true
   network: ws
   servername: cdn.quantum.vodka
-- name: '1486 | 🇳🇱 Netherlands | 🏳️ SNI-OK | VLESS | 📺 YT | 🔐 Stable | TG: @YoutubeUnBlockRu'
+- name: '0850 | 🇳🇱 Netherlands | 🏳️ SNI-OK | VLESS | 📺 YT | 🔐 Stable | TG: @YoutubeUnBlockRu'
   type: vless
   server: 87.199.205.28
   port: 443
@@ -622,34 +360,14 @@ proxies:
   client-fingerprint: firefox
   servername: vkvd754.okcdn.ru
   flow: xtls-rprx-vision
-- name: '1516 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
-  type: vless
-  server: 185.86.145.173
-  port: 443
-  uuid: 37af0181-5598-4aad-a040-d926bcb65757
-  udp: true
-  tls: true
-  network: xhttp
-  servername: wholebeam.com
-- name: '1536 | 🇰🇷 South Korea | 🏳️ SNI-VK | HYSTERIA2 | 📺 YT | TG: @YoutubeUnBlockRu'
+- name: '0881 | 🇰🇷 South Korea | 🏳️ SNI-VK | HYSTERIA2 | 📺 YT | TG: @YoutubeUnBlockRu'
   type: hysteria2
   server: 152.67.200.82
   port: 50160
   password: 3d7634af8cb2c6cb4bac1c0efad8b43d
   udp: true
   sni: vk.com
-- name: '1537 | 🇷🇺 Russia | 🏳️ CIDR-TimeWeb | VLESS | TG: @YoutubeUnBlockRu'
-  type: vless
-  server: 81.200.158.26
-  port: 443
-  uuid: 0b6a7fe0-206b-4071-9f96-cd397d1ec01a
-  udp: true
-  tls: true
-  network: grpc
-  servername: fernglade.gerqix.online
-  grpc-opts:
-    grpc-service-name: glush.de1.v1
-- name: '1549 | 🇷🇺 Russia | 🏳️ CIDR-VK | 🏳️ SNI-Yandex | VLESS | TG: @YoutubeUnBlockRu'
+- name: '0885 | 🇷🇺 Russia | 🏳️ CIDR-VK | 🏳️ SNI-Yandex | VLESS | TG: @YoutubeUnBlockRu'
   type: vless
   server: 185.86.145.190
   port: 12460
@@ -664,30 +382,7 @@ proxies:
   client-fingerprint: firefox
   servername: passport.yandex.ru
   flow: xtls-rprx-vision
-- name: '1575 | 🇫🇮 Finland | 🏳️ SNI-VK | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
-  type: vless
-  server: 45.38.143.210
-  port: 30584
-  uuid: cebc5f19-18d9-48e6-9029-fb4b04caf393
-  udp: true
-  tls: true
-  reality-opts:
-    public-key: 2hV4TY2ygvQ7ISa5o4u_FUKXzlIhLgbsScE8M1h0m3Y
-    short-id: 67ece882d65d0f1a
-    support-x25519mlkem768: true
-  client-fingerprint: firefox
-  servername: m.vk.com
-- name: '1630 | 🇷🇺 Russia | 🏳️ SNI-VK | VLESS | TG: @YoutubeUnBlockRu'
-  type: vless
-  server: 2.56.178.92
-  port: 443
-  uuid: 85b8b4a4-d9c6-4357-a016-3a3ee04bf984
-  udp: true
-  tls: true
-  client-fingerprint: chrome
-  servername: www.stats.vk-portal.net
-  flow: xtls-rprx-vision
-- name: '1653 | 🇷🇺 Russia | 🏳️ CIDR-DDoSGuard | VLESS | TG: @YoutubeUnBlockRu'
+- name: '0941 | 🇷🇺 Russia | 🏳️ CIDR-DDoSGuard | VLESS | TG: @YoutubeUnBlockRu'
   type: vless
   server: 95.129.236.239
   port: 443
@@ -696,50 +391,17 @@ proxies:
   tls: true
   network: ws
   servername: files-qzgs.login.opendns.stream
-- name: '1700 | 🇷🇺 Russia | 🏳️ CIDR-Yandex | VLESS | TG: @YoutubeUnBlockRu'
+- name: '0974 | 🇷🇺 Russia | 🏳️ CIDR-TimeWeb | VLESS | TG: @YoutubeUnBlockRu'
   type: vless
-  server: 188.72.112.1
+  server: 72.56.38.83
   port: 443
-  uuid: 7f4c8a21-f65e-41d7-bac5-4f85065a5e75
+  uuid: 1e2b9c0c-4f9b-56f5-a062-1c4f2d2aa200
   udp: true
   tls: true
-  network: xhttp
-  servername: pl.marmeliones.ru
-- name: '1715 | 🇷🇺 Russia | 🏳️ SNI-VK | VLESS | TG: @YoutubeUnBlockRu'
-  type: vless
-  server: 2.56.178.92
-  port: 443
-  uuid: 85b8b4a4-d9c6-4357-a016-3a3ee04bf984
-  udp: true
-  tls: true
-  client-fingerprint: firefox
-  servername: www.stats.vk-portal.net
+  client-fingerprint: ios
+  servername: absolute-disaster.org
   flow: xtls-rprx-vision
-- name: '1741 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
-  type: vless
-  server: 185.86.145.173
-  port: 443
-  uuid: 37af0181-5598-4aad-a040-d926bcb65757
-  udp: true
-  tls: true
-  network: xhttp
-  servername: wholebeam.com
-- name: '1758 | 🇫🇷 France | 🏳️ SNI-Yandex | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
-  type: vless
-  server: 161.97.160.224
-  port: 443
-  uuid: b81b4d1b-7f20-48f1-82dc-d24bef898cab
-  udp: true
-  tls: true
-  network: raw
-  reality-opts:
-    public-key: 33zaT3jHXjtynSQ0Ucw9bK92-XH2zolJmuIeZ1XyZB0
-    short-id: e6
-    support-x25519mlkem768: true
-  client-fingerprint: firefox
-  servername: passport.yandex.ru
-  flow: xtls-rprx-vision
-- name: '1816 | 🇷🇺 Russia | 🏳️ CIDR-HLL | VLESS | TG: @YoutubeUnBlockRu'
+- name: '1029 | 🇷🇺 Russia | 🏳️ CIDR-HLL | VLESS | TG: @YoutubeUnBlockRu'
   type: vless
   server: 178.248.236.229
   port: 443
@@ -754,37 +416,7 @@ proxies:
   client-fingerprint: firefox
   servername: 144.hexdey.com
   flow: xtls-rprx-vision
-- name: '1825 | 🇷🇺 Russia | 🏳️ CIDR-MTS | VLESS | TG: @YoutubeUnBlockRu'
-  type: vless
-  server: 91.185.83.95
-  port: 443
-  uuid: 48af8541-a564-426e-a1e5-9c1a29b011d6
-  udp: true
-  tls: true
-  network: grpc
-  reality-opts:
-    public-key: AwIcnyMwLivH2N-GBVdkRD1YWP3nsNCvIf-UPQtnpGA
-    short-id: 565330e9ddd002c3
-    support-x25519mlkem768: true
-  client-fingerprint: firefox
-  servername: st1.storage-f4a1.com
-  grpc-opts:
-    grpc-service-name: grpc
-- name: '1836 | 🇫🇮 Finland | 🏳️ SNI-Yandex | VLESS | 📺 YT | 🔐 Stable | TG: @YoutubeUnBlockRu'
-  type: vless
-  server: 213.176.92.168
-  port: 10444
-  uuid: ba52cc43-700d-4040-9444-29214c98e6e0
-  udp: true
-  tls: true
-  reality-opts:
-    public-key: 0oTkcqwLTUNLnSOP-VUWErmy6usAIg-biBE6ioZO-Vo
-    short-id: 8debcf36f1cc69ff
-    support-x25519mlkem768: true
-  client-fingerprint: firefox
-  servername: video.yandex.ru
-  flow: xtls-rprx-vision
-- name: '1837 | 🌐 Unknown | 🏳️ CIDR-CDNetworks | VLESS | TG: @YoutubeUnBlockRu'
+- name: '1043 | 🌐 Unknown | 🏳️ CIDR-CDNetworks | VLESS | TG: @YoutubeUnBlockRu'
   type: vless
   server: plaindune.com
   port: 8443
@@ -793,7 +425,7 @@ proxies:
   tls: true
   network: xhttp
   servername: plaindune.com
-- name: '1845 | 🇳🇱 Netherlands | 🏳️ CIDR-Hostkey | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+- name: '1048 | 🇳🇱 Netherlands | 🏳️ CIDR-Hostkey | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
   type: vless
   server: 212.192.3.237
   port: 9543
@@ -808,36 +440,14 @@ proxies:
   client-fingerprint: firefox
   servername: storage.yandexcloud.net
   flow: xtls-rprx-vision
-- name: '1883 | 🌐 Unknown | 🏳️ SNI-VK | HYSTERIA2 | TG: @YoutubeUnBlockRu'
+- name: '1067 | 🌐 Unknown | 🏳️ SNI-VK | HYSTERIA2 | TG: @YoutubeUnBlockRu'
   type: hysteria2
   server: vpn-tw-002.fastervpn.world
   port: 443
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   udp: true
   sni: vk.com
-- name: '1886 | 🌐 Unknown | 🏳️ CIDR-Yandex | VLESS | TG: @YoutubeUnBlockRu'
-  type: vless
-  server: kumar.oblachniy.ink
-  port: 443
-  uuid: 2ff4dec5-1759-4390-a8f7-6d117da2b21e
-  udp: true
-  tls: true
-  network: xhttp
-  servername: kumar.oblachniy.ink
-- name: '1890 | 🇫🇮 Finland | 🏳️ SNI-VK | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
-  type: vless
-  server: 45.38.143.210
-  port: 30584
-  uuid: cebc5f19-18d9-48e6-9029-fb4b04caf393
-  udp: true
-  tls: true
-  reality-opts:
-    public-key: 2hV4TY2ygvQ7ISa5o4u_FUKXzlIhLgbsScE8M1h0m3Y
-    short-id: 67ece882d65d0f1a
-    support-x25519mlkem768: true
-  client-fingerprint: chrome
-  servername: m.vk.com
-- name: '1892 | 🇷🇺 Russia | 🏳️ CIDR-TimeWeb | VLESS | TG: @YoutubeUnBlockRu'
+- name: '1072 | 🇷🇺 Russia | 🏳️ CIDR-TimeWeb | VLESS | TG: @YoutubeUnBlockRu'
   type: vless
   server: 188.225.56.157
   port: 443
@@ -846,21 +456,7 @@ proxies:
   tls: true
   network: ws
   servername: cdn.quantum.vodka
-- name: '1895 | 🇫🇷 France | 🏳️ SNI-Yandex | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
-  type: vless
-  server: 161.97.160.224
-  port: 443
-  uuid: b81b4d1b-7f20-48f1-82dc-d24bef898cab
-  udp: true
-  tls: true
-  reality-opts:
-    public-key: 33zaT3jHXjtynSQ0Ucw9bK92-XH2zolJmuIeZ1XyZB0
-    short-id: e6
-    support-x25519mlkem768: true
-  client-fingerprint: firefox
-  servername: passport.yandex.ru
-  flow: xtls-rprx-vision
-- name: '1932 | 🇷🇺 Russia | 🏳️ CIDR-DDoSGuard | VLESS | TG: @YoutubeUnBlockRu'
+- name: '1095 | 🇷🇺 Russia | 🏳️ CIDR-DDoSGuard | VLESS | TG: @YoutubeUnBlockRu'
   type: vless
   server: 95.129.236.239
   port: 443
@@ -869,51 +465,7 @@ proxies:
   tls: true
   network: ws
   servername: files-qzgs.login.opendns.stream
-- name: '1947 | 🇳🇱 Netherlands | 🏳️ SNI-OK | VLESS | 📺 YT | 🔐 Stable | TG: @YoutubeUnBlockRu'
-  type: vless
-  server: 87.199.205.28
-  port: 443
-  uuid: 501a2da5-cb22-4a3f-915e-e3b821d1d62d
-  udp: true
-  tls: true
-  network: raw
-  reality-opts:
-    public-key: W-9zyiOq287RtXVTZlTFbSDJ0Mx8joyBLJoA7ZE7eBw
-    short-id: ef1d3554c652a436
-    support-x25519mlkem768: true
-  client-fingerprint: chrome
-  servername: vkvd754.okcdn.ru
-  flow: xtls-rprx-vision
-- name: '1959 | 🇷🇺 Russia | 🏳️ CIDR-DDoSGuard | VLESS | TG: @YoutubeUnBlockRu'
-  type: vless
-  server: 95.129.236.239
-  port: 443
-  uuid: a71d6c6d-c95e-4ec1-a892-22e21733bf09
-  udp: true
-  tls: true
-  network: ws
-  servername: files-qzgs.login.opendns.stream
-- name: '1969 | 🇷🇺 Russia | 🏳️ CIDR-Yandex | VLESS | TG: @YoutubeUnBlockRu'
-  type: vless
-  server: 188.72.112.1
-  port: 443
-  uuid: de4729d8-4b52-4cac-b796-4ae1bb723631
-  udp: true
-  tls: true
-  network: xhttp
-  servername: yccdn.cloud.yandex.net
-- name: '1995 | 🇷🇺 Russia | 🏳️ CIDR-TimeWeb | VLESS | TG: @YoutubeUnBlockRu'
-  type: vless
-  server: 188.225.36.219
-  port: 443
-  uuid: 0b6a7fe0-206b-4071-9f96-cd397d1ec01a
-  udp: true
-  tls: true
-  network: grpc
-  servername: olvento.space
-  grpc-opts:
-    grpc-service-name: olvento.sync.v1
-- name: '2024 | 🇬🇧 United Kingdom | 🏳️ SNI-X5 | VLESS | 📺 YT | 🔐 Stable | TG: @YoutubeUnBlockRu'
+- name: '1145 | 🇬🇧 United Kingdom | 🏳️ SNI-X5 | VLESS | 📺 YT | 🔐 Stable | TG: @YoutubeUnBlockRu'
   type: vless
   server: 138.124.125.193
   port: 10444
@@ -927,16 +479,18 @@ proxies:
   client-fingerprint: safari
   servername: ads.x5.ru
   flow: xtls-rprx-vision
-- name: '2031 | 🇳🇱 Netherlands | 🏳️ CIDR-CDNetworks | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+- name: '1150 | 🇷🇺 Russia | 🏳️ CIDR-TimeWeb | VLESS | TG: @YoutubeUnBlockRu'
   type: vless
-  server: 78.159.250.83
+  server: 81.200.158.26
   port: 443
-  uuid: f656c4b9-54dc-44cc-a142-e242ce687e56
+  uuid: 0b6a7fe0-206b-4071-9f96-cd397d1ec01a
   udp: true
   tls: true
-  servername: dualarrow.net
-  flow: xtls-rprx-vision
-- name: '2048 | 🇳🇱 Netherlands | 🏳️ SNI-OK | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  network: grpc
+  servername: fernglade.gerqix.online
+  grpc-opts:
+    grpc-service-name: glush.de1.v1
+- name: '1163 | 🇳🇱 Netherlands | 🏳️ SNI-OK | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
   type: vless
   server: 87.199.205.28
   port: 443
@@ -951,73 +505,7 @@ proxies:
   client-fingerprint: firefox
   servername: vkvd754.okcdn.ru
   flow: xtls-rprx-vision
-- name: '2076 | 🇷🇺 Russia | 🏳️ CIDR-Yandex | VLESS | TG: @YoutubeUnBlockRu'
-  type: vless
-  server: 188.72.112.1
-  port: 443
-  uuid: 4877b146-b0c0-439b-b794-31059912167a
-  udp: true
-  tls: true
-  network: xhttp
-  servername: kumar.oblachniy.ink
-- name: '2101 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
-  type: vless
-  server: 185.86.145.223
-  port: 20001
-  uuid: 6b447dc7-6f6b-4ca8-9c0a-2845d677004c
-  udp: true
-  tls: true
-  network: xhttp
-  reality-opts:
-    public-key: nF9ItO4OJ6i2jJ3rEWpsrQokMAp7rCaO5pGqLCS_bFs
-    short-id: ab465f2860d26fa9
-    support-x25519mlkem768: true
-  client-fingerprint: firefox
-  servername: ads.x5.ru
-- name: '2120 | 🇸🇬 Singapore | 🏳️ SNI-Yandex | VLESS | 📺 YT | 🔐 Stable | TG: @YoutubeUnBlockRu'
-  type: vless
-  server: 147.93.173.45
-  port: 10444
-  uuid: 75c5f51b-d548-4eab-a26e-aa10fc3dbc7b
-  udp: true
-  tls: true
-  reality-opts:
-    public-key: 0oTkcqwLTUNLnSOP-VUWErmy6usAIg-biBE6ioZO-Vo
-    short-id: 8debcf36f1cc69ff
-    support-x25519mlkem768: true
-  client-fingerprint: chrome
-  servername: video.yandex.ru
-  flow: xtls-rprx-vision
-- name: '2143 | 🇷🇺 Russia | 🏳️ CIDR-TimeWeb | VLESS | TG: @YoutubeUnBlockRu'
-  type: vless
-  server: 188.225.78.178
-  port: 443
-  uuid: a4740bee-81ad-4a58-99c9-eca576ecb6e6
-  udp: true
-  tls: true
-  network: grpc
-  servername: cadrin.wtf
-  grpc-opts:
-    grpc-service-name: cache.sync.v1
-- name: '2148 | 🇷🇺 Russia | 🏳️ CIDR-TimeWeb | VLESS | TG: @YoutubeUnBlockRu'
-  type: vless
-  server: 188.225.72.227
-  port: 443
-  uuid: 9838332e-2ec6-4467-a070-d6de028262ce
-  udp: true
-  tls: true
-  network: ws
-  servername: cdn.quantum.vodka
-- name: '2162 | 🇷🇺 Russia | 🏳️ CIDR-CDNetworks | VLESS | TG: @YoutubeUnBlockRu'
-  type: vless
-  server: 46.243.233.194
-  port: 443
-  uuid: 7955bf18-35c4-412d-aabd-c0b36c793063
-  udp: true
-  tls: true
-  network: ws
-  servername: pssdwynorv.newwl.pro
-- name: '2165 | 🌐 Unknown | 🏳️ CIDR-Yandex | VLESS | TG: @YoutubeUnBlockRu'
+- name: '1228 | 🌐 Unknown | 🏳️ CIDR-Yandex | VLESS | TG: @YoutubeUnBlockRu'
   type: vless
   server: cdn.white.gigobingo.ru
   port: 443
@@ -1026,60 +514,14 @@ proxies:
   tls: true
   network: xhttp
   servername: cdn.white.gigobingo.ru
-- name: '2188 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
-  type: vless
-  server: 185.86.145.173
-  port: 443
-  uuid: 37af0181-5598-4aad-a040-d926bcb65757
-  udp: true
-  tls: true
-  network: xhttp
-  servername: wholebeam.com
-- name: '2202 | 🇳🇱 Netherlands | 🏳️ SNI-MAX | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
-  type: vless
-  server: 213.165.39.134
-  port: 443
-  uuid: 6a251a93-8eee-43b5-92ed-ecadedcfd0a8
-  udp: true
-  tls: true
-  reality-opts:
-    public-key: Gtz3xOdQdWSocdx4NNie6s-bsa9VDiG6thqanJ4h31s
-    short-id: 6f3332a09b0ab6d1
-    support-x25519mlkem768: true
-  client-fingerprint: chrome
-  servername: platform-api.max.ru
-  flow: xtls-rprx-vision
-- name: '2206 | 🇷🇺 Russia | 🏳️ CIDR-HLL | VLESS | TG: @YoutubeUnBlockRu'
-  type: vless
-  server: 178.248.236.229
-  port: 443
-  uuid: a71d6c6d-c95e-4ec1-a892-22e21733bf09
-  udp: true
-  tls: true
-  reality-opts:
-    public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
-    short-id: d05a120d3506d2cc
-    support-x25519mlkem768: true
-  client-fingerprint: chrome
-  servername: 144.hexdey.com
-  flow: xtls-rprx-vision
-- name: '2210 | 🇷🇺 Russia | 🏳️ CIDR-CloudRu | VLESS | TG: @YoutubeUnBlockRu'
-  type: vless
-  server: 87.242.127.238
-  port: 24932
-  uuid: 52681257-b686-4a7c-b737-0d87b02c61af
-  udp: true
-  tls: true
-  servername: lt.yandex-kz.top
-  flow: xtls-rprx-vision
-- name: '2214 | 🇨🇳 HongKong | 🏳️ SNI-VK | HYSTERIA2 | 🔐 Stable | TG: @YoutubeUnBlockRu'
+- name: '1252 | 🇨🇳 HongKong | 🏳️ SNI-VK | HYSTERIA2 | 🔐 Stable | TG: @YoutubeUnBlockRu'
   type: hysteria2
   server: 202.146.222.89
   port: 443
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   udp: true
   sni: vk.com
-- name: '2232 | 🇷🇺 Russia | 🏳️ CIDR-Yandex | VLESS | TG: @YoutubeUnBlockRu'
+- name: '1263 | 🇷🇺 Russia | 🏳️ CIDR-Yandex | VLESS | TG: @YoutubeUnBlockRu'
   type: vless
   server: 188.72.112.1
   port: 443
@@ -1088,7 +530,7 @@ proxies:
   tls: true
   network: xhttp
   servername: cdnstream.win
-- name: '2282 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
+- name: '1292 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
   type: vless
   server: 185.86.145.174
   port: 10457
@@ -1098,50 +540,7 @@ proxies:
   network: raw
   servername: ru.yandex-kz.top
   flow: xtls-rprx-vision
-- name: '2347 | 🌐 Unknown | 🏳️ CIDR-DDoSGuard | VLESS | TG: @YoutubeUnBlockRu'
-  type: vless
-  server: tochkacdn.top
-  port: 443
-  uuid: ffb2c504-2c6c-49f3-b4bd-9fd3ff6ce454
-  udp: true
-  tls: true
-  network: ws
-  servername: unlik.club
-- name: '2351 | 🇷🇺 Russia | 🏳️ CIDR-MTS | VLESS | TG: @YoutubeUnBlockRu'
-  type: vless
-  server: 91.185.83.43
-  port: 443
-  uuid: 7955bf18-35c4-412d-aabd-c0b36c793063
-  udp: true
-  tls: true
-  network: ws
-  servername: pssdwynorv.newwl.pro
-- name: '2369 | 🇷🇺 Russia | 🏳️ CIDR-TimeWeb | VLESS | TG: @YoutubeUnBlockRu'
-  type: vless
-  server: 188.225.36.219
-  port: 443
-  uuid: 0b6a7fe0-206b-4071-9f96-cd397d1ec01a
-  udp: true
-  tls: true
-  network: grpc
-  servername: olvento.space
-  grpc-opts:
-    grpc-service-name: olvento.sync.v1
-- name: '2377 | 🇫🇷 France | 🏳️ SNI-Yandex | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
-  type: vless
-  server: 161.97.160.224
-  port: 443
-  uuid: b81b4d1b-7f20-48f1-82dc-d24bef898cab
-  udp: true
-  tls: true
-  reality-opts:
-    public-key: 33zaT3jHXjtynSQ0Ucw9bK92-XH2zolJmuIeZ1XyZB0
-    short-id: e6
-    support-x25519mlkem768: true
-  client-fingerprint: chrome
-  servername: passport.yandex.ru
-  flow: xtls-rprx-vision
-- name: '2468 | 🇫🇮 Finland | 🏳️ SNI-Yandex | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+- name: '1387 | 🇫🇮 Finland | 🏳️ SNI-Yandex | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
   type: vless
   server: 213.176.92.168
   port: 10444
@@ -1155,16 +554,7 @@ proxies:
   client-fingerprint: chrome
   servername: video.yandex.ru
   flow: xtls-rprx-vision
-- name: '2473 | 🇷🇺 Russia | 🏳️ CIDR-CloudRu | VLESS | TG: @YoutubeUnBlockRu'
-  type: vless
-  server: 87.242.127.238
-  port: 24932
-  uuid: 52681257-b686-4a7c-b737-0d87b02c61af
-  udp: true
-  tls: true
-  network: ws
-  servername: ws-ru.yandex-kz.top
-- name: '2479 | 🇳🇱 Netherlands | 🏳️ SNI-OK | VLESS | 📺 YT | 🔐 Stable | TG: @YoutubeUnBlockRu'
+- name: '1392 | 🇳🇱 Netherlands | 🏳️ SNI-OK | VLESS | 📺 YT | 🔐 Stable | TG: @YoutubeUnBlockRu'
   type: vless
   server: 87.199.205.28
   port: 443
@@ -1178,29 +568,14 @@ proxies:
   client-fingerprint: firefox
   servername: vkvd754.okcdn.ru
   flow: xtls-rprx-vision
-- name: '2501 | 🇩🇪 Germany | 🏳️ SNI-X5 | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
-  type: vless
-  server: 178.104.236.189
-  port: 8443
-  uuid: 987aed7f-6001-4d07-8635-38b8b10b671d
-  udp: true
-  tls: true
-  network: raw
-  reality-opts:
-    public-key: Z4c6jB-9KBN0U1mcLgP_bg5PuAG_wHF7Mw8dnZScSxA
-    short-id: 802d309a6102f126
-    support-x25519mlkem768: true
-  client-fingerprint: edge
-  servername: ads.x5.ru
-  flow: xtls-rprx-vision
-- name: '2640 | 🇨🇳 HongKong | 🏳️ SNI-VK | HYSTERIA2 | TG: @YoutubeUnBlockRu'
+- name: '1484 | 🇨🇳 HongKong | 🏳️ SNI-VK | HYSTERIA2 | TG: @YoutubeUnBlockRu'
   type: hysteria2
   server: 202.146.222.29
   port: 443
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   udp: true
   sni: vk.com
-- name: '2648 | 🇷🇺 Russia | 🏳️ CIDR-Yandex | VLESS | TG: @YoutubeUnBlockRu'
+- name: '1490 | 🇷🇺 Russia | 🏳️ CIDR-Yandex | VLESS | TG: @YoutubeUnBlockRu'
   type: vless
   server: 188.72.112.2
   port: 443
@@ -1209,16 +584,7 @@ proxies:
   tls: true
   network: xhttp
   servername: cdn.white.gigobingo.ru
-- name: '2679 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
-  type: vless
-  server: 185.86.145.183
-  port: 443
-  uuid: 4877b146-b0c0-439b-b794-31059912167a
-  udp: true
-  tls: true
-  network: ws
-  servername: for.quick-frost.ru
-- name: '2700 | 🇷🇺 Russia | 🏳️ CIDR-TimeWeb | VLESS | TG: @YoutubeUnBlockRu'
+- name: '1516 | 🇷🇺 Russia | 🏳️ CIDR-TimeWeb | VLESS | TG: @YoutubeUnBlockRu'
   type: vless
   server: 188.225.46.6
   port: 443
@@ -1228,27 +594,7 @@ proxies:
   network: raw
   servername: spb.b2ai.top
   flow: xtls-rprx-vision
-- name: '2708 | 🇷🇺 Russia | 🏳️ CIDR-CDNetworks | VLESS | TG: @YoutubeUnBlockRu'
-  type: vless
-  server: 46.243.233.194
-  port: 443
-  uuid: 7955bf18-35c4-412d-aabd-c0b36c793063
-  udp: true
-  tls: true
-  network: ws
-  servername: pssdwynorv.newwl.pro
-- name: '2715 | 🇷🇺 Russia | 🏳️ CIDR-TimeWeb | VLESS | TG: @YoutubeUnBlockRu'
-  type: vless
-  server: 188.225.78.178
-  port: 443
-  uuid: a4740bee-81ad-4a58-99c9-eca576ecb6e6
-  udp: true
-  tls: true
-  network: grpc
-  servername: cadrin.wtf
-  grpc-opts:
-    grpc-service-name: cache.sync.v1
-- name: '2757 | 🇷🇺 Russia | 🏳️ CIDR-Selectel | VLESS | TG: @YoutubeUnBlockRu'
+- name: '1546 | 🇷🇺 Russia | 🏳️ CIDR-Selectel | VLESS | TG: @YoutubeUnBlockRu'
   type: vless
   server: 5.182.4.17
   port: 443
@@ -1262,52 +608,16 @@ proxies:
   client-fingerprint: firefox
   servername: perdelka.belka.tv
   flow: xtls-rprx-vision
-- name: '2779 | 🇸🇬 Singapore | 🏳️ SNI-Yandex | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+- name: '1578 | 🇷🇺 Russia | 🏳️ CIDR-Yandex | VLESS | TG: @YoutubeUnBlockRu'
   type: vless
-  server: 178.94.25.73
-  port: 10444
-  uuid: 2dacc738-5720-4824-b8bc-e3db57596ba7
-  udp: true
-  tls: true
-  reality-opts:
-    public-key: 0oTkcqwLTUNLnSOP-VUWErmy6usAIg-biBE6ioZO-Vo
-    short-id: 8debcf36f1cc69ff
-    support-x25519mlkem768: true
-  client-fingerprint: safari
-  servername: video.yandex.ru
-  flow: xtls-rprx-vision
-- name: '2827 | 🌐 Unknown | 🏳️ CIDR-Yandex | VLESS | TG: @YoutubeUnBlockRu'
-  type: vless
-  server: pl.marmeliones.ru
+  server: 188.72.112.1
   port: 443
-  uuid: 7f4c8a21-f65e-41d7-bac5-4f85065a5e75
+  uuid: e2a1c9f4-3b7d-4e6a-9c2f-8a1d5f6b7c9e
   udp: true
   tls: true
   network: xhttp
-  servername: pl.marmeliones.ru
-- name: '2842 | 🇩🇪 Germany | 🏳️ CIDR-DDoSGuard | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
-  type: vless
-  server: de.questlobby.com
-  port: 443
-  uuid: 836c4778-eb58-489a-9c73-620846b28d84
-  udp: true
-  tls: true
-  network: ws
-- name: '2857 | 🇸🇬 Singapore | 🏳️ SNI-Yandex | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
-  type: vless
-  server: 178.94.25.73
-  port: 10444
-  uuid: 2dacc738-5720-4824-b8bc-e3db57596ba7
-  udp: true
-  tls: true
-  reality-opts:
-    public-key: 0oTkcqwLTUNLnSOP-VUWErmy6usAIg-biBE6ioZO-Vo
-    short-id: 8debcf36f1cc69ff
-    support-x25519mlkem768: true
-  client-fingerprint: firefox
-  servername: video.yandex.ru
-  flow: xtls-rprx-vision
-- name: '2877 | 🇳🇱 Netherlands | 🏳️ SNI-OK | VLESS | 📺 YT | 🔐 Stable | TG: @YoutubeUnBlockRu'
+  servername: cdn3.aleqseivpn.site
+- name: '1602 | 🇳🇱 Netherlands | 🏳️ SNI-OK | VLESS | 📺 YT | 🔐 Stable | TG: @YoutubeUnBlockRu'
   type: vless
   server: 87.199.205.28
   port: 443
@@ -1321,16 +631,7 @@ proxies:
   client-fingerprint: firefox
   servername: vkvd754.okcdn.ru
   flow: xtls-rprx-vision
-- name: '2895 | 🌐 Unknown | 🏳️ CIDR-Yandex | VLESS | TG: @YoutubeUnBlockRu'
-  type: vless
-  server: cdn19.sharfvpn.top
-  port: 443
-  uuid: 5dd429fa-3fa6-44d0-bce6-01b84ce846f1
-  udp: true
-  tls: true
-  network: xhttp
-  servername: cdn19.sharfvpn.top
-- name: '2903 | 🇷🇺 Russia | 🏳️ CIDR-DDoSGuard | VLESS | TG: @YoutubeUnBlockRu'
+- name: '1616 | 🇷🇺 Russia | 🏳️ CIDR-DDoSGuard | VLESS | TG: @YoutubeUnBlockRu'
   type: vless
   server: 185.178.208.140
   port: 443
@@ -1339,16 +640,7 @@ proxies:
   tls: true
   network: ws
   servername: drive.dev.fosonmine.site
-- name: '2911 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
-  type: vless
-  server: 185.86.145.173
-  port: 443
-  uuid: 37af0181-5598-4aad-a040-d926bcb65757
-  udp: true
-  tls: true
-  network: xhttp
-  servername: wholebeam.com
-- name: '2964 | 🇷🇺 Russia | 🏳️ CIDR-SmartApe | VLESS | TG: @YoutubeUnBlockRu'
+- name: '1656 | 🇷🇺 Russia | 🏳️ CIDR-SmartApe | VLESS | TG: @YoutubeUnBlockRu'
   type: vless
   server: 31.177.111.136
   port: 443
@@ -1357,27 +649,7 @@ proxies:
   tls: true
   network: ws
   servername: q075gi2cms.schoolbag.top
-- name: '2967 | 🇷🇺 Russia | 🏳️ CIDR-TimeWeb | VLESS | TG: @YoutubeUnBlockRu'
-  type: vless
-  server: 188.225.36.219
-  port: 443
-  uuid: 0b6a7fe0-206b-4071-9f96-cd397d1ec01a
-  udp: true
-  tls: true
-  network: grpc
-  servername: olvento.space
-  grpc-opts:
-    grpc-service-name: olvento.sync.v1
-- name: '2978 | 🌐 Unknown | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
-  type: vless
-  server: cdn432.whitenetwork.cloud
-  port: 52831
-  uuid: 1faf34e5-b68b-49d0-9f2c-f20301fd28bd
-  udp: true
-  tls: true
-  network: xhttp
-  servername: origin.mtrxnet.click
-- name: '2980 | 🇳🇱 Netherlands | 🏳️ SNI-VK | HYSTERIA2 | 📺 YT | TG: @YoutubeUnBlockRu'
+- name: '1662 | 🇳🇱 Netherlands | 🏳️ SNI-VK | HYSTERIA2 | 📺 YT | TG: @YoutubeUnBlockRu'
   type: hysteria2
   server: 51.15.19.206
   port: 8443
@@ -1386,39 +658,7 @@ proxies:
   sni: vk.com
   obfs: salamander
   obfs-password: HysteriaHowdy
-- name: '2998 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
-  type: vless
-  server: 185.86.145.174
-  port: 10457
-  uuid: 52681257-b686-4a7c-b737-0d87b02c61af
-  udp: true
-  tls: true
-  servername: ru.yandex-kz.top
-  flow: xtls-rprx-vision
-- name: '2999 | 🌐 Unknown | 🏳️ CIDR-Yandex | VLESS | TG: @YoutubeUnBlockRu'
-  type: vless
-  server: toterdo.rigdol.garden
-  port: 443
-  uuid: 2ff4dec5-1759-4390-a8f7-6d117da2b21e
-  udp: true
-  tls: true
-  network: xhttp
-  servername: toterdo.rigdol.garden
-- name: '3047 | 🇧🇾 Belarus | 🏳️ SNI-X5 | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
-  type: vless
-  server: 178.172.227.228
-  port: 10444
-  uuid: b6e5dc56-836f-48c1-9163-b0b0b43b647d
-  udp: true
-  tls: true
-  reality-opts:
-    public-key: 0oTkcqwLTUNLnSOP-VUWErmy6usAIg-biBE6ioZO-Vo
-    short-id: 8debcf36f1cc69ff
-    support-x25519mlkem768: true
-  client-fingerprint: chrome
-  servername: ads.x5.ru
-  flow: xtls-rprx-vision
-- name: '3077 | 🇷🇺 Russia | 🏳️ CIDR-Yandex | VLESS | TG: @YoutubeUnBlockRu'
+- name: '1721 | 🇷🇺 Russia | 🏳️ CIDR-Yandex | VLESS | TG: @YoutubeUnBlockRu'
   type: vless
   server: 188.72.112.1
   port: 443
@@ -1427,16 +667,7 @@ proxies:
   tls: true
   network: xhttp
   servername: cdn.stream-media-cdn.ru
-- name: '3083 | 🇦🇲 Armenia | 🏳️ CIDR-Yandex | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
-  type: vless
-  server: cdnstream.win
-  port: 443
-  uuid: 17b0043a-d58c-4906-aefa-cb344e7d7cc0
-  udp: true
-  tls: true
-  network: xhttp
-  servername: cdnstream.win
-- name: '3100 | 🌐 Unknown | 🏳️ CIDR-TimeWeb | VLESS | TG: @YoutubeUnBlockRu'
+- name: '1728 | 🌐 Unknown | 🏳️ CIDR-TimeWeb | VLESS | TG: @YoutubeUnBlockRu'
   type: vless
   server: vellum.filnex.baby
   port: 443
@@ -1447,7 +678,7 @@ proxies:
   servername: rookery.moltex.click
   grpc-opts:
     grpc-service-name: glush.de3.v1
-- name: '3130 | 🌐 Unknown | 🏳️ CIDR-Selectel | VLESS | TG: @YoutubeUnBlockRu'
+- name: '1738 | 🌐 Unknown | 🏳️ CIDR-Selectel | VLESS | TG: @YoutubeUnBlockRu'
   type: vless
   server: perdelka.belka.tv
   port: 443
@@ -1461,7 +692,7 @@ proxies:
   client-fingerprint: firefox
   servername: perdelka.belka.tv
   flow: xtls-rprx-vision
-- name: '3150 | 🌐 Unknown | 🏳️ CIDR-DDoSGuard | VLESS | TG: @YoutubeUnBlockRu'
+- name: '1750 | 🌐 Unknown | 🏳️ CIDR-DDoSGuard | VLESS | TG: @YoutubeUnBlockRu'
   type: vless
   server: api.14887277.xyz
   port: 443
@@ -1470,25 +701,7 @@ proxies:
   tls: true
   network: ws
   servername: trx.tools
-- name: '3170 | 🇳🇱 Netherlands | 🏳️ CIDR-CDNetworks | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
-  type: vless
-  server: 78.159.250.83
-  port: 8443
-  uuid: 37af0181-5598-4aad-a040-d926bcb65757
-  udp: true
-  tls: true
-  network: xhttp
-  servername: earlytrain.net
-- name: '3208 | 🇷🇺 Russia | 🏳️ CIDR-DDoSGuard | VLESS | TG: @YoutubeUnBlockRu'
-  type: vless
-  server: 185.178.208.167
-  port: 443
-  uuid: ffb2c504-2c6c-49f3-b4bd-9fd3ff6ce454
-  udp: true
-  tls: true
-  network: ws
-  servername: unlik.club
-- name: '3210 | 🇸🇬 Singapore | 🏳️ SNI-Yandex | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+- name: '1779 | 🇸🇬 Singapore | 🏳️ SNI-Yandex | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
   type: vless
   server: 147.93.173.45
   port: 10444
@@ -1502,48 +715,7 @@ proxies:
   client-fingerprint: firefox
   servername: video.yandex.ru
   flow: xtls-rprx-vision
-- name: '3246 | 🇷🇺 Russia | 🏳️ CIDR-SmartApe | VLESS | TG: @YoutubeUnBlockRu'
-  type: vless
-  server: 31.177.111.136
-  port: 443
-  uuid: a2f93f42-d85c-40b7-b5e0-5c17cb19b067
-  udp: true
-  tls: true
-  network: ws
-  servername: zpik3b58dx.newwl.pro
-- name: '3255 | 🇷🇺 Russia | 🏳️ CIDR-DDoSGuard | VLESS | TG: @YoutubeUnBlockRu'
-  type: vless
-  server: 95.129.236.26
-  port: 443
-  uuid: ec00cb88-24b5-4e8a-9711-99738539a882
-  udp: true
-  tls: true
-  network: ws
-  servername: console.sowt.app
-- name: '3295 | 🇩🇪 Germany | 🏳️ SNI-X5 | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
-  type: vless
-  server: 178.104.236.189
-  port: 8443
-  uuid: 987aed7f-6001-4d07-8635-38b8b10b671d
-  udp: true
-  tls: true
-  reality-opts:
-    public-key: Z4c6jB-9KBN0U1mcLgP_bg5PuAG_wHF7Mw8dnZScSxA
-    short-id: 802d309a6102f126
-    support-x25519mlkem768: true
-  client-fingerprint: edge
-  servername: ads.x5.ru
-  flow: xtls-rprx-vision
-- name: '3297 | 🇷🇺 Russia | 🏳️ CIDR-Yandex | VLESS | TG: @YoutubeUnBlockRu'
-  type: vless
-  server: 188.72.112.1
-  port: 443
-  uuid: 273a36a8-8885-44cd-b7b0-77735b68facd
-  udp: true
-  tls: true
-  network: xhttp
-  servername: cdn.stream-media-cdn.ru
-- name: '3311 | 🇳🇱 Netherlands | 🏳️ SNI-OK | VLESS | 📺 YT | 🔐 Stable | TG: @YoutubeUnBlockRu'
+- name: '1838 | 🇳🇱 Netherlands | 🏳️ SNI-OK | VLESS | 📺 YT | 🔐 Stable | TG: @YoutubeUnBlockRu'
   type: vless
   server: 87.199.205.28
   port: 443
@@ -1557,7 +729,7 @@ proxies:
   client-fingerprint: firefox
   servername: vkvd754.okcdn.ru
   flow: xtls-rprx-vision
-- name: '3324 | 🇷🇺 Russia | 🏳️ CIDR-DDoSGuard | VLESS | TG: @YoutubeUnBlockRu'
+- name: '1845 | 🇷🇺 Russia | 🏳️ CIDR-DDoSGuard | VLESS | TG: @YoutubeUnBlockRu'
   type: vless
   server: 185.178.208.167
   port: 443
@@ -1566,21 +738,7 @@ proxies:
   tls: true
   network: ws
   servername: api.14887277.xyz
-- name: '3356 | 🇧🇾 Belarus | 🏳️ SNI-X5 | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
-  type: vless
-  server: 178.172.227.124
-  port: 10444
-  uuid: 1af36694-b548-4b18-89a0-bc076eab4ed7
-  udp: true
-  tls: true
-  reality-opts:
-    public-key: 0oTkcqwLTUNLnSOP-VUWErmy6usAIg-biBE6ioZO-Vo
-    short-id: 8debcf36f1cc69ff
-    support-x25519mlkem768: true
-  client-fingerprint: safari
-  servername: ads.x5.ru
-  flow: xtls-rprx-vision
-- name: '3359 | 🇷🇺 Russia | 🏳️ CIDR-Yandex | VLESS | TG: @YoutubeUnBlockRu'
+- name: '1864 | 🇷🇺 Russia | 🏳️ CIDR-Yandex | VLESS | TG: @YoutubeUnBlockRu'
   type: vless
   server: 188.72.112.1
   port: 443
@@ -1589,44 +747,7 @@ proxies:
   tls: true
   network: xhttp
   servername: yccdn.cloud.yandex.net
-- name: '3362 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
-  type: vless
-  server: 185.86.145.174
-  port: 10457
-  uuid: 52681257-b686-4a7c-b737-0d87b02c61af
-  udp: true
-  tls: true
-  network: ws
-  servername: ws-ru.yandex-kz.top
-- name: '3394 | 🇫🇷 France | 🏳️ SNI-Yandex | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
-  type: vless
-  server: 161.97.160.224
-  port: 443
-  uuid: b81b4d1b-7f20-48f1-82dc-d24bef898cab
-  udp: true
-  tls: true
-  client-fingerprint: chrome
-  servername: passport.yandex.ru
-  flow: xtls-rprx-vision
-- name: '3408 | 🌐 Unknown | 🏳️ CIDR-Yandex | VLESS | TG: @YoutubeUnBlockRu'
-  type: vless
-  server: cdn3.aleqseivpn.site
-  port: 443
-  uuid: e2a1c9f4-3b7d-4e6a-9c2f-8a1d5f6b7c9e
-  udp: true
-  tls: true
-  network: xhttp
-  servername: cdn3.aleqseivpn.site
-- name: '3413 | 🇷🇺 Russia | 🏳️ CIDR-MTFinance | VLESS | TG: @YoutubeUnBlockRu'
-  type: vless
-  server: 213.178.155.234
-  port: 8443
-  uuid: 3e1798b2-8b39-49e8-9f5f-f3235a16bd66
-  udp: true
-  tls: true
-  network: ws
-  servername: portal-edge.tcpshield.fun
-- name: '3432 | 🇷🇺 Russia | 🏳️ CIDR-DDoSGuard | VLESS | TG: @YoutubeUnBlockRu'
+- name: '1904 | 🇷🇺 Russia | 🏳️ CIDR-DDoSGuard | VLESS | TG: @YoutubeUnBlockRu'
   type: vless
   server: 185.178.208.140
   port: 443
@@ -1635,7 +756,7 @@ proxies:
   tls: true
   network: ws
   servername: drive.dev.fosonmine.site
-- name: '3452 | 🇩🇪 Germany | 🏳️ SNI-VK | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+- name: '1917 | 🇩🇪 Germany | 🏳️ SNI-VK | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
   type: vless
   server: 177.1.187.225
   port: 8443
@@ -1645,31 +766,7 @@ proxies:
   client-fingerprint: firefox
   servername: sun3-16.userapi.com
   flow: xtls-rprx-vision
-- name: '3488 | 🇧🇾 Belarus | 🏳️ SNI-X5 | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
-  type: vless
-  server: 178.172.227.228
-  port: 10444
-  uuid: b6e5dc56-836f-48c1-9163-b0b0b43b647d
-  udp: true
-  tls: true
-  network: raw
-  reality-opts:
-    public-key: 0oTkcqwLTUNLnSOP-VUWErmy6usAIg-biBE6ioZO-Vo
-    short-id: 8debcf36f1cc69ff
-    support-x25519mlkem768: true
-  client-fingerprint: ios
-  servername: ads.x5.ru
-  flow: xtls-rprx-vision
-- name: '3531 | 🇳🇱 Netherlands | 🏳️ CIDR-CloudRu | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
-  type: vless
-  server: 46.243.142.2
-  port: 443
-  uuid: 4ea900c8-b0ed-4766-90bc-504ee4e4807e
-  udp: true
-  tls: true
-  network: ws
-  servername: api.floweroom.vip
-- name: '3532 | 🌐 Unknown | 🏳️ CIDR-DDoSGuard | VLESS | TG: @YoutubeUnBlockRu'
+- name: '1958 | 🌐 Unknown | 🏳️ CIDR-DDoSGuard | VLESS | TG: @YoutubeUnBlockRu'
   type: vless
   server: tochkacdn.top
   port: 443
@@ -1678,21 +775,16 @@ proxies:
   tls: true
   network: ws
   servername: unlik.club
-- name: '3583 | 🇩🇪 Germany | 🏳️ SNI-X5 | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+- name: '1987 | 🇷🇺 Russia | 🏳️ CIDR-DDoSGuard | VLESS | TG: @YoutubeUnBlockRu'
   type: vless
-  server: 178.104.236.189
-  port: 8443
-  uuid: 987aed7f-6001-4d07-8635-38b8b10b671d
+  server: 95.129.236.239
+  port: 443
+  uuid: a71d6c6d-c95e-4ec1-a892-22e21733bf09
   udp: true
   tls: true
-  reality-opts:
-    public-key: Z4c6jB-9KBN0U1mcLgP_bg5PuAG_wHF7Mw8dnZScSxA
-    short-id: 802d309a6102f126
-    support-x25519mlkem768: true
-  client-fingerprint: firefox
-  servername: ads.x5.ru
-  flow: xtls-rprx-vision
-- name: '3639 | 🇳🇱 Netherlands | 🏳️ SNI-OK | VLESS | 📺 YT | 🔐 Stable | TG: @YoutubeUnBlockRu'
+  network: ws
+  servername: files-qzgs.login.opendns.stream
+- name: '2008 | 🇳🇱 Netherlands | 🏳️ SNI-OK | VLESS | 📺 YT | 🔐 Stable | TG: @YoutubeUnBlockRu'
   type: vless
   server: 87.199.205.28
   port: 443
@@ -1706,16 +798,7 @@ proxies:
   client-fingerprint: chrome
   servername: vkvd754.okcdn.ru
   flow: xtls-rprx-vision
-- name: '3654 | 🇷🇺 Russia | 🏳️ CIDR-Yandex | VLESS | TG: @YoutubeUnBlockRu'
-  type: vless
-  server: 188.72.112.1
-  port: 443
-  uuid: 5cb1094a-4c3f-4cef-a4f0-bc00214022ce
-  udp: true
-  tls: true
-  network: xhttp
-  servername: yccdn.cloud.yandex.net
-- name: '3690 | 🇳🇱 Netherlands | 🏳️ SNI-Yandex | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+- name: '2032 | 🇳🇱 Netherlands | 🏳️ SNI-Yandex | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
   type: vless
   server: 147.45.224.133
   port: 443
@@ -1728,7 +811,7 @@ proxies:
     support-x25519mlkem768: true
   client-fingerprint: firefox
   servername: static.yandex.net
-- name: '3696 | 🇷🇺 Russia | 🏳️ CIDR-TimeWeb | VLESS | TG: @YoutubeUnBlockRu'
+- name: '2034 | 🇷🇺 Russia | 🏳️ CIDR-TimeWeb | VLESS | TG: @YoutubeUnBlockRu'
   type: vless
   server: 188.225.46.6
   port: 443
@@ -1738,31 +821,6 @@ proxies:
   network: raw
   servername: spb.b2ai.top
   flow: xtls-rprx-vision
-- name: '3701 | 🇸🇬 Singapore | 🏳️ SNI-Yandex | VLESS | 📺 YT | 🔐 Stable | TG: @YoutubeUnBlockRu'
-  type: vless
-  server: 147.93.173.45
-  port: 10444
-  uuid: 75c5f51b-d548-4eab-a26e-aa10fc3dbc7b
-  udp: true
-  tls: true
-  reality-opts:
-    public-key: 0oTkcqwLTUNLnSOP-VUWErmy6usAIg-biBE6ioZO-Vo
-    short-id: 8debcf36f1cc69ff
-    support-x25519mlkem768: true
-  client-fingerprint: firefox
-  servername: video.yandex.ru
-  flow: xtls-rprx-vision
-- name: '3716 | 🌐 Unknown | 🏳️ CIDR-TimeWeb | VLESS | TG: @YoutubeUnBlockRu'
-  type: vless
-  server: cadrin.wtf
-  port: 443
-  uuid: a4740bee-81ad-4a58-99c9-eca576ecb6e6
-  udp: true
-  tls: true
-  network: grpc
-  servername: cadrin.wtf
-  grpc-opts:
-    grpc-service-name: cache.sync.v1
 tun:
   enable: true
   stack: system
@@ -1847,169 +905,82 @@ proxy-groups:
   hidden: true
   proxies:
   - ⚡️ Авто
-  - '0055 | 🇺🇸 USA | 🏳️ CIDR-MTFinance | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
-  - '0074 | 🇬🇧 United Kingdom | 🏳️ SNI-X5 | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
-  - '0093 | 🌐 Unknown | 🏳️ CIDR-DDoSGuard | VLESS | TG: @YoutubeUnBlockRu'
-  - '0250 | 🇷🇺 Russia | 🏳️ CIDR-TimeWeb | VLESS | TG: @YoutubeUnBlockRu'
-  - '0321 | 🇧🇾 Belarus | 🏳️ SNI-X5 | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
-  - '0323 | 🌐 Unknown | 🏳️ CIDR-Yandex | VLESS | TG: @YoutubeUnBlockRu'
-  - '0332 | 🇷🇺 Russia | 🏳️ CIDR-DDoSGuard | VLESS | TG: @YoutubeUnBlockRu'
-  - '0367 | 🇷🇺 Russia | 🏳️ CIDR-DDoSGuard | VLESS | TG: @YoutubeUnBlockRu'
-  - '0374 | 🇳🇱 Netherlands | 🏳️ SNI-OK | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
-  - '0378 | 🇳🇱 Netherlands | 🏳️ SNI-VK | HYSTERIA2 | 📺 YT | TG: @YoutubeUnBlockRu'
-  - '0388 | 🇷🇺 Russia | 🏳️ CIDR-DDoSGuard | VLESS | TG: @YoutubeUnBlockRu'
-  - '0511 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
-  - '0524 | 🇷🇺 Russia | 🏳️ CIDR-MegaFon | VLESS | TG: @YoutubeUnBlockRu'
-  - '0563 | 🇷🇺 Russia | 🏳️ CIDR-SmartApe | VLESS | TG: @YoutubeUnBlockRu'
-  - '0564 | 🇺🇸 USA | 🏳️ SNI-X5 | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
-  - '0603 | 🇳🇱 Netherlands | 🏳️ SNI-OK | VLESS | 📺 YT | 🔐 Stable | TG: @YoutubeUnBlockRu'
-  - '0634 | 🇷🇺 Russia | 🏳️ CIDR-DDoSGuard | VLESS | TG: @YoutubeUnBlockRu'
-  - '0643 | 🇷🇺 Russia | 🏳️ CIDR-Yandex | VLESS | TG: @YoutubeUnBlockRu'
-  - '0654 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
-  - '0710 | 🌐 Unknown | 🏳️ CIDR-DDoSGuard | VLESS | TG: @YoutubeUnBlockRu'
-  - '0720 | 🇺🇸 USA | 🏳️ SNI-X5 | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
-  - '0770 | 🌐 Unknown | 🏳️ CIDR-EuroByte | VLESS | TG: @YoutubeUnBlockRu'
-  - '0809 | 🇷🇺 Russia | 🏳️ CIDR-Yandex | VLESS | TG: @YoutubeUnBlockRu'
-  - '0832 | 🇷🇺 Russia | 🏳️ SNI-MAX | VLESS | TG: @YoutubeUnBlockRu'
-  - '0862 | 🇳🇱 Netherlands | 🏳️ SNI-VK | HYSTERIA2 | 📺 YT | TG: @YoutubeUnBlockRu'
-  - '0866 | 🌐 Unknown | 🏳️ CIDR-DDoSGuard | VLESS | TG: @YoutubeUnBlockRu'
-  - '0896 | 🇷🇺 Russia | 🏳️ SNI-Gosuslugi | VLESS | TG: @YoutubeUnBlockRu'
-  - '0897 | 🇳🇱 Netherlands | 🏳️ SNI-MAX | VLESS | 📺 YT | 🔐 Stable | TG: @YoutubeUnBlockRu'
-  - '0907 | 🇩🇪 Germany | 🏳️ CIDR-Hostkey | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
-  - '0913 | 🌐 Unknown | 🏳️ CIDR-MegaFon | VLESS | TG: @YoutubeUnBlockRu'
-  - '0933 | 🇷🇺 Russia | 🏳️ CIDR-MTS | VLESS | TG: @YoutubeUnBlockRu'
-  - '0941 | 🇷🇺 Russia | 🏳️ CIDR-TimeWeb | VLESS | TG: @YoutubeUnBlockRu'
-  - '0942 | 🇷🇺 Russia | 🏳️ CIDR-TimeWeb | VLESS | TG: @YoutubeUnBlockRu'
-  - '0953 | 🌐 Unknown | 🏳️ CIDR-Citytelecom | 🏳️ SNI-VK | VLESS | TG: @YoutubeUnBlockRu'
-  - '0995 | 🇷🇺 Russia | 🏳️ CIDR-HLL | VLESS | TG: @YoutubeUnBlockRu'
-  - '1000 | 🇱🇹 Lithuania | 🏳️ CIDR-SmartApe | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
-  - '1029 | 🇷🇺 Russia | 🏳️ CIDR-SmartApe | VLESS | TG: @YoutubeUnBlockRu'
-  - '1069 | 🇷🇺 Russia | 🏳️ CIDR-Yandex | VLESS | TG: @YoutubeUnBlockRu'
-  - '1111 | 🌐 Unknown | 🏳️ CIDR-Yandex | VLESS | TG: @YoutubeUnBlockRu'
-  - '1145 | 🇸🇪 Sweden | 🏳️ SNI-Yandex | VLESS | 📺 YT | 🔐 Stable | TG: @YoutubeUnBlockRu'
-  - '1147 | 🌐 Unknown | 🏳️ CIDR-CDNetworks | VLESS | TG: @YoutubeUnBlockRu'
-  - '1173 | 🇷🇺 Russia | 🏳️ CIDR-CDNetworks | VLESS | TG: @YoutubeUnBlockRu'
-  - '1175 | 🇷🇺 Russia | 🏳️ CIDR-Yandex | VLESS | TG: @YoutubeUnBlockRu'
-  - '1205 | 🇬🇧 United Kingdom | 🏳️ SNI-X5 | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
-  - '1243 | 🌐 Unknown | 🏳️ CIDR-DDoSGuard | VLESS | TG: @YoutubeUnBlockRu'
-  - '1270 | 🇷🇺 Russia | 🏳️ CIDR-TimeWeb | VLESS | TG: @YoutubeUnBlockRu'
-  - '1324 | 🇷🇺 Russia | 🏳️ CIDR-CDNetworks | VLESS | TG: @YoutubeUnBlockRu'
-  - '1364 | 🌐 Unknown | 🏳️ CIDR-TimeWeb | VLESS | TG: @YoutubeUnBlockRu'
-  - '1368 | 🇷🇺 Russia | 🏳️ CIDR-DDoSGuard | VLESS | TG: @YoutubeUnBlockRu'
-  - '1374 | 🇷🇺 Russia | 🏳️ CIDR-TimeWeb | VLESS | TG: @YoutubeUnBlockRu'
-  - '1394 | 🌐 Unknown | 🏳️ CIDR-DDoSGuard | VLESS | TG: @YoutubeUnBlockRu'
-  - '1397 | 🇷🇺 Russia | 🏳️ CIDR-TimeWeb | VLESS | TG: @YoutubeUnBlockRu'
-  - '1415 | 🇺🇸 USA | 🏳️ SNI-VK | HYSTERIA2 | 📺 YT | TG: @YoutubeUnBlockRu'
-  - '1429 | 🇷🇺 Russia | 🏳️ CIDR-HLL | VLESS | TG: @YoutubeUnBlockRu'
-  - '1440 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
-  - '1480 | 🇷🇺 Russia | 🏳️ CIDR-TimeWeb | VLESS | TG: @YoutubeUnBlockRu'
-  - '1481 | 🇷🇺 Russia | 🏳️ CIDR-TimeWeb | VLESS | TG: @YoutubeUnBlockRu'
-  - '1486 | 🇳🇱 Netherlands | 🏳️ SNI-OK | VLESS | 📺 YT | 🔐 Stable | TG: @YoutubeUnBlockRu'
-  - '1516 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
-  - '1536 | 🇰🇷 South Korea | 🏳️ SNI-VK | HYSTERIA2 | 📺 YT | TG: @YoutubeUnBlockRu'
-  - '1537 | 🇷🇺 Russia | 🏳️ CIDR-TimeWeb | VLESS | TG: @YoutubeUnBlockRu'
-  - '1549 | 🇷🇺 Russia | 🏳️ CIDR-VK | 🏳️ SNI-Yandex | VLESS | TG: @YoutubeUnBlockRu'
-  - '1575 | 🇫🇮 Finland | 🏳️ SNI-VK | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
-  - '1630 | 🇷🇺 Russia | 🏳️ SNI-VK | VLESS | TG: @YoutubeUnBlockRu'
-  - '1653 | 🇷🇺 Russia | 🏳️ CIDR-DDoSGuard | VLESS | TG: @YoutubeUnBlockRu'
-  - '1700 | 🇷🇺 Russia | 🏳️ CIDR-Yandex | VLESS | TG: @YoutubeUnBlockRu'
-  - '1715 | 🇷🇺 Russia | 🏳️ SNI-VK | VLESS | TG: @YoutubeUnBlockRu'
-  - '1741 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
-  - '1758 | 🇫🇷 France | 🏳️ SNI-Yandex | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
-  - '1816 | 🇷🇺 Russia | 🏳️ CIDR-HLL | VLESS | TG: @YoutubeUnBlockRu'
-  - '1825 | 🇷🇺 Russia | 🏳️ CIDR-MTS | VLESS | TG: @YoutubeUnBlockRu'
-  - '1836 | 🇫🇮 Finland | 🏳️ SNI-Yandex | VLESS | 📺 YT | 🔐 Stable | TG: @YoutubeUnBlockRu'
-  - '1837 | 🌐 Unknown | 🏳️ CIDR-CDNetworks | VLESS | TG: @YoutubeUnBlockRu'
-  - '1845 | 🇳🇱 Netherlands | 🏳️ CIDR-Hostkey | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
-  - '1883 | 🌐 Unknown | 🏳️ SNI-VK | HYSTERIA2 | TG: @YoutubeUnBlockRu'
-  - '1886 | 🌐 Unknown | 🏳️ CIDR-Yandex | VLESS | TG: @YoutubeUnBlockRu'
-  - '1890 | 🇫🇮 Finland | 🏳️ SNI-VK | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
-  - '1892 | 🇷🇺 Russia | 🏳️ CIDR-TimeWeb | VLESS | TG: @YoutubeUnBlockRu'
-  - '1895 | 🇫🇷 France | 🏳️ SNI-Yandex | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
-  - '1932 | 🇷🇺 Russia | 🏳️ CIDR-DDoSGuard | VLESS | TG: @YoutubeUnBlockRu'
-  - '1947 | 🇳🇱 Netherlands | 🏳️ SNI-OK | VLESS | 📺 YT | 🔐 Stable | TG: @YoutubeUnBlockRu'
-  - '1959 | 🇷🇺 Russia | 🏳️ CIDR-DDoSGuard | VLESS | TG: @YoutubeUnBlockRu'
-  - '1969 | 🇷🇺 Russia | 🏳️ CIDR-Yandex | VLESS | TG: @YoutubeUnBlockRu'
-  - '1995 | 🇷🇺 Russia | 🏳️ CIDR-TimeWeb | VLESS | TG: @YoutubeUnBlockRu'
-  - '2024 | 🇬🇧 United Kingdom | 🏳️ SNI-X5 | VLESS | 📺 YT | 🔐 Stable | TG: @YoutubeUnBlockRu'
-  - '2031 | 🇳🇱 Netherlands | 🏳️ CIDR-CDNetworks | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
-  - '2048 | 🇳🇱 Netherlands | 🏳️ SNI-OK | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
-  - '2076 | 🇷🇺 Russia | 🏳️ CIDR-Yandex | VLESS | TG: @YoutubeUnBlockRu'
-  - '2101 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
-  - '2120 | 🇸🇬 Singapore | 🏳️ SNI-Yandex | VLESS | 📺 YT | 🔐 Stable | TG: @YoutubeUnBlockRu'
-  - '2143 | 🇷🇺 Russia | 🏳️ CIDR-TimeWeb | VLESS | TG: @YoutubeUnBlockRu'
-  - '2148 | 🇷🇺 Russia | 🏳️ CIDR-TimeWeb | VLESS | TG: @YoutubeUnBlockRu'
-  - '2162 | 🇷🇺 Russia | 🏳️ CIDR-CDNetworks | VLESS | TG: @YoutubeUnBlockRu'
-  - '2165 | 🌐 Unknown | 🏳️ CIDR-Yandex | VLESS | TG: @YoutubeUnBlockRu'
-  - '2188 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
-  - '2202 | 🇳🇱 Netherlands | 🏳️ SNI-MAX | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
-  - '2206 | 🇷🇺 Russia | 🏳️ CIDR-HLL | VLESS | TG: @YoutubeUnBlockRu'
-  - '2210 | 🇷🇺 Russia | 🏳️ CIDR-CloudRu | VLESS | TG: @YoutubeUnBlockRu'
-  - '2214 | 🇨🇳 HongKong | 🏳️ SNI-VK | HYSTERIA2 | 🔐 Stable | TG: @YoutubeUnBlockRu'
-  - '2232 | 🇷🇺 Russia | 🏳️ CIDR-Yandex | VLESS | TG: @YoutubeUnBlockRu'
-  - '2282 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
-  - '2347 | 🌐 Unknown | 🏳️ CIDR-DDoSGuard | VLESS | TG: @YoutubeUnBlockRu'
-  - '2351 | 🇷🇺 Russia | 🏳️ CIDR-MTS | VLESS | TG: @YoutubeUnBlockRu'
-  - '2369 | 🇷🇺 Russia | 🏳️ CIDR-TimeWeb | VLESS | TG: @YoutubeUnBlockRu'
-  - '2377 | 🇫🇷 France | 🏳️ SNI-Yandex | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
-  - '2468 | 🇫🇮 Finland | 🏳️ SNI-Yandex | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
-  - '2473 | 🇷🇺 Russia | 🏳️ CIDR-CloudRu | VLESS | TG: @YoutubeUnBlockRu'
-  - '2479 | 🇳🇱 Netherlands | 🏳️ SNI-OK | VLESS | 📺 YT | 🔐 Stable | TG: @YoutubeUnBlockRu'
-  - '2501 | 🇩🇪 Germany | 🏳️ SNI-X5 | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
-  - '2640 | 🇨🇳 HongKong | 🏳️ SNI-VK | HYSTERIA2 | TG: @YoutubeUnBlockRu'
-  - '2648 | 🇷🇺 Russia | 🏳️ CIDR-Yandex | VLESS | TG: @YoutubeUnBlockRu'
-  - '2679 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
-  - '2700 | 🇷🇺 Russia | 🏳️ CIDR-TimeWeb | VLESS | TG: @YoutubeUnBlockRu'
-  - '2708 | 🇷🇺 Russia | 🏳️ CIDR-CDNetworks | VLESS | TG: @YoutubeUnBlockRu'
-  - '2715 | 🇷🇺 Russia | 🏳️ CIDR-TimeWeb | VLESS | TG: @YoutubeUnBlockRu'
-  - '2757 | 🇷🇺 Russia | 🏳️ CIDR-Selectel | VLESS | TG: @YoutubeUnBlockRu'
-  - '2779 | 🇸🇬 Singapore | 🏳️ SNI-Yandex | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
-  - '2827 | 🌐 Unknown | 🏳️ CIDR-Yandex | VLESS | TG: @YoutubeUnBlockRu'
-  - '2842 | 🇩🇪 Germany | 🏳️ CIDR-DDoSGuard | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
-  - '2857 | 🇸🇬 Singapore | 🏳️ SNI-Yandex | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
-  - '2877 | 🇳🇱 Netherlands | 🏳️ SNI-OK | VLESS | 📺 YT | 🔐 Stable | TG: @YoutubeUnBlockRu'
-  - '2895 | 🌐 Unknown | 🏳️ CIDR-Yandex | VLESS | TG: @YoutubeUnBlockRu'
-  - '2903 | 🇷🇺 Russia | 🏳️ CIDR-DDoSGuard | VLESS | TG: @YoutubeUnBlockRu'
-  - '2911 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
-  - '2964 | 🇷🇺 Russia | 🏳️ CIDR-SmartApe | VLESS | TG: @YoutubeUnBlockRu'
-  - '2967 | 🇷🇺 Russia | 🏳️ CIDR-TimeWeb | VLESS | TG: @YoutubeUnBlockRu'
-  - '2978 | 🌐 Unknown | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
-  - '2980 | 🇳🇱 Netherlands | 🏳️ SNI-VK | HYSTERIA2 | 📺 YT | TG: @YoutubeUnBlockRu'
-  - '2998 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
-  - '2999 | 🌐 Unknown | 🏳️ CIDR-Yandex | VLESS | TG: @YoutubeUnBlockRu'
-  - '3047 | 🇧🇾 Belarus | 🏳️ SNI-X5 | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
-  - '3077 | 🇷🇺 Russia | 🏳️ CIDR-Yandex | VLESS | TG: @YoutubeUnBlockRu'
-  - '3083 | 🇦🇲 Armenia | 🏳️ CIDR-Yandex | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
-  - '3100 | 🌐 Unknown | 🏳️ CIDR-TimeWeb | VLESS | TG: @YoutubeUnBlockRu'
-  - '3130 | 🌐 Unknown | 🏳️ CIDR-Selectel | VLESS | TG: @YoutubeUnBlockRu'
-  - '3150 | 🌐 Unknown | 🏳️ CIDR-DDoSGuard | VLESS | TG: @YoutubeUnBlockRu'
-  - '3170 | 🇳🇱 Netherlands | 🏳️ CIDR-CDNetworks | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
-  - '3208 | 🇷🇺 Russia | 🏳️ CIDR-DDoSGuard | VLESS | TG: @YoutubeUnBlockRu'
-  - '3210 | 🇸🇬 Singapore | 🏳️ SNI-Yandex | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
-  - '3246 | 🇷🇺 Russia | 🏳️ CIDR-SmartApe | VLESS | TG: @YoutubeUnBlockRu'
-  - '3255 | 🇷🇺 Russia | 🏳️ CIDR-DDoSGuard | VLESS | TG: @YoutubeUnBlockRu'
-  - '3295 | 🇩🇪 Germany | 🏳️ SNI-X5 | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
-  - '3297 | 🇷🇺 Russia | 🏳️ CIDR-Yandex | VLESS | TG: @YoutubeUnBlockRu'
-  - '3311 | 🇳🇱 Netherlands | 🏳️ SNI-OK | VLESS | 📺 YT | 🔐 Stable | TG: @YoutubeUnBlockRu'
-  - '3324 | 🇷🇺 Russia | 🏳️ CIDR-DDoSGuard | VLESS | TG: @YoutubeUnBlockRu'
-  - '3356 | 🇧🇾 Belarus | 🏳️ SNI-X5 | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
-  - '3359 | 🇷🇺 Russia | 🏳️ CIDR-Yandex | VLESS | TG: @YoutubeUnBlockRu'
-  - '3362 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
-  - '3394 | 🇫🇷 France | 🏳️ SNI-Yandex | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
-  - '3408 | 🌐 Unknown | 🏳️ CIDR-Yandex | VLESS | TG: @YoutubeUnBlockRu'
-  - '3413 | 🇷🇺 Russia | 🏳️ CIDR-MTFinance | VLESS | TG: @YoutubeUnBlockRu'
-  - '3432 | 🇷🇺 Russia | 🏳️ CIDR-DDoSGuard | VLESS | TG: @YoutubeUnBlockRu'
-  - '3452 | 🇩🇪 Germany | 🏳️ SNI-VK | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
-  - '3488 | 🇧🇾 Belarus | 🏳️ SNI-X5 | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
-  - '3531 | 🇳🇱 Netherlands | 🏳️ CIDR-CloudRu | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
-  - '3532 | 🌐 Unknown | 🏳️ CIDR-DDoSGuard | VLESS | TG: @YoutubeUnBlockRu'
-  - '3583 | 🇩🇪 Germany | 🏳️ SNI-X5 | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
-  - '3639 | 🇳🇱 Netherlands | 🏳️ SNI-OK | VLESS | 📺 YT | 🔐 Stable | TG: @YoutubeUnBlockRu'
-  - '3654 | 🇷🇺 Russia | 🏳️ CIDR-Yandex | VLESS | TG: @YoutubeUnBlockRu'
-  - '3690 | 🇳🇱 Netherlands | 🏳️ SNI-Yandex | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
-  - '3696 | 🇷🇺 Russia | 🏳️ CIDR-TimeWeb | VLESS | TG: @YoutubeUnBlockRu'
-  - '3701 | 🇸🇬 Singapore | 🏳️ SNI-Yandex | VLESS | 📺 YT | 🔐 Stable | TG: @YoutubeUnBlockRu'
-  - '3716 | 🌐 Unknown | 🏳️ CIDR-TimeWeb | VLESS | TG: @YoutubeUnBlockRu'
+  - '0004 | 🇷🇺 Russia | 🏳️ CIDR-TimeWeb | VLESS | TG: @YoutubeUnBlockRu'
+  - '0040 | 🇬🇧 United Kingdom | 🏳️ SNI-X5 | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  - '0053 | 🌐 Unknown | 🏳️ CIDR-DDoSGuard | VLESS | TG: @YoutubeUnBlockRu'
+  - '0147 | 🇷🇺 Russia | 🏳️ CIDR-TimeWeb | VLESS | TG: @YoutubeUnBlockRu'
+  - '0191 | 🇷🇺 Russia | 🏳️ CIDR-DDoSGuard | VLESS | TG: @YoutubeUnBlockRu'
+  - '0221 | 🇳🇱 Netherlands | 🏳️ SNI-OK | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  - '0223 | 🇳🇱 Netherlands | 🏳️ SNI-VK | HYSTERIA2 | 📺 YT | TG: @YoutubeUnBlockRu'
+  - '0295 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
+  - '0318 | 🇷🇺 Russia | 🏳️ CIDR-SmartApe | VLESS | TG: @YoutubeUnBlockRu'
+  - '0320 | 🇺🇸 USA | 🏳️ SNI-X5 | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  - '0341 | 🇳🇱 Netherlands | 🏳️ SNI-OK | VLESS | 📺 YT | 🔐 Stable | TG: @YoutubeUnBlockRu'
+  - '0446 | 🌐 Unknown | 🏳️ CIDR-EuroByte | VLESS | TG: @YoutubeUnBlockRu'
+  - '0474 | 🇷🇺 Russia | 🏳️ CIDR-Yandex | VLESS | TG: @YoutubeUnBlockRu'
+  - '0506 | 🌐 Unknown | 🏳️ CIDR-DDoSGuard | VLESS | TG: @YoutubeUnBlockRu'
+  - '0522 | 🇷🇺 Russia | 🏳️ SNI-Gosuslugi | VLESS | TG: @YoutubeUnBlockRu'
+  - '0549 | 🇷🇺 Russia | 🏳️ CIDR-TimeWeb | VLESS | TG: @YoutubeUnBlockRu'
+  - '0557 | 🌐 Unknown | 🏳️ CIDR-Citytelecom | 🏳️ SNI-VK | VLESS | TG: @YoutubeUnBlockRu'
+  - '0583 | 🇷🇺 Russia | 🏳️ CIDR-HLL | VLESS | TG: @YoutubeUnBlockRu'
+  - '0586 | 🇱🇹 Lithuania | 🏳️ CIDR-SmartApe | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  - '0601 | 🇷🇺 Russia | 🏳️ CIDR-SmartApe | VLESS | TG: @YoutubeUnBlockRu'
+  - '0626 | 🇷🇺 Russia | 🏳️ CIDR-Yandex | VLESS | TG: @YoutubeUnBlockRu'
+  - '0653 | 🌐 Unknown | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
+  - '0658 | 🌐 Unknown | 🏳️ CIDR-Yandex | VLESS | TG: @YoutubeUnBlockRu'
+  - '0680 | 🌐 Unknown | 🏳️ CIDR-CDNetworks | VLESS | TG: @YoutubeUnBlockRu'
+  - '0699 | 🇷🇺 Russia | 🏳️ CIDR-Yandex | VLESS | TG: @YoutubeUnBlockRu'
+  - '0734 | 🌐 Unknown | 🏳️ CIDR-DDoSGuard | VLESS | TG: @YoutubeUnBlockRu'
+  - '0790 | 🇷🇺 Russia | 🏳️ CIDR-DDoSGuard | VLESS | TG: @YoutubeUnBlockRu'
+  - '0791 | 🇷🇺 Russia | 🏳️ CIDR-TimeWeb | VLESS | TG: @YoutubeUnBlockRu'
+  - '0800 | 🌐 Unknown | 🏳️ CIDR-DDoSGuard | VLESS | TG: @YoutubeUnBlockRu'
+  - '0813 | 🇺🇸 USA | 🏳️ SNI-VK | HYSTERIA2 | 📺 YT | TG: @YoutubeUnBlockRu'
+  - '0816 | 🇷🇺 Russia | 🏳️ CIDR-HLL | VLESS | TG: @YoutubeUnBlockRu'
+  - '0846 | 🇷🇺 Russia | 🏳️ CIDR-TimeWeb | VLESS | TG: @YoutubeUnBlockRu'
+  - '0850 | 🇳🇱 Netherlands | 🏳️ SNI-OK | VLESS | 📺 YT | 🔐 Stable | TG: @YoutubeUnBlockRu'
+  - '0881 | 🇰🇷 South Korea | 🏳️ SNI-VK | HYSTERIA2 | 📺 YT | TG: @YoutubeUnBlockRu'
+  - '0885 | 🇷🇺 Russia | 🏳️ CIDR-VK | 🏳️ SNI-Yandex | VLESS | TG: @YoutubeUnBlockRu'
+  - '0941 | 🇷🇺 Russia | 🏳️ CIDR-DDoSGuard | VLESS | TG: @YoutubeUnBlockRu'
+  - '0974 | 🇷🇺 Russia | 🏳️ CIDR-TimeWeb | VLESS | TG: @YoutubeUnBlockRu'
+  - '1029 | 🇷🇺 Russia | 🏳️ CIDR-HLL | VLESS | TG: @YoutubeUnBlockRu'
+  - '1043 | 🌐 Unknown | 🏳️ CIDR-CDNetworks | VLESS | TG: @YoutubeUnBlockRu'
+  - '1048 | 🇳🇱 Netherlands | 🏳️ CIDR-Hostkey | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  - '1067 | 🌐 Unknown | 🏳️ SNI-VK | HYSTERIA2 | TG: @YoutubeUnBlockRu'
+  - '1072 | 🇷🇺 Russia | 🏳️ CIDR-TimeWeb | VLESS | TG: @YoutubeUnBlockRu'
+  - '1095 | 🇷🇺 Russia | 🏳️ CIDR-DDoSGuard | VLESS | TG: @YoutubeUnBlockRu'
+  - '1145 | 🇬🇧 United Kingdom | 🏳️ SNI-X5 | VLESS | 📺 YT | 🔐 Stable | TG: @YoutubeUnBlockRu'
+  - '1150 | 🇷🇺 Russia | 🏳️ CIDR-TimeWeb | VLESS | TG: @YoutubeUnBlockRu'
+  - '1163 | 🇳🇱 Netherlands | 🏳️ SNI-OK | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  - '1228 | 🌐 Unknown | 🏳️ CIDR-Yandex | VLESS | TG: @YoutubeUnBlockRu'
+  - '1252 | 🇨🇳 HongKong | 🏳️ SNI-VK | HYSTERIA2 | 🔐 Stable | TG: @YoutubeUnBlockRu'
+  - '1263 | 🇷🇺 Russia | 🏳️ CIDR-Yandex | VLESS | TG: @YoutubeUnBlockRu'
+  - '1292 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
+  - '1387 | 🇫🇮 Finland | 🏳️ SNI-Yandex | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  - '1392 | 🇳🇱 Netherlands | 🏳️ SNI-OK | VLESS | 📺 YT | 🔐 Stable | TG: @YoutubeUnBlockRu'
+  - '1484 | 🇨🇳 HongKong | 🏳️ SNI-VK | HYSTERIA2 | TG: @YoutubeUnBlockRu'
+  - '1490 | 🇷🇺 Russia | 🏳️ CIDR-Yandex | VLESS | TG: @YoutubeUnBlockRu'
+  - '1516 | 🇷🇺 Russia | 🏳️ CIDR-TimeWeb | VLESS | TG: @YoutubeUnBlockRu'
+  - '1546 | 🇷🇺 Russia | 🏳️ CIDR-Selectel | VLESS | TG: @YoutubeUnBlockRu'
+  - '1578 | 🇷🇺 Russia | 🏳️ CIDR-Yandex | VLESS | TG: @YoutubeUnBlockRu'
+  - '1602 | 🇳🇱 Netherlands | 🏳️ SNI-OK | VLESS | 📺 YT | 🔐 Stable | TG: @YoutubeUnBlockRu'
+  - '1616 | 🇷🇺 Russia | 🏳️ CIDR-DDoSGuard | VLESS | TG: @YoutubeUnBlockRu'
+  - '1656 | 🇷🇺 Russia | 🏳️ CIDR-SmartApe | VLESS | TG: @YoutubeUnBlockRu'
+  - '1662 | 🇳🇱 Netherlands | 🏳️ SNI-VK | HYSTERIA2 | 📺 YT | TG: @YoutubeUnBlockRu'
+  - '1721 | 🇷🇺 Russia | 🏳️ CIDR-Yandex | VLESS | TG: @YoutubeUnBlockRu'
+  - '1728 | 🌐 Unknown | 🏳️ CIDR-TimeWeb | VLESS | TG: @YoutubeUnBlockRu'
+  - '1738 | 🌐 Unknown | 🏳️ CIDR-Selectel | VLESS | TG: @YoutubeUnBlockRu'
+  - '1750 | 🌐 Unknown | 🏳️ CIDR-DDoSGuard | VLESS | TG: @YoutubeUnBlockRu'
+  - '1779 | 🇸🇬 Singapore | 🏳️ SNI-Yandex | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  - '1838 | 🇳🇱 Netherlands | 🏳️ SNI-OK | VLESS | 📺 YT | 🔐 Stable | TG: @YoutubeUnBlockRu'
+  - '1845 | 🇷🇺 Russia | 🏳️ CIDR-DDoSGuard | VLESS | TG: @YoutubeUnBlockRu'
+  - '1864 | 🇷🇺 Russia | 🏳️ CIDR-Yandex | VLESS | TG: @YoutubeUnBlockRu'
+  - '1904 | 🇷🇺 Russia | 🏳️ CIDR-DDoSGuard | VLESS | TG: @YoutubeUnBlockRu'
+  - '1917 | 🇩🇪 Germany | 🏳️ SNI-VK | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  - '1958 | 🌐 Unknown | 🏳️ CIDR-DDoSGuard | VLESS | TG: @YoutubeUnBlockRu'
+  - '1987 | 🇷🇺 Russia | 🏳️ CIDR-DDoSGuard | VLESS | TG: @YoutubeUnBlockRu'
+  - '2008 | 🇳🇱 Netherlands | 🏳️ SNI-OK | VLESS | 📺 YT | 🔐 Stable | TG: @YoutubeUnBlockRu'
+  - '2032 | 🇳🇱 Netherlands | 🏳️ SNI-Yandex | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  - '2034 | 🇷🇺 Russia | 🏳️ CIDR-TimeWeb | VLESS | TG: @YoutubeUnBlockRu'
 - name: 📺 Youtube
   type: select
   hidden: true
