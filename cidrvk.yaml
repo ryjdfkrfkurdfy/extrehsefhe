@@ -6,7 +6,21 @@ ipv6: true
 unified-delay: true
 tcp-concurrent: true
 proxies:
-- name: '1295 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
+- name: '0816 | 🇷🇺 Russia | 🏳️ CIDR-VK | 🏳️ SNI-VK | VLESS | TG: @YoutubeUnBlockRu'
+  type: vless
+  server: 185.86.145.190
+  port: 45055
+  uuid: 2ad45217-9556-4cda-8c12-99cf7facd27d
+  udp: true
+  tls: true
+  reality-opts:
+    public-key: nK_lQxIBGaBoONoZGz7dUdD1kvgoQ6qiHVjZuNTCE0I
+    short-id: 181e
+    support-x25519mlkem768: true
+  client-fingerprint: firefox
+  servername: m.vk.com
+  flow: xtls-rprx-vision
+- name: '1312 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
   type: vless
   server: 185.86.145.190
   port: 52831
@@ -99,7 +113,8 @@ proxy-groups:
   hidden: true
   proxies:
   - ⚡️ Авто
-  - '1295 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
+  - '0816 | 🇷🇺 Russia | 🏳️ CIDR-VK | 🏳️ SNI-VK | VLESS | TG: @YoutubeUnBlockRu'
+  - '1312 | 🇷🇺 Russia | 🏳️ CIDR-VK | VLESS | TG: @YoutubeUnBlockRu'
 - name: 📺 Youtube
   type: select
   hidden: true
