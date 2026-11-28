@@ -6,7 +6,7 @@ ipv6: true
 unified-delay: true
 tcp-concurrent: true
 proxies:
-- name: '0678 | 🇫🇮 Finland | 🏳️ SNI-VK | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+- name: '0692 | 🇫🇮 Finland | 🏳️ SNI-VK | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
   type: vless
   server: 2.27.122.255
   port: 443
@@ -20,7 +20,7 @@ proxies:
   client-fingerprint: firefox
   servername: sun9-37.userapi.com
   flow: xtls-rprx-vision
-- name: '0766 | 🇬🇧 United Kingdom | 🏳️ CIDR-GLB | 🏳️ SNI-OK | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+- name: '0780 | 🇬🇧 United Kingdom | 🏳️ CIDR-GLB | 🏳️ SNI-OK | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
   type: vless
   server: 194.59.40.215
   port: 443
@@ -30,7 +30,20 @@ proxies:
   client-fingerprint: qq
   servername: okcdn.ru
   flow: xtls-rprx-vision
-- name: '1141 | 🇷🇺 Russia | 🏳️ SNI-Yandex | HYSTERIA2 | TG: @YoutubeUnBlockRu'
+- name: '1059 | 🇷🇺 Russia | 🏳️ SNI-MAX | VLESS | TG: @YoutubeUnBlockRu'
+  type: vless
+  server: 82.202.182.32
+  port: 5269
+  uuid: 0d4807a7-260b-4d66-a71e-5e793c46c66e
+  udp: true
+  tls: true
+  reality-opts:
+    public-key: meI7RA9FgxL1yjJsbJBehEKoB2Z1ra4hyYJso9qtmFA
+    short-id: 4b198dc3bfffb7af
+    support-x25519mlkem768: true
+  client-fingerprint: qq
+  servername: max.ru
+- name: '1166 | 🇷🇺 Russia | 🏳️ SNI-Yandex | HYSTERIA2 | TG: @YoutubeUnBlockRu'
   type: hysteria2
   server: 161.104.89.108
   port: 26443
@@ -121,9 +134,10 @@ proxy-groups:
   hidden: true
   proxies:
   - ⚡️ Авто
-  - '0678 | 🇫🇮 Finland | 🏳️ SNI-VK | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
-  - '0766 | 🇬🇧 United Kingdom | 🏳️ CIDR-GLB | 🏳️ SNI-OK | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
-  - '1141 | 🇷🇺 Russia | 🏳️ SNI-Yandex | HYSTERIA2 | TG: @YoutubeUnBlockRu'
+  - '0692 | 🇫🇮 Finland | 🏳️ SNI-VK | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  - '0780 | 🇬🇧 United Kingdom | 🏳️ CIDR-GLB | 🏳️ SNI-OK | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  - '1059 | 🇷🇺 Russia | 🏳️ SNI-MAX | VLESS | TG: @YoutubeUnBlockRu'
+  - '1166 | 🇷🇺 Russia | 🏳️ SNI-Yandex | HYSTERIA2 | TG: @YoutubeUnBlockRu'
 - name: 📺 Youtube
   type: select
   hidden: true
